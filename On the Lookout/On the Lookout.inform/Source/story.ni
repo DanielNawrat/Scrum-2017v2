@@ -1,11 +1,48 @@
 "On the Lookout" by Franziska, Daniel, Kevin, Tim, Tobias
 
+[Helper]
+
+Helper is nowhere. Helper is scenery.
+
+Understand "Helper" as asking Helper about anything.
+Asking Helper about anything is an action applying to nothing. 
+Carry out asking Helper about anything:
+	now Helper is in the location of the player;
+	say "---[line break][bold type]
+This is the help section, you will get a list of essential commands that you can use in the game.[paragraph break][roman type]
+
+look - shows you the room you are currently in[line break]
+e(x)amine - get information about a thing or a person[line break]
+take - take something[line break]
+
+(e)ast - go east[line break]
+(w)est - go west[line break]
+(s)outh - go south[line break]
+(n)orth - go north[line break]
+
+open/close - open/close something [line break]
+unlock/lock - unlock/lock something[line break]
+insert something into something - [line break]
+remove something from something - self explanatory[line break]
+
+shove something aside - self explanatory[line break]
+put back something into place - self explanatory [line break]
+
+ask someone about something - the typical way to begin a dialogue, the topics you can ask about are printed [bold type]bold [roman type]in the text beforehand[line break]
+answer something (to someone) - the typical way to respond to questions, the topics you can answer are printed [bold type]bold [roman type]in the text beforehand[line break]
+wait - wait some time, some situations may require this[line break][paragraph break]";
+	remove Helper from play;
+	say "End of help section[line break]---"
+
+[Limited Inventory]
+The carrying capacity of the player is 3. The backpack is the player's holdall. The player is wearing the backpack. The carrying capacity of the backpack is 3. 
+
 
 Chapter 1 - Sitis
 
 [Beginn meiner Mapkonstruktion - Landing Zone, Wüste und Sicuum]
 
-[Include Basic Screen Effects by Emily Short.
+Include Basic Screen Effects by Emily Short.
 The Start of the Adventure is a scene. The Start of the Adventure begins when play begins.
 
 [Description left! - Warum ist Axesto hier? Was ist sein Ziel]
@@ -19,20 +56,15 @@ Axesto_Sitis is a person. The Player is Axesto_Sitis. The printed name of Axesto
 The Landing Zone_Sitis is a region. The Flat Rock_Sitis is in the Landing Zone_Sitis.
 
 [1. Raum]
-The Flat Rock_Sitis is a room. The printed name of the Flat Rock _Sitis is "Your arrival point - the Flat Rock". The description of Flat Rock_Sitis is 
-"[italic type] You land on a big flat grey stone. You think, the landing was quite easy but as you leave your spaceship, you realise that two of your three water container broke down. Without minimal one new watertank you can not continue your journey [roman type]."
+The Flat Rock_Sitis is a room. The printed name of the Flat Rock_Sitis is "Your arrival point. The Flat Rock". "[italic type] You arrive on a planet called Sitis. The arrival should have been easy because you had the possibility to land on a big flat stone but as you leave your spaceship, you realise that two of your three water container broke down. Without minimum one new watertank you can not continue your journey. Far away in the east you recognise some kind of different rooftops. Maybe someones living there who could help you? [roman type]"
 
-[Instead of going north, say "You follow the mountain's way into a canyon. All you can see is a big field of cactuses. You can't pass them."
-Instead of going south, say "Here seems to be the end of Sitis. You can't go this way any longer."
-Instead of going west, say "You arrive at a stone cave. As you try to enter, small stones fall off the ceiling. Hurry up, you need to go back fast!"]
-
-
+[Beschreibungen für andere Himmelsrichtungen?]
 
 [Region 2 - The Desert of Sitis]
-The Desert_Sitis is a region. The Wide Desert of Sitis_Sitis, the Protection Bridge_Sitis, the Rampart of Sicuum_Sitis and the Rock Mine_Sitis are in the Desert_Sitis.
+The Desert_Sitis is a region. The Wide Desert of Sitis_Sitis, the Protection Bridge_Sitis and the Rampart of Sicuum_Sitis are in the Desert_Sitis.
 
 [Räume]
-The Wide Desert of Sitis_Sitis is a room. The printed name of the Wide Desert of Sitis_Sitis is "The Wide Desert". "[italic type] The Desert of Sitis gives you the chance to gain orientation. When you look north you see a big brown golden palace. In the east you recognize an old dark House. Description missed! When you look south you recognize a lot of small white houses. It seems like people are living there [roman type]."
+The Wide Desert of Sitis_Sitis is a room. The printed name of the Wide Desert of Sitis_Sitis is "The Wide Desert". "[italic type] You've reached the Desert of Sitis. It gives you two things: First, an impression of what whole Sitis looks like - sandy, dry, with some deep stone canyons and huge rocks afar. But although this planet does not seem to be a place to life, the Desert also gives you the chance to discern that you are not alone. There IS life! When you look north, directly in front of you is a long corrugated iron bridge, guiding over one of those ravines. You can not access the bridge, it is blocked with a barbed wire fence, but straight ahead, at the end you see a majestic sandstone palace. In the bridge's middel, a wooden ladder leads to an enormous square block in the east. Likewise it is built out of stone and gives a somber impression. If you look east from the point you are standing at right now you realise that the canyon When you look south you recognize a lot of small white houses. It seems like people are living there [roman type]."
 The Wide Desert of Sitis_Sitis is east of the Flat Rock_Sitis. 
 
 The Protection Bridge_Sitis is a room. The printed name of the Protection Bridge_Sitis is "The Protection Bridge". 
@@ -41,13 +73,13 @@ The Protection Bridge_Sitis is north of the Wide Desert of Sitis_Sitis.
 The Rampart of Sicuum_Sitis is a room. The printed name of the Rampart of Sicuum_Sitis is "The Rampart of Sicuum". 
 The Rampart of Sicuum_Sitis is south of the Wide Desert of Sitis_Sitis.
 
-The Rock Mine_Sitis is a room. The printed name of the Rock Mine_Sitis is "The Rock Mine". The Rock Mine_Sitis is east of the Wide Desert of Sitis_Sitis. 
+
 
 
 
 [Region 3 - The Village Sicuum]
 The Village Sicuum_Sitis is a region. The printed name of the Village Sicuum_Sitis is "The Village Sicuum". 
-The Agora_Sitis, the Domum Praesidium_Sitis, the Shelter_Sitis and the Secret Passage_Sitis are in the Village Sicuum_Sitis.
+The Agora_Sitis, the Domum Praesidium_Sitis, the Shelter_Sitis, the Secret Passage_Sitis and the Rock Mine_Sitis are in the Village Sicuum_Sitis.
 
 [Räume]
 The Agora_Sitis is a room. The printed name of the Agora_Sitis is "The Agora of Sicuum". The Agora_Sitis is south of the Rampart of Sicuum_Sitis.
@@ -56,8 +88,10 @@ The Domum Praesidium_Sitis is a room. The printed name of the Domum Praesidium_S
 
 The Shelter_Sitis is a room. The printed name of the Shelter_Sitis is "Your Shelter". The Shelter_Sitis is east of the Agora_Sitis.
 
-The Secret Passage_Sitis is a room. The printed name of the Secret Passage is "A secret Passage". 
+The Secret Passage_Sitis is a room. The printed name of the Secret Passage_Sitis is "A secret Passage". 
 The Secret Passage_Sitis is north of the Shelter_Sitis.
+
+The Rock Mine_Sitis is a room. The printed name of the Rock Mine_Sitis is "The Rock Mine". The Rock Mine_Sitis is north of the Secret Passage_Sitis. 
 
 
 [Region 4 - The Jail]
@@ -85,7 +119,12 @@ Scorpius_Sitis is a person in the Holy Palace_Sitis. The printed name of Scorpiu
 Machitikos_Sitis is a person in the Holy Palace_Sitis. The printed name of Machitikos_Sitis is "Machitikos". 
 Ilithios_Sitis is a person in the Rock Mine_Sitis. The printed name of Ilithios_Sitis is "Ilithios". 
 
+[Personen bewegen]
 
+
+
+[instead of going nowhere from xy, say ]
+[Bei Namen Planet weg]
 
 
 
@@ -510,7 +549,7 @@ After waiting in the Upper Gate_Frizza for the third time:
 After answering Dunia that "Techie" for the first time:
 	if Dunia is in the Ascent_Frizza:
 		say "[italic type]Then begone with you! I don't want anything to do with that!";
-		now BlooSympathy is false.]
+		now BlooSympathy is false.
 
 
 
@@ -522,15 +561,22 @@ Section 1 - Crash Site
 
 [Intro]
 
-[Limited Inventory]
-The carrying capacity of the player is 3. The backpack is the player's holdall. The player is wearing the backpack. The carrying capacity of the backpack is 3.
-
 [Suit Capacitor]
 
-[prevent other items from being put into suit capacitor]
+[Weight]
+[A weight is a kind of value. 1kg specifies a weight. Everything has a weight. [A thing usually weighs 10kg.]
+
+Definition: A thing is light if its weight is 1kg or less. 
+Definition: A thing is heavy if its weight is 10kg or more.
+
+The Energy Orb is light.
+
+Instead of inserting an object into the suit capacitor:
+	unless the thing is light;
+	say "Fuck you";
+	stop the action.]
 
 The player wears a suit capacitor. The description of the suit capacitor is "This capacitor only holds certain types of energy sources which usually maintain the suit's functionality such as protecting the wearer from extreme temperatures. Inserting other energy sources might increase those functions even further or result in a horrible death." The suit capacitor is a container. The carrying capacity of the suit capacitor is 1.
-
 [Global Error Message]
 
 Instead of taking some scenery, say "You don't seem to be strong enough."
@@ -561,13 +607,15 @@ Before taking the smoke nodule:
 The encryption key is in the secret storage. The encryption key can be taken.
 
 [Hidden Items/Riddles]
-[Energy Orb]
-In the Spaceship Bridge_Kaldríss is a command panel. It is scenery.  In the command panel is a fried communicator and a secret storage. It is closed and openable. The secret storage is a container. It is closed, locked and openable. The green button unlocks the secret storage. In the secret storage is an energy orb. The description of energy orb is "If used correctly this energy orb creates a warm energy that withstands even the coldest temperatures. It also emits a specific light that only certain creatures are able to see. You are not one of them.". The energy orb can be taken. 
+[Energy Orb - Energy Orb vorher als Antrieb des Schiffes aber jetzt als Energiequelle zum wärmen]
+In the Spaceship Bridge_Kaldríss is a command panel. It is scenery.  In the command panel is a fried communicator and a secret storage. It is closed and openable. The secret storage is a container. The secret storage is fixed in place. It is closed, locked and openable. The green button unlocks the secret storage. In the secret storage is an energy orb. The energy orb is a thing. The description of energy orb is "If used correctly this energy orb creates a warm energy that withstands even the coldest temperatures. It also emits a specific light that only certain creatures are able to see. You are not one of them.". The energy orb can be taken. 
 Before taking the energy orb:
 	say "I totally forgot that I've put this here. This orb holds a huge amount of energy which could be used to power all kinds of devices and possibly even weapons."
 	
+The fried communicator is fixed in place.
+
 [Button]
-The green button is a device. It is in the command panel. It is switched off. Instead of pushing the green button: if the green button is switched off, try switching on the green button; otherwise try switching off the green button.
+The green button is a device. It is in the command panel. It is switched off. Instead of pushing the green button: if the green button is switched off, try switching on the green button; otherwise try switching off the green button. The green button is fixed in place.
 
 After switching on the green button:
 	now the secret storage is unlocked;
@@ -580,6 +628,8 @@ After switching off the green button:
 After examining fried communicator:
 	say "Yep, totally busted!"
 
+After examining the command panel:
+	say "I could open this baby up and take a peak inside."
 
 [Emergency Torch]
 In the Spaceship Storage_Kaldríss is a locker. It is scenery. The locker is an openable lockable container in the Spaceship Storage_Kaldríss. It is closed, locked and openable. The encryption key unlocks the locker. The description of the locker is "Now I remember! I used to store things in here that could come in very hand in emergencies! Let's see if I can find something useful in here.".
@@ -589,16 +639,42 @@ Before taking the emergency torch:
 
 
 [Rooms]
-The Spaceship Bridge_Kaldríss is a room.  "The place where all the magic happens. Well, it used to be at least - during the impact most of the important equpiment including the communication systems must have been fried and doesn't seem to work anymore.  There's only a single flickering light inside the command panel. What could this mean? I should probably open the command panel and take a look. I could also go south and check the storage of the spaceship." The printed name of the Spaceship Bridge_Kaldríss is "Spaceship Bridge".
+The Spaceship Bridge_Kaldríss is a room.  "The place where all the magic happens. Well, it used to be at least - during the impact most of the important equpiment including the communication systems must have been fried and doesn't seem to work anymore.  There's only a single flickering light inside the command panel. What could this mean? I should probably open the command panel and take a look. I could also go south and check the storage of the spaceship first." The printed name of the Spaceship Bridge_Kaldríss is "Spaceship Bridge".
 
 After going to the Spaceship Bridge_Kaldríss for the first  time:
-	say "You got caught in a meteor shower and while trying your best to manouver your spaceship through it  your engine still took a hit. You then had to crash-land on Kaldríss - one of the most cold planets in this solar system.  Since only a few explorers made their to this planet there's not a whole lot of information available about this icy place. You are pretty much on your own now. The spaceship also won't take off before it hasn't been properly repaired. But first things first. Without any kind of heat you won't survive this bleakness for long. You tame a look at the command panel in hopes of finding something of use but it doesn't look very good. There's only a single green button on the command panel. What could this mean? Might be worth checking out. I could also go south and check storage."
+	say "You got caught in a meteor shower and while trying your best to manouver your spaceship through it  your engine still took a hit. You then had to crash-land on Kaldríss - one of the most cold planets in this solar system.  Since only a few explorers made their to this planet there's not a whole lot of information available about this icy place. You are pretty much on your own now. The spaceship also won't take off before it hasn't been properly repaired. But first things first. Without any kind of heat you won't survive this bleakness for long. You tame a look at the command panel in hopes of finding something of use but it doesn't look very good. There's only a single green button on the command panel. What could this mean? I might also wanna  take a look at the spaceship exit that lies straight ahead since it seems to be busted, too."
 	
 The Spaceship Storage_Kaldríss is a room. "Taking a quick look inside the storage room doesn't seem to reveal anything particularly interesting. There are only some random souvenirs from your previous intergalactic travels and your locker which you haven't opened in ages.  It also looks like the airlock in the south doesn't seem to function anymore so perhaps I should go check that out as well?" The printed name of the  Spaceship Storage_Kaldríss is "Spaceship Storage".
 The Spaceship Exit_Kaldríss is a room. "The airlock also seems to be affected by the crash and the temperatures inside the spaceship are nearing dangerous levels. I could leave the spaceship right now by going east but I if I don't have something to protect me from the cold I will probably die." The printed name of the  Spaceship Exit_Kaldríss is "Spaceship Exit".
-The Crash Zone_Kaldríss is a room. "The surface of Kaldríss consists of spiky ice formations as far as the eye can see . No wonder nobody in his right mind would try to land here willingly. A little further in the north you can vaguely see some sort of structure. You should be able to make it in time." The printed name of the Crash Zone_Kaldríss is "Crash Zone".
+The Crash Zone_Kaldríss is a room. "The surface of Kaldríss consists of spiky ice formations as far as the eye can see . No wonder nobody in his right mind would try to land here willingly. There doesn't seem to be anything of interest wherever you look. After taking a closer look you suddenly notice some sort of structure north of your position. If you hurry up you should be able to make it there before you freeze." The printed name of the Crash Zone_Kaldríss is "Crash Zone".
 The Hunting Grounds_Kaldríss is a room. "Turns out this used to be an explorer camp and you instantly feel a little less lonely and also more safe. Seems like a good place to stay for a while and trying not to freeze to death. But where did those explorers go and why did they leave pretty much everything behind? Further investigations of this place also reveal something that looks like a cave entrance underneath that lies underneath the camp." The printed name of the Hunting Grounds_Kaldríss is "Hunting Grounds".
 
+[Remove stone plate to enter cave]
+[Beschreibung von Yundar's Cave ohne stone plate!]
+The stone plate is above Yundar's Cave. The stone plate is a door. The stone plate is closed and openable. 
+
+Stoneplateopen is a truth state that varies.  Stoneplateopen is false.
+
+After opening the stone plate:
+	now Stoneplateopen is true.
+
+Before going to Yundar's Cave from Hunting Grounds_Kaldríss:
+	if Stoneplateopen is false:
+		say "You can't possibly enter whatever it is that lies behind this stone plate before you've [bold type]shoved it aside[roman type]!";
+		stop the action;
+	if Stoneplateopen is true:
+		say "You are finally able to enter the cave but you should still proceed with caution since you never know what's waiting inside.";
+		continue the action.
+
+Understand "shove aside [something] " as opening.
+	Understand "put [something] back in place" as closing.
+
+After closing stone plate:
+	say "This thing is heavy! I was able to put it back in place though."
+
+Before opening the stone plate:
+	say "You managed to shove the stone plate ot ouf the way and you are able to enter the cave beneath it."
+	
 [Directions]
 The Spaceship Storage_Kaldríss is south of Spaceship Bridge_Kaldríss.
 The Spaceship Exit_Kaldríss is south of the Spaceship Storage_Kaldríss.
@@ -636,19 +712,20 @@ Yetíss Caves System is a region.  Main Cave_Kaldríss, Yundar's Cave, Yarwol's 
 Yundar's Cave is a room. "This is one of many caves which the Yetíss have built under the surface of Kaldríss. This one seems to belong to a young female Yetíss called Yundar.  It also connects to another cave if you go further in the east."
 
 After going to Yundar's Cave for the first  time:
-	say "Upon trying to make your way into the small cave entrance you slipped and went way further than you initally planned. Apart from a few scratches here and there you seem to be okay even though your head hurts quite a lot. You look around and try to understand where the hell you are when you suddenly see something that resembles a .. bear? It looks more humanoid though .. is it .. is this a .. Yeti?"
+	say "Upon trying to make your way into the small cave entrance you slipped and went all the way down. Apart from a few scratches here and there you seem to be okay even though your head hurts quite a lot. You look around and try to understand where the hell you are when you suddenly see something that resembles a .. bear? It looks more humanoid though .. is it .. is this a .. Yeti?  This can't be!"
 
 Yarwol's Cave is a room. "This cave is where Yarwol, the oldest Yetíss, resides."
 
 The Main Cave_Kaldríss is a room. "Seems like this is the cave that connects them all. It also seems a lot bigger then the other ones. It also seems like there's a small gap in the wall in the east which is barely visible. This might be some kind of door and also the way out of this cave system. I might want to take a closer look. I just have to be careful so the other Yetíss won't be suspicious." The printed name of the Main Cave_Kaldríss is "Main Cave".
 
-Secret Cave_Kaldríss is a room. "A secret cave that even most of the Yetíss don't know about. Only the ones worthy enough are allowed to enter." The printed name of the Secret Cave_Kaldríss is "Secret Cave". [Hide door to the Secret Cave?]
+[Hide door to Secret Cave]
+Secret Cave_Kaldríss is a room. "A secret cave that even most of the Yetíss don't know about. Only the ones worthy enough are allowed to enter." The printed name of the Secret Cave_Kaldríss is "Secret Cave". 
 After going to Secret Cave_Kaldríss for the first time:
-	say "A door magically opens and  eventually you are able to enter the secret cave in the east. Gaining the Yetíss trust wasn't easy but in the end you managed to do it and now it's finally time to find a way off this planet!"
+	say "A door magically opens and  eventually you are able to enter the secret cave in the east. Gaining the Yetíss trust wasn't easy but in the end you managed to do it and now it's finally time to find a way off this planet! I can see a light above me that seems to be leading to .. some place? I should probably follow it before I get lost in the void."
 
 
 [Directions]
-Yundar's Cave is down from Hunting Grounds_Kaldríss.
+Hunting Grounds_Kaldríss is above stone plate.
 Yundar's Cave is west of Yarwol's Cave.
 Main Cave_Kaldríss is south of Yarwol's Cave.
 Secret Cave_Kaldríss is east of Main Cave_Kaldríss.
@@ -702,10 +779,10 @@ The Blakkríss Temple is a region. The Blakkríss Temple Entrance, the Great Hal
 The Blakkríss Temple Entrance is a room. "This seems to be the entrance of a temple of some sort. It is really huge. Like really really huge. There are also ancient rune inscriptions on every single of the pillars that make up this majestic entrance."
 
 After going to Blakkríss Temple Entrance for the first time:
-	say "Everything turned white, you completely lost track of time and suddenly you stand in front of something that looks like a huge temple of some sort. This must be it. This must be the place the Yetíss told you about which might be able to bring you and your spaceship back into the orbit. I should get going before I waste any more precious time! I think I should be good for now if I just keep going west for now."
+	say "Everything turned white, you completely lost track of time and suddenly you stand in front of something that looks like a huge temple of some sort. This must be it. This must be the place the Yetíss told you about which might be able to bring you and your spaceship back into the orbit. I should get going before I waste any more precious time! I think I should be good for now if I just keep going west."
 
 The Great Hall_Kaldríss is a room. "This seems to be the focal point of the temple. Even more rune inscriptions on the walls. Well, I should just keep going into the same direction since I can see some weird light that is coming from a little further inside the temple." The printed name of Great Hall_Kaldríss is "Great Hall".
-The Spectral Bridge is a room. "A bridge that seems to purely consist of light that is emitted in all its different spectral colors. How does this make even sense? Only one way to find out. I have to keep going west."
+The Spectral Bridge is a room. "A bridge that seems to purely consist of light that is emitted in all its different spectral colors. How does this make even sense? Only one way to find out. All I can do is keep folling this path since I can't go anywhere else anyway."
 The Bifröst Portal Chamber is a room. "This must be the portal chamber! Finally! Time to calibrate the portal so I can get into the orbit ASAP."
 
 [Directions]
