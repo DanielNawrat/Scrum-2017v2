@@ -1,0 +1,38 @@
+! Blurb file created by Inform build 6M62
+
+status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/kevinkoch/Desktop/Uni/Auf der Suche Programmierung/Auf_der_Suche.inform/Build/StatusCblorb.html"
+
+
+! Identification
+
+project folder "/Users/kevinkoch/Desktop/Uni/Auf der Suche Programmierung/Auf_der_Suche.inform"
+release to "/Users/kevinkoch/Desktop/Uni/Auf der Suche Programmierung/Auf_der_Suche.materials/Release"
+
+! Blorb instructions
+
+storyfile leafname "Auf_der_Suche.gblorb"
+storyfile "/Users/kevinkoch/Desktop/Uni/Auf der Suche Programmierung/Auf_der_Suche.inform/Build/output.ulx" include
+ifiction "/Users/kevinkoch/Desktop/Uni/Auf der Suche Programmierung/Auf_der_Suche.inform/Metadata.iFiction" include
+cover "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
+picture 1 "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "7A2623CC-BDB2-47B3-A502-E41106BA8D34"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2017"
+placeholder [TITLE] = "Auf_der_Suche"
+placeholder [AUTHOR] = "Kevin Koch"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc405.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc406.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||

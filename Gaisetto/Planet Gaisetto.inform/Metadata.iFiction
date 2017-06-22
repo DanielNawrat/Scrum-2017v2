@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>F7D6E0EC-6F44-407D-8B3A-8A2D059F407C</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>Gaisetto</title>
+            <author>Tobi The Start of the Adventure begins when play begins</author>
+            <headline>An Interactive Fiction</headline>
+            <genre>Fiction</genre>
+            <firstpublished>2017</firstpublished>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <releases>
+            <attached>
+                <release>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    <releasedate>2017-06-17</releasedate>
+=======
+                    <releasedate>2017-06-16</releasedate>
+>>>>>>> ed44c2a02e4167acd74aac441dd42c5bc666312e
+=======
+                    <releasedate>2017-06-16</releasedate>
+>>>>>>> ed44c2a02e4167acd74aac441dd42c5bc666312e
+=======
+                    <releasedate>2017-06-16</releasedate>
+>>>>>>> ed44c2a02e4167acd74aac441dd42c5bc666312e
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6M62</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6M62</generatorversion>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <originated>2017-06-17</originated>
+        </colophon>
+        <glulx>
+            <serial>170617</serial>
+=======
+            <originated>2017-06-16</originated>
+        </colophon>
+        <glulx>
+            <serial>170616</serial>
+>>>>>>> ed44c2a02e4167acd74aac441dd42c5bc666312e
+=======
+            <originated>2017-06-16</originated>
+        </colophon>
+        <glulx>
+            <serial>170616</serial>
+>>>>>>> ed44c2a02e4167acd74aac441dd42c5bc666312e
+=======
+            <originated>2017-06-16</originated>
+        </colophon>
+        <glulx>
+            <serial>170616</serial>
+>>>>>>> ed44c2a02e4167acd74aac441dd42c5bc666312e
+            <release>1</release>
+            <compiler>Inform 7 build 6M62</compiler>
+        </glulx>
+    </story>
+</ifindex>
