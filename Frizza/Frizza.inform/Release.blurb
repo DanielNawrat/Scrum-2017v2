@@ -1,21 +1,21 @@
 ! Blurb file created by Inform build 6M62
 
-status "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Scrum-2017\Frizza\Frizza.inform\Build\StatusCblorb.html"
+status "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Scrum-2017v2\Frizza\Frizza.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Scrum-2017\Frizza\Frizza.inform"
-release to "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Scrum-2017\Frizza\Frizza.materials\Release"
+project folder "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Scrum-2017v2\Frizza\Frizza.inform"
+release to "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Scrum-2017v2\Frizza\Frizza.materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "Frizza.gblorb"
-storyfile "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Scrum-2017\Frizza\Frizza.inform\Build\output.ulx" include
-ifiction "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Scrum-2017\Frizza\Frizza.inform\Metadata.iFiction" include
+storyfile "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Scrum-2017v2\Frizza\Frizza.inform\Build\output.ulx" include
+ifiction "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Scrum-2017v2\Frizza\Frizza.inform\Metadata.iFiction" include
 cover "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Inform 7\Internal\Miscellany\Cover.jpg"
-picture 3 "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Scrum-2017\Frizza\Frizza.materials\Figures\wallhaven-94691.jpg"
+picture 3 "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Scrum-2017v2\Frizza\Frizza.materials\Figures\wallhaven-94691.jpg"
 
 ! Placeholder variables
 
