@@ -22,7 +22,7 @@ Instead of going to the Anchors, say "There is no way to advance in this directi
 
 The Landing Zone_Geysiria is west of the Cave_Geysiria. The Village_Geysiria is north of the Landing Zone_Geysiria.
 
-[---]]
+[---]
 
 [Helper Testsection]
 
@@ -47,7 +47,7 @@ take off (something )-	take off clothing[paragraph break]";
 	remove Helper from play;
 	say "End of help section[line break]---"
 
-[---]
+[---]]
 
 [Regions and Rooms]
 [Surface Regions]
