@@ -336,12 +336,53 @@ The Start of the Adventure is a scene.
 
 [End of Initialisation]
 
+[[Anchor rooms Testsection]
+
+The Anchor 1, Anchor 2, Anchor 3 and Anchor 4 are rooms. Anchors is a region. Anchor 1, Anchor 2, Anchor 3 and Anchor 4 are in the Anchors.
+Anchor 1 is east of Rock Mine_Sitis and west of Jungle_23.
+Anchor 2 is east of Jungle_31 and west of Landing Zone_Geysiria.
+Anchor 3 is east of Cave_Geysiria and west of Surface Flux_Frizza.
+Anchor 4 is east of the Ascent_Frizza and west of the Spaceship Exit_Kaldríss.
+
+The player is in the Flat Rock_Sitis.
+
+Instead of going to the Anchors, say "There is no way to advance in this direction."
+
+The Landing Zone_Geysiria is west of the Cave_Geysiria. The Village_Geysiria is north of the Landing Zone_Geysiria.
+
+[---]
+
+[Helper Testsection]
+
+Helper is nowhere. Helper is scenery.
+
+Understand "Helper" as asking Helper about anything.
+Asking Helper about anything is an action applying to nothing. 
+Carry out asking Helper about anything:
+	now Helper is in the location of the player;
+	say "---[line break][bold type]This is the help section, you will get a list of essential commands that you can use in the game.[paragraph break][roman type]
+(e)ast - 		go east[line break]
+(w)est - 		go west[line break]
+(s)outh - 		go south[line break]
+(n)orth - 		go north[line break]
+e(x)amine - 		get information about a thing or a person[line break]
+take - 		take something[line break]
+ask someone about something - the typical way to begin a dialogue, the topics you can ask about are printed [bold type]bold [roman type]in the text beforehand[line break]
+answer something (to someone) - the typical way to respond to questions, the topics you can answer are printed [bold type]bold [roman type]in the text beforehand[line break]
+wait - 	wait some time, some situations may require this[line break]
+wear (something) -	put clothing on[line break]
+take off (something )-	take off clothing[paragraph break]";
+	remove Helper from play;
+	say "End of help section[line break]---"
+
+[---]]
+
 [Regions and Rooms]
 [Surface Regions]
 The Landing Plane_Frizza is a region. The Landing Zone_Frizza is in the Landing Plane_Frizza. 
 The Wasteland_Frizza is a region. The Upper Desert_Frizza and the Lower Desert_Frizza are in the Wasteland_Frizza.
 The Mountains_Frizza is a region. The Ascent_Frizza, Plateau_Frizza and Sanctuary_Frizza are in the Mountains_Frizza.
-The Surface Flux Channel_Frizza is a region. The Surface Flux_Frizza, Upper Gate_Frizza and Scoop_Frizza are in the Surface Flux Channel_Frizza.
+The Surface Flux Channel_Frizza is a region. The Surface Flux_Frizza, Surface Flux 2_Frizza, Upper Gate_Frizza and Scoop_Frizza are in the Surface Flux Channel_Frizza.
 The Base_Frizza is a region. The Control Tower_Frizza is in the Base_Frizza.
 The Bloo City_Frizza is a region. The Verge_Frizza, Central Plaza_Frizza and Citadel_Frizza are in the Bloo City_Frizza.
 The Space_Frizza is a region. The Orbit_Frizza is in the Space_Frizza.
@@ -377,6 +418,11 @@ The Surface Flux_Frizza is a room. The Surface Flux_Frizza is west of the Landin
 		now the description of the Surface Flux_Frizza is "The main Flux current of the region.";
 		produce a room description with going spacing conventions.
 			Instead of going to the Underground Flux_Frizza from the Surface Flux_Frizza, do nothing.
+			
+The Surface Flux 2_Frizza is west of the Verge_Frizza. The printed name of the Surface Flux 2_Frizza is "Flux beyond the Gate".  The description of Surface Flux 2_Frizza is "Another current of the Flux. Even from the distance you feel the pure energy flooding your body. It appears to have a slightly different viscosity than the other Fluxes, maybe it has something to do with the Flux Gate arking above the Flux in the south."
+	After going from the Surface Flux 2_Frizza:
+		now the description of the Surface Flux_Frizza is "A branch of the Flux, it emerges from under the Flux Gate to the south.";
+		produce a room description with going spacing conventions.
 
 [Mountain]
 The Ascent_Frizza is a room. The Ascent_Frizza is east of the Landing Zone_Frizza. The printed name of the Ascent_Frizza is "Ascent".  The description of the Ascent_Frizza is "The mountains are composed of stone in various shades of red and reach far to the sky. In between the cliffs and sheers you see a narrow path winding [bold type]up[roman type]. There is no clue on where it might lead, but you could find out."
@@ -624,6 +670,7 @@ Topic	Response
 "Flux" 	"[italic type]- Yeah, our essence and all that shit. Don't mention it.[paragraph break]"	
 "Techies"	"[italic type]- They were settler's, originally. Sadly they chose to defile the Flux with their robots and devices, hence their nickname. We are not at good terms at the moment, our 'Leader' Kollock even is bitterly hostile towards them, as he sees them as heretics.[paragraph break]"
 "Kollock"	"[italic type]- Our spiritual leader. Celebrated as god-king. 'He is master, he is Flux'.[paragraph break][roman type]Her tone seems to you tinged with a trace of sarcasm. She looks around, as if to see if nobody is within earshot.[paragraph break][italic type]- Though some appreciate their freedom more than others."
+"Du'un"	"[italic type]- My father and the Keeper of the Flux, if you didn't notice. He taught me to keep an open mind for things, even if his own mental flexibility starts to crumble at the moment."
 
 After asking Dunia about "Flux Extractor":
 	if Dunia has the Sinkan Cloak:
@@ -635,8 +682,14 @@ After asking Dunia about "Flux Extractor":
 		
 After putting on the Sinkan Cloak:
 	now CloakWearing is true.
-
+	
 [--]
+
+[Surface Flux]
+
+A Flux Current is in the Surface Flux 2_Frizza. The Flux Current is openable. There is a Flux Essence in the Flux Current.
+Understand "extract sample from [something]" as opening. Extracting it from is an action applying to one thing.
+
 
 
 [---]
@@ -646,7 +699,6 @@ After answering Dunia that "Techies" for the first time:
 		say "[italic type]Then begone with you! I don't want anything to do with that!";
 		now BlooSympathy is false.
 	
-
 
 
 
