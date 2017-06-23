@@ -170,7 +170,7 @@ Ilithios_Sitis is a person in the Rock Mine_Sitis. The printed name of Ilithios_
 
 
 
-[Chapter 2 - Gaisetto
+Chapter 2 - Gaisetto
 
 [The Start of the Adventure begins when play begins. 
 
@@ -922,4 +922,4 @@ Gatekeeper is a person in the Blakkríss Temple Entrance. "It's dangerous to go 
 
 After entering the Bifröst Portal Chamber :
 	end the story;
-	say "You did it!"]
+	say "You did it!"
