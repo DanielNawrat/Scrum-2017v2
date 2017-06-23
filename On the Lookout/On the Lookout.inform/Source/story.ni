@@ -53,8 +53,8 @@ put back something into place - WOZU?[line break][paragraph break]";
 	remove Helper from play;
 	say "End of help section[line break]---"
 
-[Limited Inventory]
-The carrying capacity of the player is 3. The backpack is the player's holdall. The player is wearing the backpack. The carrying capacity of the backpack is 3. 
+[[Limited Inventory]
+The carrying capacity of the player is 3. The backpack is the player's holdall. The player is wearing the backpack. The backpack is open and not openable. The carrying capacity of the backpack is 3. ]
 
 
 Chapter 1 - Sitis
@@ -66,7 +66,7 @@ The Start of the Adventure is a scene. The Start of the Adventure begins when pl
 
 [Description left! - Warum ist Axesto hier? Was ist sein Ziel]
 
-Axesto_Sitis is a person. The Player is Axesto_Sitis. The printed name of Axesto_Sitis is "Axesto". 
+Axesto is a person. The Player is Axesto. 
 [End of Initialisation]
 
 [Regionen + Räume]
@@ -75,25 +75,42 @@ Axesto_Sitis is a person. The Player is Axesto_Sitis. The printed name of Axesto
 The Landing Zone_Sitis is a region. The Flat Rock_Sitis is in the Landing Zone_Sitis.
 
 [1. Raum]
-The Flat Rock_Sitis is a room. The printed name of the Flat Rock_Sitis is "Your arrival point. The Flat Rock". "[italic type] You arrive on a planet called Sitis. The arrival should have been easy because you had the possibility to land on a big flat stone but as you leave your spaceship, you realise that two of your three water container broke down. Without minimum one new watertank you can not continue your journey. Far away in the east you recognise some kind of different rooftops. Maybe someones living there who could help you? [roman type]"
+The Flat Rock_Sitis is a room. The printed name of the Flat Rock_Sitis is "Your arrival point. The Flat Rock". "[italic type] You arrive on a planet called Sitis. You think the landing went great but as you leave your spaceship, you realise that two of your three water container broke down. Without minimum one new watertank you can not continue your journey. Far away in the east you recognise some kind of different rooftops. Maybe someones living there who could help you? [roman type]"
 
 [Beschreibungen für andere Himmelsrichtungen?]
 
 [Region 2 - The Desert of Sitis]
-The Desert_Sitis is a region. The Wide Desert of Sitis_Sitis, the Protection Bridge_Sitis and the Rampart of Sicuum_Sitis are in the Desert_Sitis.
+The Desert_Sitis is a region. The Wide Desert of Sitis_Sitis, the Protection Bridge_Sitis and the Rampart around Sicuum_Sitis are in the Desert_Sitis.
 
 [Räume]
-The Wide Desert of Sitis_Sitis is a room. The printed name of the Wide Desert of Sitis_Sitis is "The Wide Desert". "[italic type] You've reached the Desert of Sitis. It gives you two things: First, an impression of what whole Sitis looks like - sandy, dry, with some deep stone canyons and huge rocks afar. But although this planet does not seem to be a place to life, the Desert also gives you the chance to discern that you are not alone. There IS life! When you look north, directly in front of you is a long corrugated iron bridge, guiding over one of those ravines. You can not access the bridge, it is blocked with a barbed wire fence, but straight ahead, at the end you see a majestic sandstone palace. In the bridge's middel, a wooden ladder leads to an enormous square block in the east. Likewise it is built out of stone and gives a somber impression. If you look east from the point you are standing at right now you realise that the canyon When you look south you recognize a lot of small white houses. It seems like people are living there [roman type]."
+The Wide Desert of Sitis_Sitis is a room. The printed name of the Wide Desert of Sitis_Sitis is "The Wide Desert". "[italic type] You've reached the Desert of Sitis. It gives you two things: First, an impression of what whole Sitis looks like - sandy, dry, with some deep stone canyons and huge rocks afar. But although this planet does not seem to be a place to life, the Desert also gives you the chance to discern that you are not alone. There IS life! When you look north, directly in front of you is a long corrugated iron bridge, guiding over one of those ravines. You can not access the bridge, it is blocked with a barbed wire fence, but straight ahead, at the end you see a majestic sandstone palace. In the bridge's middel, a wooden ladder leads to an enormous square block in the east. Likewise it is built out of stone and gives a somber impression. If you look east from the point you are standing at right now you see the kind of a rock mine. In the south you recognise a lot of small white houses surrounded by a rampart. It seems like people are living here [roman type]."
 The Wide Desert of Sitis_Sitis is east of the Flat Rock_Sitis. 
 
+The Rampart around Sicuum_Sitis is a room. The printed name of the Rampart around Sicuum_Sitis is "The Rampart around Sicuum". 
+The Rampart around Sicuum_Sitis is south of the Wide Desert of Sitis_Sitis.
+
+The wooden gate is south of the Rampart around Sicuum_Sitis and north of the Agora_Sitis. The wooden gate is a door. The wooden gate is closed and openable.  
+The description of the wooden gate is "[italic type] It seems to be closed. Let's try to open it [roman type]."
+
+The Person behind the door_Sitis is a person. The Person behind the door_Sitis is in the Agora_Sitis.
+
+
+Instead of opening the wooden gate:
+	say "[italic type] Someone is yelling at you [roman type]. 'Who are you? And what do you want?'";
+	now the Person behind the door_Sitis is in the Rampart around Sicuum_Sitis.
+	
+After answering that "Axesto":
+	say "I am Axesto, an alien of the planet Fidatis. I landed here because I am travelling through the whole galaxy to discover the life on other plantes. During the landing here two of my water containers broke down. That's why I need you to ask for water. Can you give me a bit, please? [paragraph break]";
+	say "[italic type] First there's silence. Then the gate squeaks. It opens slowly [roman type].";
+	now the wooden gate is open;
+	remove the Person behind the door_Sitis from play;
+	now the wooden gate is scenery;
+	now the description of the wooden gate is "open."
+
 The Protection Bridge_Sitis is a room. The printed name of the Protection Bridge_Sitis is "The Protection Bridge". 
-The Protection Bridge_Sitis is north of the Wide Desert of Sitis_Sitis.
+The Protection Bridge_Sitis is north of the Wide Desert of Sitis_Sitis. [Beschreibung fehlt; nicht zwangsläufig - Beschreibung ist eigentlich im Dialog enthalten.]
 
-The Rampart of Sicuum_Sitis is a room. The printed name of the Rampart of Sicuum_Sitis is "The Rampart of Sicuum". 
-The Rampart of Sicuum_Sitis is south of the Wide Desert of Sitis_Sitis.
-
-
-
+[Beschreibungen für andere Himmelsrichtungen?]
 
 
 [Region 3 - The Village Sicuum]
@@ -101,7 +118,8 @@ The Village Sicuum_Sitis is a region. The printed name of the Village Sicuum_Sit
 The Agora_Sitis, the Domum Praesidium_Sitis, the Shelter_Sitis, the Secret Passage_Sitis and the Rock Mine_Sitis are in the Village Sicuum_Sitis.
 
 [Räume]
-The Agora_Sitis is a room. The printed name of the Agora_Sitis is "The Agora of Sicuum". The Agora_Sitis is south of the Rampart of Sicuum_Sitis.
+The Agora_Sitis is a room. The printed name of the Agora_Sitis is "The Agora of Sicuum". The Agora_Sitis is south of the wooden gate. The description of the Agora_Sitis is "[italic type] Finally you do not just expect other people, rather you see them. The Sitisianer, that is how they are called, looks different then you. They are taller, with longer legs, shorter necks and definitely more hair. All of them wear torn clothes, their faces are kind of dirty and [roman type]."
+Anaidis_Sitis is a person. Anaidis_Sitis is in the Agora_Sitis. The printed name of Anaidis_Sitis is "Anaidis". 
 
 The Domum Praesidium_Sitis is a room. The printed name of the Domum Praesidium_Sitis is "The Domum Praesidium of Sicuum". The Domum Praesidium_Sitis is west of The Agora_Sitis. 
 
@@ -132,7 +150,6 @@ The Holy Palace_Sitis is north of the Protection Bridge_Sitis.
 
 [Charaktere]
 Mitéra_Sitis is a person in the Domum Praesidium_Sitis. The printed name of Mitéra_Sitis is "Mitéra". 
-Anaidis_Sitis is a person in the Shelter_Sitis. The printed name of Anaidis_Sitis is "Anaidis". 
 Carissimi_Sitis is a person in the Shelter_Sitis.The printed name of Carissimi_Sitis is "Carissimi".
 Scorpius_Sitis is a person in the Holy Palace_Sitis. The printed name of Scorpius_Sitis is "The Great Scorpius". 
 Machitikos_Sitis is a person in the Holy Palace_Sitis. The printed name of Machitikos_Sitis is "Machitikos". 
@@ -147,7 +164,13 @@ Ilithios_Sitis is a person in the Rock Mine_Sitis. The printed name of Ilithios_
 
 
 
-Chapter 2 - Gaisetto
+
+
+
+
+
+
+[Chapter 2 - Gaisetto
 
 [The Start of the Adventure begins when play begins. 
 
@@ -899,4 +922,4 @@ Gatekeeper is a person in the Blakkríss Temple Entrance. "It's dangerous to go 
 
 After entering the Bifröst Portal Chamber :
 	end the story;
-	say "You did it!"
+	say "You did it!"]
