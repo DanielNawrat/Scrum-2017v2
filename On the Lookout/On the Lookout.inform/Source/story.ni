@@ -57,6 +57,12 @@ put back something into place - WOZU?[line break][paragraph break]";
 The carrying capacity of the player is 3. The backpack is the player's holdall. The player is wearing the backpack. The backpack is open and not openable. The carrying capacity of the backpack is 3. ]
 
 
+
+
+
+
+
+
 Chapter 1 - Sitis
 
 [Beginn meiner Mapkonstruktion - Landing Zone, Wüste und Sicuum]
@@ -75,7 +81,7 @@ Axesto is a person. The Player is Axesto.
 The Landing Zone_Sitis is a region. The Flat Rock_Sitis is in the Landing Zone_Sitis.
 
 [1. Raum]
-The Flat Rock_Sitis is a room. The printed name of the Flat Rock_Sitis is "Your arrival point. The Flat Rock". "[italic type] You arrive on a planet called Sitis. You think the landing went great but as you leave your spaceship, you realise that two of your three water container broke down. Without minimum one new watertank you can not continue your journey. Far away in the east you recognise some kind of different rooftops. Maybe someones living there who could help you? [roman type]"
+The Flat Rock_Sitis is a room. The printed name of the Flat Rock_Sitis is "Your arrival point. The Flat Rock". "[italic type]You arrive on a planet called Sitis. You think the landing went great but as you leave your spaceship, you realise that two of your three water container broke down. Without minimum one new watertank you can not continue your journey. Far away in the east you recognise some kind of different rooftops. Maybe someones living there who could help you?[roman type]"
 
 [Beschreibungen für andere Himmelsrichtungen?]
 
@@ -83,25 +89,25 @@ The Flat Rock_Sitis is a room. The printed name of the Flat Rock_Sitis is "Your 
 The Desert_Sitis is a region. The Wide Desert of Sitis_Sitis, the Protection Bridge_Sitis and the Rampart around Sicuum_Sitis are in the Desert_Sitis.
 
 [Räume]
-The Wide Desert of Sitis_Sitis is a room. The printed name of the Wide Desert of Sitis_Sitis is "The Wide Desert". "[italic type] You've reached the Desert of Sitis. It gives you two things: First, an impression of what whole Sitis looks like - sandy, dry, with some deep stone canyons and huge rocks afar. But although this planet does not seem to be a place to life, the Desert also gives you the chance to discern that you are not alone. There IS life! When you look north, directly in front of you is a long corrugated iron bridge, guiding over one of those ravines. You can not access the bridge, it is blocked with a barbed wire fence, but straight ahead, at the end you see a majestic sandstone palace. In the bridge's middel, a wooden ladder leads to an enormous square block in the east. Likewise it is built out of stone and gives a somber impression. If you look east from the point you are standing at right now you see the kind of a rock mine. In the south you recognise a lot of small white houses surrounded by a rampart. It seems like people are living here [roman type]."
+The Wide Desert of Sitis_Sitis is a room. The printed name of the Wide Desert of Sitis_Sitis is "The Wide Desert". "[italic type]You've reached the Desert of Sitis. It gives you two things: First, an impression of what whole Sitis looks like - sandy, dry, with some deep stone canyons and huge rocks afar. But although this planet does not seem to be a place to life, the Desert also gives you the chance to discern that you are not alone. There IS life! When you look north, directly in front of you is a long corrugated iron bridge, guiding over one of those ravines. You can not access the bridge, it is blocked with a barbed wire fence, but straight ahead, at the end you see a majestic sandstone palace. In the bridge's middel, a wooden ladder leads to an enormous square block in the east. Likewise it is built out of stone and gives a somber impression. If you look east from the point you are standing at right now you see the kind of a rock mine. In the south you recognise a lot of small white houses surrounded by a rampart. It seems like people are living here[roman type]."
 The Wide Desert of Sitis_Sitis is east of the Flat Rock_Sitis. 
 
 The Rampart around Sicuum_Sitis is a room. The printed name of the Rampart around Sicuum_Sitis is "The Rampart around Sicuum". 
 The Rampart around Sicuum_Sitis is south of the Wide Desert of Sitis_Sitis.
 
 The wooden gate is south of the Rampart around Sicuum_Sitis and north of the Agora_Sitis. The wooden gate is a door. The wooden gate is closed and openable.  
-The description of the wooden gate is "[italic type] It seems to be closed. Let's try to open it [roman type]."
+The description of the wooden gate is "[italic type]It seems to be closed. Let's try to open it[roman type]."
 
-The Person behind the door_Sitis is a person. The Person behind the door_Sitis is in the Agora_Sitis.
+The Person behind the door_Sitis is a person. The Person behind the door_Sitis is in the Agora_Sitis. The printed name of the Person behind the door_Sitis is "the faceless guardian". 
 
 
 Instead of opening the wooden gate:
-	say "[italic type] Someone is yelling at you [roman type]. 'Who are you? And what do you want?'";
+	say "[italic type]Someone is yelling at you[roman type]. 'Who are you? And what do you want?'";
 	now the Person behind the door_Sitis is in the Rampart around Sicuum_Sitis.
 	
 After answering that "Axesto":
-	say "I am Axesto, an alien of the planet Fidatis. I landed here because I am travelling through the whole galaxy to discover the life on other plantes. During the landing here two of my water containers broke down. That's why I need you to ask for water. Can you give me a bit, please? [paragraph break]";
-	say "[italic type] First there's silence. Then the gate squeaks. It opens slowly [roman type].";
+	say "I am Axesto, an alien of the planet Fidatis. I landed here because I am travelling through the whole galaxy to discover the life on other plantes. During the landing here, two of my water containers broke down. That's why I need you to ask for water. Can you give me a bit, please? [paragraph break]";
+	say "[italic type]First there's silence. Then the gate squeaks. It opens slowly[roman type].";
 	now the wooden gate is open;
 	remove the Person behind the door_Sitis from play;
 	now the wooden gate is scenery;
@@ -118,7 +124,7 @@ The Village Sicuum_Sitis is a region. The printed name of the Village Sicuum_Sit
 The Agora_Sitis, the Domum Praesidium_Sitis, the Shelter_Sitis, the Secret Passage_Sitis and the Rock Mine_Sitis are in the Village Sicuum_Sitis.
 
 [Räume]
-The Agora_Sitis is a room. The printed name of the Agora_Sitis is "The Agora of Sicuum". The Agora_Sitis is south of the wooden gate. The description of the Agora_Sitis is "[italic type] Finally you do not just expect other people, rather you see them. The Sitisianer, that is how they are called, looks different then you. They are taller, with longer legs, shorter necks and definitely more hair. All of them wear torn clothes, their faces are kind of dirty and [roman type]."
+The Agora_Sitis is a room. The printed name of the Agora_Sitis is "The Agora of Sicuum". The Agora_Sitis is south of the wooden gate. The description of the Agora_Sitis is "[italic type]You enter the wooden gate. Finally you do not just expect other people, rather you see them. The Sitisianer, that is how they are called, looks different then you. They are taller, with longer legs and shorter necks. Also they definitely got more hair. But their faces seems to be drawn by life. You really do not know how to connect to these people without scaring them. Otherwise, why should they have opened the gate for you, if you appear dangerous to them? Maybe you go the eastiest way and you speak to the boy whos already staring at you all the time[roman type]."
 Anaidis_Sitis is a person. Anaidis_Sitis is in the Agora_Sitis. The printed name of Anaidis_Sitis is "Anaidis". 
 
 The Domum Praesidium_Sitis is a room. The printed name of the Domum Praesidium_Sitis is "The Domum Praesidium of Sicuum". The Domum Praesidium_Sitis is west of The Agora_Sitis. 
@@ -161,6 +167,10 @@ Ilithios_Sitis is a person in the Rock Mine_Sitis. The printed name of Ilithios_
 
 [instead of going nowhere from xy, say ]
 [Bei Namen Planet weg]
+
+
+
+
 
 
 
