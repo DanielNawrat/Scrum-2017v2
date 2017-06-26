@@ -569,13 +569,13 @@ Chapter 1 - Somewhere on Frizza
 
 [Image Testsection]
 
-Include Simple Graphical Window by Emily Short.
+[Include Simple Graphical Window by Emily Short.
 Include Location Images by Emily Short.
 
 
 	Figure of Frizza is the file "wallhaven-94691.jpg".
 
-	The room-illustration of Landing Zone_Frizza is the Figure of Frizza. 
+	The room-illustration of Landing Zone_Frizza is the Figure of Frizza. ]
 	
 [--]
 
