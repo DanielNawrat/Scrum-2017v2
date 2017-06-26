@@ -1,873 +1,825 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-1">
-  <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-81"/>
-  <item nodeId="node-1">
-    <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">Your ship falls through thick layers of dark clouds. Red flashes illuminate your surroundings. The lights on your console warn you of the dangerously fast approaching energy level zero. As you finally break through the last cloud, you get a glimpse of what awaits you underneath. &#x000A;Black planes and sharp cliffs of a dark red shape the landscape. In the east you perceive a massive rock formation, in the west you see a thick blue stream cutting through the plane , illuminating big portions of it in the process. Somewhere to the south there seem to be some sort of industrial constructions, far in the north you believe to recognize cubic shapes that reveal a city. You don't have time to study the landscape much longer. All you concentration is desperately needed as you find a gap in the ghastly cliffs and bring down your ship. Heavy jolting, followed by a sudden blow signalize your landing. &#x000A;Your ship's on the ground, and you are too, barely. Welcome to Frizza.&#x000A;&#x000A;On the Lookout&#x000A;An Interactive Fiction by Franziska, Daniel, Kevin, Tim, Tobias&#x000A;Release 1 / Serial number 170623 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Your arrival point. The Flat Rock&#x000A; You arrive on a planet called Sitis. The arrival should have been easy because you had the possibility to land on a big flat stone but as you leave your spaceship, you realise that two of your three water container broke down. Without minimum one new watertank you can not continue your journey. Far away in the east you recognise some kind of different rooftops. Maybe someones living there who could help you? &#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">NO</temporary>
-    <children>
-      <child nodeId="node-2"/>
-      <child nodeId="node-7"/>
-      <child nodeId="node-13"/>
-      <child nodeId="node-26"/>
-      <child nodeId="node-68"/>
-    </children>
-  </item>
-  <item nodeId="node-2">
-    <command xml:space="preserve">x me</command>
-    <result xml:space="preserve">As good-looking as ever.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-3"/>
-    </children>
-  </item>
-  <item nodeId="node-3">
-    <command xml:space="preserve">my name?</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-4"/>
-    </children>
-  </item>
-  <item nodeId="node-4">
-    <command xml:space="preserve">what is my name?</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-5"/>
-    </children>
-  </item>
-  <item nodeId="node-5">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You don't want to go there.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-6"/>
-    </children>
-  </item>
-  <item nodeId="node-6">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">The Wide Desert&#x000A; The Desert of Sitis gives you the chance to gain orientation. When you look north you see a big brown golden palace. In the east you recognize an old dark House. Description missed! When you look south you recognize a lot of small white houses. It seems like people are living there .&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-7">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Spaceship Storage&#x000A;Taking a quick look inside the storage room doesn't seem to reveal anything particularly interesting. There are only some random souvenirs from your previous intergalactic travels and your locker which you haven't opened in ages.  It also looks like the airlock in the south doesn't seem to function anymore so perhaps I should go check that out as well?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-8"/>
-    </children>
-  </item>
-  <item nodeId="node-8">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You got caught in a meteor shower and while trying your best to manouver your spaceship through it  your engine still took a hit. You then had to crash-land on Kaldr&#x00ED;ss - one of the most cold planets in this solar system.  Since only a few explorers made their to this planet there's not a whole lot of information available about this icy place. You are pretty much on your own now. The spaceship also won't take off before it hasn't been properly repaired. But first things first. Without any kind of heat you won't survive this bleakness for long. You tame a look at the command panel in hopes of finding something of use but it doesn't look very good. There's only a single green button on the command panel. What could this mean? Might be worth checking out. I could also go south and check storage.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-9"/>
-      <child nodeId="node-12"/>
-    </children>
-  </item>
-  <item nodeId="node-9">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Spaceship Storage&#x000A;Taking a quick look inside the storage room doesn't seem to reveal anything particularly interesting. There are only some random souvenirs from your previous intergalactic travels and your locker which you haven't opened in ages.  It also looks like the airlock in the south doesn't seem to function anymore so perhaps I should go check that out as well?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-10"/>
-    </children>
-  </item>
-  <item nodeId="node-10">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Spaceship Bridge&#x000A;The place where all the magic happens. Well, it used to be at least - during the impact most of the important equpiment including the communication systems must have been fried and doesn't seem to work anymore.  There's only a single illuminated button that is flickering on the command panel. What could this mean? Might be worth checking out. I could also go south and check the storage of the spaceship.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-11"/>
-    </children>
-  </item>
-  <item nodeId="node-11">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Spaceship Storage&#x000A;Taking a quick look inside the storage room doesn't seem to reveal anything particularly interesting. There are only some random souvenirs from your previous intergalactic travels and your locker which you haven't opened in ages.  It also looks like the airlock in the south doesn't seem to function anymore so perhaps I should go check that out as well?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-12">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You don't want to go there.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-13">
-    <command xml:space="preserve">x command panel</command>
-    <result xml:space="preserve">You see nothing special about the command panel.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-14"/>
-      <child nodeId="node-17"/>
-    </children>
-  </item>
-  <item nodeId="node-14">
-    <command xml:space="preserve">take encryption key</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-15"/>
-    </children>
-  </item>
-  <item nodeId="node-15">
-    <command xml:space="preserve">look around</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-16"/>
-    </children>
-  </item>
-  <item nodeId="node-16">
-    <command xml:space="preserve">x command panel</command>
-    <result xml:space="preserve">You see nothing special about the command panel.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-17">
-    <command xml:space="preserve">open command panel</command>
-    <result xml:space="preserve">You open the command panel, revealing a secret storage, a fried communicator and a green button.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-18"/>
-      <child nodeId="node-25"/>
-    </children>
-  </item>
-  <item nodeId="node-18">
-    <command xml:space="preserve">open secret storage compartment</command>
-    <result xml:space="preserve">I only understood you as far as wanting to open the secret storage.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-19"/>
-      <child nodeId="node-20"/>
-    </children>
-  </item>
-  <item nodeId="node-19">
-    <command xml:space="preserve">open secret storage compartment</command>
-    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-20">
-    <command xml:space="preserve">push green button</command>
-    <result xml:space="preserve">It is fixed in place.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-21"/>
-    </children>
-  </item>
-  <item nodeId="node-21">
-    <command xml:space="preserve">push green button</command>
-    <result xml:space="preserve">It is fixed in place.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-22"/>
-    </children>
-  </item>
-  <item nodeId="node-22">
-    <command xml:space="preserve">x secret storage compartment</command>
-    <result xml:space="preserve">I only understood you as far as wanting to examine the secret storage.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-23"/>
-    </children>
-  </item>
-  <item nodeId="node-23">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">fried communicator: Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-24"/>
-    </children>
-  </item>
-  <item nodeId="node-24">
-    <command xml:space="preserve">drop all</command>
-    <result xml:space="preserve">fried communicator: Dropped.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-25">
-    <command xml:space="preserve">open secret storage</command>
-    <result xml:space="preserve">You open the secret storage, revealing an encryption key and an energy orb.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-26">
-    <command xml:space="preserve">open command panel</command>
-    <result xml:space="preserve">You open the command panel, revealing a secret storage, a fried communicator and a green button.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-27"/>
-      <child nodeId="node-33"/>
-      <child nodeId="node-39"/>
-    </children>
-  </item>
-  <item nodeId="node-27">
-    <command xml:space="preserve">open secret storage</command>
-    <result xml:space="preserve">You open the secret storage, revealing an encryption key and an energy orb.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-28"/>
-    </children>
-  </item>
-  <item nodeId="node-28">
-    <command xml:space="preserve">push button</command>
-    <result xml:space="preserve">Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-29"/>
-    </children>
-  </item>
-  <item nodeId="node-29">
-    <command xml:space="preserve">push green button</command>
-    <result xml:space="preserve">Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-30"/>
-    </children>
-  </item>
-  <item nodeId="node-30">
-    <command xml:space="preserve">close secret storage</command>
-    <result xml:space="preserve">That's already closed.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-31"/>
-    </children>
-  </item>
-  <item nodeId="node-31">
-    <command xml:space="preserve">open secret storage</command>
-    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-32"/>
-    </children>
-  </item>
-  <item nodeId="node-32">
-    <command xml:space="preserve">push green button</command>
-    <result xml:space="preserve">Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-33">
-    <command xml:space="preserve">push green button</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-34"/>
-    </children>
-  </item>
-  <item nodeId="node-34">
-    <command xml:space="preserve">push button</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-35"/>
-    </children>
-  </item>
-  <item nodeId="node-35">
-    <command xml:space="preserve">open secret storage</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-36"/>
-    </children>
-  </item>
-  <item nodeId="node-36">
-    <command xml:space="preserve">push button</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-37"/>
-    </children>
-  </item>
-  <item nodeId="node-37">
-    <command xml:space="preserve">push button</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-38"/>
-    </children>
-  </item>
-  <item nodeId="node-38">
-    <command xml:space="preserve">open secret storage</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-39">
-    <command xml:space="preserve">x fried communicator</command>
-    <result xml:space="preserve">You see nothing special about the fried communicator.&#x000A;&#x000A;Yep, totally busted!&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-40"/>
-    </children>
-  </item>
-  <item nodeId="node-40">
-    <command xml:space="preserve">open secret storage</command>
-    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-41"/>
-    </children>
-  </item>
-  <item nodeId="node-41">
-    <command xml:space="preserve">push green button</command>
-    <result xml:space="preserve">Beep Boop! Secret storage status: OPEN.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-42"/>
-    </children>
-  </item>
-  <item nodeId="node-42">
-    <command xml:space="preserve">open secret storage</command>
-    <result xml:space="preserve">You open the secret storage, revealing an encryption key and an energy orb.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-43"/>
-    </children>
-  </item>
-  <item nodeId="node-43">
-    <command xml:space="preserve">take energy orb</command>
-    <result xml:space="preserve">I totally forgot that I've put this here. This orb holds a huge amount of energy which could be used to power all kinds of devices and possibly even weapons.&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-44"/>
-    </children>
-  </item>
-  <item nodeId="node-44">
-    <command xml:space="preserve">put energy orb into suit capacitor</command>
-    <result xml:space="preserve">You put the energy orb into the suit capacitor.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-45"/>
-    </children>
-  </item>
-  <item nodeId="node-45">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Spaceship Storage&#x000A;Taking a quick look inside the storage room doesn't seem to reveal anything particularly interesting. There are only some random souvenirs from your previous intergalactic travels and your locker which you haven't opened in ages.  It also looks like the airlock in the south doesn't seem to function anymore so perhaps I should go check that out as well?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-46"/>
-    </children>
-  </item>
-  <item nodeId="node-46">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Spaceship Exit&#x000A;The airlock also seems to be affected by the crash and the temperatures inside the spaceship are nearing dangerous levels. I could leave the spaceship right now by going east but I if I don't have something to protect me from the cold I will probably die.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-47"/>
-    </children>
-  </item>
-  <item nodeId="node-47">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">Crash Zone&#x000A;The surface of Kaldr&#x00ED;ss consists of spiky ice formations as far as the eye can see . No wonder nobody in his right mind would try to land here willingly. A little further in the north you can vaguely see some sort of structure. You should be able to make it in time.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-48"/>
-    </children>
-  </item>
-  <item nodeId="node-48">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Hunting Grounds&#x000A;Turns out this used to be an explorer camp and you instantly feel a little less lonely and also more safe. Seems like a good place to stay for a while and trying not to freeze to death. But where did those explorers go and why did they leave pretty much everything behind? Further investigations of this place also reveal something that looks like a cave entrance underneath that lies underneath the camp.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-49"/>
-    </children>
-  </item>
-  <item nodeId="node-49">
-    <command xml:space="preserve">go down</command>
-    <result xml:space="preserve">Upon trying to make your way into the small cave entrance you slipped and went way further than you initally planned. Apart from a few scratches here and there you seem to be okay even though your head hurts quite a lot. You look around and try to understand where the hell you are when you suddenly see something that resembles a .. bear? It looks more humanoid though .. is it .. is this a .. Yeti?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-50"/>
-    </children>
-  </item>
-  <item nodeId="node-50">
-    <command xml:space="preserve">look around</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-51"/>
-    </children>
-  </item>
-  <item nodeId="node-51">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-52"/>
-    </children>
-  </item>
-  <item nodeId="node-52">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-53"/>
-    </children>
-  </item>
-  <item nodeId="node-53">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You don't want to go there.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-54"/>
-    </children>
-  </item>
-  <item nodeId="node-54">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You don't want to go there.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-55"/>
-    </children>
-  </item>
-  <item nodeId="node-55">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You don't want to go there.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-56"/>
-    </children>
-  </item>
-  <item nodeId="node-56">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You don't want to go there.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-57"/>
-    </children>
-  </item>
-  <item nodeId="node-57">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">You don't want to go there.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-58"/>
-    </children>
-  </item>
-  <item nodeId="node-58">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">Yarwol's Cave&#x000A;This cave is where Yarwol, the oldest Yet&#x00ED;ss, resides.&#x000A;&#x000A;The oldest Yet&#x00ED;ss in this cave system. Also very wise since he's been living on this planet for over 200 years.&#x000A;&#x000A;You can also see Yarwol's Keystone here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-59"/>
-    </children>
-  </item>
-  <item nodeId="node-59">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">Yarwol's Keystone: Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-60"/>
-    </children>
-  </item>
-  <item nodeId="node-60">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Main Cave&#x000A;Insert description here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-61"/>
-    </children>
-  </item>
-  <item nodeId="node-61">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">A door magically opens and  eventually you are able to enter the secret cave in the east. Gaining the Yet&#x00ED;ss trust wasn't easy but in the end you managed to do it and now it's finally time to find a way off this planet!&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-62"/>
-    </children>
-  </item>
-  <item nodeId="node-62">
-    <command xml:space="preserve">go up</command>
-    <result xml:space="preserve">Blakkr&#x00ED;ss Temple Entrance&#x000A;Insert description here.&#x000A;&#x000A;It's dangerous to go alone!&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-63"/>
-    </children>
-  </item>
-  <item nodeId="node-63">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Great Hall&#x000A;Insert description here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-64"/>
-    </children>
-  </item>
-  <item nodeId="node-64">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Spectral Bridge&#x000A;Insert description here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-65"/>
-    </children>
-  </item>
-  <item nodeId="node-65">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Bifr&#x00F6;st Portal Chamber&#x000A;Insert description here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-66"/>
-    </children>
-  </item>
-  <item nodeId="node-66">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-67"/>
-    </children>
-  </item>
-  <item nodeId="node-67">
-    <command xml:space="preserve">end</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-68">
-    <command xml:space="preserve">Helper</command>
-    <result xml:space="preserve">---&#x000A; This is the help section, you will get a list of essential commands that you can use in the game.&#x000A;&#x000A;&#x000A;&#x000A;look - shows you the room you are currently in&#x000A; e(x)amine - get information about a thing or a person&#x000A; take - take something&#x000A;&#x000A;&#x000A;(e)ast - go east&#x000A; (w)est - go west&#x000A; (s)outh - go south&#x000A; (n)orth - go north&#x000A;&#x000A;&#x000A;Frizza&#x000A; ask someone about something - the typical way to begin a dialogue, the topics you can ask about are printed bold in the text beforehand&#x000A; answer something (to someone) - the typical way to respond to questions, the topics you can answer are printed bold in the text beforehand&#x000A; wait - wait some time, some situations may require this&#x000A; wear (something) - put clothing on&#x000A; take off (something )- take off clothing&#x000A;&#x000A;&#x000A;Kaldr&#x00ED;ss&#x000A; open/close something&#x000A; unlock/lock something&#x000A; insert something into something&#x000A; remove something from something&#x000A; shove something aside - some situations with blocked paths may require this&#x000A; put back something into place - WOZU?&#x000A;&#x000A;&#x000A;End of help section&#x000A;---&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-69"/>
-    </children>
-  </item>
-  <item nodeId="node-69">
-    <command xml:space="preserve">Helper</command>
-    <result xml:space="preserve">---&#x000A; This is the help section, you will get a list of essential commands that you can use in the game.&#x000A;&#x000A;&#x000A;&#x000A;look - shows you the room you are currently in&#x000A; e(x)amine - get information about a thing or a person&#x000A; take - take something&#x000A;&#x000A;&#x000A;(e)ast - go east&#x000A; (w)est - go west&#x000A; (s)outh - go south&#x000A; (n)orth - go north&#x000A;&#x000A;&#x000A;Frizza&#x000A; ask someone about something - the typical way to begin a dialogue, the topics you can ask about are printed bold in the text beforehand&#x000A; answer something (to someone) - the typical way to respond to questions, the topics you can answer are printed bold in the text beforehand&#x000A; wait - wait some time, some situations may require this&#x000A; wear (something) - put clothing on&#x000A; take off (something )- take off clothing&#x000A;&#x000A;&#x000A;Kaldr&#x00ED;ss&#x000A; open/close something&#x000A; unlock/lock something&#x000A; insert something into something&#x000A; remove something from something&#x000A; shove something aside - some situations with blocked paths may require this&#x000A; put back something into place - WOZU?&#x000A;&#x000A;&#x000A;End of help section&#x000A;---&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-70"/>
-    </children>
-  </item>
-  <item nodeId="node-70">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">The Wide Desert&#x000A; You've reached the Desert of Sitis. It gives you two things: First, an impression of what whole Sitis looks like - sandy, dry, with some deep stone canyons and huge rocks afar. But although this planet does not seem to be a place to life, the Desert also gives you the chance to discern that you are not alone. There IS life! When you look north, directly in front of you is a long corrugated iron bridge, guiding over one of those ravines. You can not access the bridge, it is blocked with a barbed wire fence, but straight ahead, at the end you see a majestic sandstone palace. In the bridge's middel, a wooden ladder leads to an enormous square block in the east. Likewise it is built out of stone and gives a somber impression. If you look east from the point you are standing at right now you realise that the canyon When you look south you recognize a lot of small white houses. It seems like people are living there .&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-71"/>
-    </children>
-  </item>
-  <item nodeId="node-71">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You don't want to go there.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-72"/>
-    </children>
-  </item>
-  <item nodeId="node-72">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You don't want to go there.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-73"/>
-    </children>
-  </item>
-  <item nodeId="node-73">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You don't want to go there.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-74"/>
-    </children>
-  </item>
-  <item nodeId="node-74">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You don't want to go there.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-75"/>
-    </children>
-  </item>
-  <item nodeId="node-75">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">The Rampart of Sicuum&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-76"/>
-    </children>
-  </item>
-  <item nodeId="node-76">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">The Agora of Sicuum&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-77"/>
-    </children>
-  </item>
-  <item nodeId="node-77">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">Your Shelter&#x000A;You can see Anaidis and Carissimi here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-78"/>
-    </children>
-  </item>
-  <item nodeId="node-78">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">A secret Passage&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-79"/>
-    </children>
-  </item>
-  <item nodeId="node-79">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The Rock Mine&#x000A;You can see Ilithios here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-80"/>
-    </children>
-  </item>
-  <item nodeId="node-80">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">There is no way to advance in this direction.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-81"/>
-    </children>
-  </item>
-  <item nodeId="node-81">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">There is no way to advance in this direction.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1483">
+    <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
+    <item nodeId="node-1483">
+        <command xml:space="preserve">On the Lookout</command>
+        <result xml:space="preserve">Your ship falls through thick layers of dark clouds. Red flashes illuminate your surroundings. The lights on your console warn you of the dangerously fast approaching energy level zero. As you finally break through the last cloud, you get a glimpse of what awaits you underneath. 
+Black planes and sharp cliffs of a dark red shape the landscape. In the east you perceive a massive rock formation, in the west you see a thick blue stream cutting through the plane , illuminating big portions of it in the process. Somewhere to the south there seem to be some sort of industrial constructions, far in the north you believe to recognize cubic shapes that reveal a city. You don't have time to study the landscape much longer. All you concentration is desperately needed as you find a gap in the ghastly cliffs and bring down your ship. Heavy jolting, followed by a sudden blow signalize your landing. 
+Your ship's on the ground, and you are too, barely. Welcome to Frizza.
+
+On the Lookout
+An Interactive Fiction by Franziska, Daniel, Kevin, Tim, Tobias
+Release 1 / Serial number 170623 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Your arrival point. The Flat Rock
+ You arrive on a planet called Sitis. The arrival should have been easy because you had the possibility to land on a big flat stone but as you leave your spaceship, you realise that two of your three water container broke down. Without minimum one new watertank you can not continue your journey. Far away in the east you recognise some kind of different rooftops. Maybe someones living there who could help you? 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1550"></child>
+            <child nodeId="node-1508"></child>
+            <child nodeId="node-1489"></child>
+            <child nodeId="node-1495"></child>
+            <child nodeId="node-1484"></child>
+        </children>
+    </item>
+    <item nodeId="node-1484">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1485"></child>
+        </children>
+    </item>
+    <item nodeId="node-1485">
+        <command xml:space="preserve">my name?</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1486"></child>
+        </children>
+    </item>
+    <item nodeId="node-1486">
+        <command xml:space="preserve">what is my name?</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1487"></child>
+        </children>
+    </item>
+    <item nodeId="node-1487">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You don't want to go there.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1488"></child>
+        </children>
+    </item>
+    <item nodeId="node-1488">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">The Wide Desert
+ The Desert of Sitis gives you the chance to gain orientation. When you look north you see a big brown golden palace. In the east you recognize an old dark House. Description missed! When you look south you recognize a lot of small white houses. It seems like people are living there .
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1495">
+        <command xml:space="preserve">x command panel</command>
+        <result xml:space="preserve">You see nothing special about the command panel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1499"></child>
+            <child nodeId="node-1496"></child>
+        </children>
+    </item>
+    <item nodeId="node-1496">
+        <command xml:space="preserve">take encryption key</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1497"></child>
+        </children>
+    </item>
+    <item nodeId="node-1497">
+        <command xml:space="preserve">look around</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1498"></child>
+        </children>
+    </item>
+    <item nodeId="node-1498">
+        <command xml:space="preserve">x command panel</command>
+        <result xml:space="preserve">You see nothing special about the command panel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1499">
+        <command xml:space="preserve">open command panel</command>
+        <result xml:space="preserve">You open the command panel, revealing a secret storage, a fried communicator and a green button.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1507"></child>
+            <child nodeId="node-1500"></child>
+        </children>
+    </item>
+    <item nodeId="node-1500">
+        <command xml:space="preserve">open secret storage compartment</command>
+        <result xml:space="preserve">I only understood you as far as wanting to open the secret storage.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1501"></child>
+            <child nodeId="node-1502"></child>
+        </children>
+    </item>
+    <item nodeId="node-1502">
+        <command xml:space="preserve">push green button</command>
+        <result xml:space="preserve">It is fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1503"></child>
+        </children>
+    </item>
+    <item nodeId="node-1503">
+        <command xml:space="preserve">push green button</command>
+        <result xml:space="preserve">It is fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1504"></child>
+        </children>
+    </item>
+    <item nodeId="node-1504">
+        <command xml:space="preserve">x secret storage compartment</command>
+        <result xml:space="preserve">I only understood you as far as wanting to examine the secret storage.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1505"></child>
+        </children>
+    </item>
+    <item nodeId="node-1505">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">fried communicator: Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1506"></child>
+        </children>
+    </item>
+    <item nodeId="node-1506">
+        <command xml:space="preserve">drop all</command>
+        <result xml:space="preserve">fried communicator: Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1501">
+        <command xml:space="preserve">open secret storage compartment</command>
+        <result xml:space="preserve">That's already open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1507">
+        <command xml:space="preserve">open secret storage</command>
+        <result xml:space="preserve">You open the secret storage, revealing an encryption key and an energy orb.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1489">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Spaceship Storage
+Taking a quick look inside the storage room doesn't seem to reveal anything particularly interesting. There are only some random souvenirs from your previous intergalactic travels and your locker which you haven't opened in ages.  It also looks like the airlock in the south doesn't seem to function anymore so perhaps I should go check that out as well?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1490"></child>
+        </children>
+    </item>
+    <item nodeId="node-1490">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You got caught in a meteor shower and while trying your best to manouver your spaceship through it  your engine still took a hit. You then had to crash-land on Kaldríss - one of the most cold planets in this solar system.  Since only a few explorers made their to this planet there's not a whole lot of information available about this icy place. You are pretty much on your own now. The spaceship also won't take off before it hasn't been properly repaired. But first things first. Without any kind of heat you won't survive this bleakness for long. You tame a look at the command panel in hopes of finding something of use but it doesn't look very good. There's only a single green button on the command panel. What could this mean? Might be worth checking out. I could also go south and check storage.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1494"></child>
+            <child nodeId="node-1491"></child>
+        </children>
+    </item>
+    <item nodeId="node-1491">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Spaceship Storage
+Taking a quick look inside the storage room doesn't seem to reveal anything particularly interesting. There are only some random souvenirs from your previous intergalactic travels and your locker which you haven't opened in ages.  It also looks like the airlock in the south doesn't seem to function anymore so perhaps I should go check that out as well?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1492"></child>
+        </children>
+    </item>
+    <item nodeId="node-1492">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">Spaceship Bridge
+The place where all the magic happens. Well, it used to be at least - during the impact most of the important equpiment including the communication systems must have been fried and doesn't seem to work anymore.  There's only a single illuminated button that is flickering on the command panel. What could this mean? Might be worth checking out. I could also go south and check the storage of the spaceship.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1493"></child>
+        </children>
+    </item>
+    <item nodeId="node-1493">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Spaceship Storage
+Taking a quick look inside the storage room doesn't seem to reveal anything particularly interesting. There are only some random souvenirs from your previous intergalactic travels and your locker which you haven't opened in ages.  It also looks like the airlock in the south doesn't seem to function anymore so perhaps I should go check that out as well?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1494">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You don't want to go there.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1508">
+        <command xml:space="preserve">open command panel</command>
+        <result xml:space="preserve">You open the command panel, revealing a secret storage, a fried communicator and a green button.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1509"></child>
+            <child nodeId="node-1515"></child>
+            <child nodeId="node-1521"></child>
+        </children>
+    </item>
+    <item nodeId="node-1521">
+        <command xml:space="preserve">x fried communicator</command>
+        <result xml:space="preserve">You see nothing special about the fried communicator.
+
+Yep, totally busted!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1522"></child>
+        </children>
+    </item>
+    <item nodeId="node-1522">
+        <command xml:space="preserve">open secret storage</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1523"></child>
+        </children>
+    </item>
+    <item nodeId="node-1523">
+        <command xml:space="preserve">push green button</command>
+        <result xml:space="preserve">Beep Boop! Secret storage status: OPEN.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1524"></child>
+        </children>
+    </item>
+    <item nodeId="node-1524">
+        <command xml:space="preserve">open secret storage</command>
+        <result xml:space="preserve">You open the secret storage, revealing an encryption key and an energy orb.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1525"></child>
+        </children>
+    </item>
+    <item nodeId="node-1525">
+        <command xml:space="preserve">take energy orb</command>
+        <result xml:space="preserve">I totally forgot that I've put this here. This orb holds a huge amount of energy which could be used to power all kinds of devices and possibly even weapons.
+
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1526"></child>
+        </children>
+    </item>
+    <item nodeId="node-1526">
+        <command xml:space="preserve">put energy orb into suit capacitor</command>
+        <result xml:space="preserve">You put the energy orb into the suit capacitor.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1527"></child>
+        </children>
+    </item>
+    <item nodeId="node-1527">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Spaceship Storage
+Taking a quick look inside the storage room doesn't seem to reveal anything particularly interesting. There are only some random souvenirs from your previous intergalactic travels and your locker which you haven't opened in ages.  It also looks like the airlock in the south doesn't seem to function anymore so perhaps I should go check that out as well?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1528"></child>
+        </children>
+    </item>
+    <item nodeId="node-1528">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Spaceship Exit
+The airlock also seems to be affected by the crash and the temperatures inside the spaceship are nearing dangerous levels. I could leave the spaceship right now by going east but I if I don't have something to protect me from the cold I will probably die.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1529"></child>
+        </children>
+    </item>
+    <item nodeId="node-1529">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Crash Zone
+The surface of Kaldríss consists of spiky ice formations as far as the eye can see . No wonder nobody in his right mind would try to land here willingly. A little further in the north you can vaguely see some sort of structure. You should be able to make it in time.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1530"></child>
+        </children>
+    </item>
+    <item nodeId="node-1530">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">Hunting Grounds
+Turns out this used to be an explorer camp and you instantly feel a little less lonely and also more safe. Seems like a good place to stay for a while and trying not to freeze to death. But where did those explorers go and why did they leave pretty much everything behind? Further investigations of this place also reveal something that looks like a cave entrance underneath that lies underneath the camp.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1531"></child>
+        </children>
+    </item>
+    <item nodeId="node-1531">
+        <command xml:space="preserve">go down</command>
+        <result xml:space="preserve">Upon trying to make your way into the small cave entrance you slipped and went way further than you initally planned. Apart from a few scratches here and there you seem to be okay even though your head hurts quite a lot. You look around and try to understand where the hell you are when you suddenly see something that resembles a .. bear? It looks more humanoid though .. is it .. is this a .. Yeti?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1532"></child>
+        </children>
+    </item>
+    <item nodeId="node-1532">
+        <command xml:space="preserve">look around</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1533"></child>
+        </children>
+    </item>
+    <item nodeId="node-1533">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1534"></child>
+        </children>
+    </item>
+    <item nodeId="node-1534">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1535"></child>
+        </children>
+    </item>
+    <item nodeId="node-1535">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You don't want to go there.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1536"></child>
+        </children>
+    </item>
+    <item nodeId="node-1536">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You don't want to go there.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1537"></child>
+        </children>
+    </item>
+    <item nodeId="node-1537">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You don't want to go there.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1538"></child>
+        </children>
+    </item>
+    <item nodeId="node-1538">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You don't want to go there.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1539"></child>
+        </children>
+    </item>
+    <item nodeId="node-1539">
+        <command xml:space="preserve">go west</command>
+        <result xml:space="preserve">You don't want to go there.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1540"></child>
+        </children>
+    </item>
+    <item nodeId="node-1540">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Yarwol's Cave
+This cave is where Yarwol, the oldest Yetíss, resides.
+
+The oldest Yetíss in this cave system. Also very wise since he's been living on this planet for over 200 years.
+
+You can also see Yarwol's Keystone here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1541"></child>
+        </children>
+    </item>
+    <item nodeId="node-1541">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">Yarwol's Keystone: Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1542"></child>
+        </children>
+    </item>
+    <item nodeId="node-1542">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Main Cave
+Insert description here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1543"></child>
+        </children>
+    </item>
+    <item nodeId="node-1543">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">A door magically opens and  eventually you are able to enter the secret cave in the east. Gaining the Yetíss trust wasn't easy but in the end you managed to do it and now it's finally time to find a way off this planet!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1544"></child>
+        </children>
+    </item>
+    <item nodeId="node-1544">
+        <command xml:space="preserve">go up</command>
+        <result xml:space="preserve">Blakkríss Temple Entrance
+Insert description here.
+
+It's dangerous to go alone!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1545"></child>
+        </children>
+    </item>
+    <item nodeId="node-1545">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Great Hall
+Insert description here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1546"></child>
+        </children>
+    </item>
+    <item nodeId="node-1546">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Spectral Bridge
+Insert description here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1547"></child>
+        </children>
+    </item>
+    <item nodeId="node-1547">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Bifröst Portal Chamber
+Insert description here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1548"></child>
+        </children>
+    </item>
+    <item nodeId="node-1548">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1549"></child>
+        </children>
+    </item>
+    <item nodeId="node-1549">
+        <command xml:space="preserve">end</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1515">
+        <command xml:space="preserve">push green button</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1516"></child>
+        </children>
+    </item>
+    <item nodeId="node-1516">
+        <command xml:space="preserve">push button</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1517"></child>
+        </children>
+    </item>
+    <item nodeId="node-1517">
+        <command xml:space="preserve">open secret storage</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1518"></child>
+        </children>
+    </item>
+    <item nodeId="node-1518">
+        <command xml:space="preserve">push button</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1519"></child>
+        </children>
+    </item>
+    <item nodeId="node-1519">
+        <command xml:space="preserve">push button</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1520"></child>
+        </children>
+    </item>
+    <item nodeId="node-1520">
+        <command xml:space="preserve">open secret storage</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1509">
+        <command xml:space="preserve">open secret storage</command>
+        <result xml:space="preserve">You open the secret storage, revealing an encryption key and an energy orb.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1510"></child>
+        </children>
+    </item>
+    <item nodeId="node-1510">
+        <command xml:space="preserve">push button</command>
+        <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1511"></child>
+        </children>
+    </item>
+    <item nodeId="node-1511">
+        <command xml:space="preserve">push green button</command>
+        <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1512"></child>
+        </children>
+    </item>
+    <item nodeId="node-1512">
+        <command xml:space="preserve">close secret storage</command>
+        <result xml:space="preserve">That's already closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1513"></child>
+        </children>
+    </item>
+    <item nodeId="node-1513">
+        <command xml:space="preserve">open secret storage</command>
+        <result xml:space="preserve">That's already open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1514"></child>
+        </children>
+    </item>
+    <item nodeId="node-1514">
+        <command xml:space="preserve">push green button</command>
+        <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1550">
+        <command xml:space="preserve">Helper</command>
+        <result xml:space="preserve">---
+ This is the help section, you will get a list of essential commands that you can use in the game.
+
+
+
+look - shows you the room you are currently in
+ e(x)amine - get information about a thing or a person
+ take - take something
+
+
+(e)ast - go east
+ (w)est - go west
+ (s)outh - go south
+ (n)orth - go north
+
+
+Frizza
+ ask someone about something - the typical way to begin a dialogue, the topics you can ask about are printed bold in the text beforehand
+ answer something (to someone) - the typical way to respond to questions, the topics you can answer are printed bold in the text beforehand
+ wait - wait some time, some situations may require this
+ wear (something) - put clothing on
+ take off (something )- take off clothing
+
+
+Kaldríss
+ open/close something
+ unlock/lock something
+ insert something into something
+ remove something from something
+ shove something aside - some situations with blocked paths may require this
+ put back something into place - WOZU?
+
+
+End of help section
+---
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1551"></child>
+        </children>
+    </item>
+    <item nodeId="node-1551">
+        <command xml:space="preserve">Helper</command>
+        <result xml:space="preserve">---
+ This is the help section, you will get a list of essential commands that you can use in the game.
+
+
+
+look - shows you the room you are currently in
+ e(x)amine - get information about a thing or a person
+ take - take something
+
+
+(e)ast - go east
+ (w)est - go west
+ (s)outh - go south
+ (n)orth - go north
+
+
+Frizza
+ ask someone about something - the typical way to begin a dialogue, the topics you can ask about are printed bold in the text beforehand
+ answer something (to someone) - the typical way to respond to questions, the topics you can answer are printed bold in the text beforehand
+ wait - wait some time, some situations may require this
+ wear (something) - put clothing on
+ take off (something )- take off clothing
+
+
+Kaldríss
+ open/close something
+ unlock/lock something
+ insert something into something
+ remove something from something
+ shove something aside - some situations with blocked paths may require this
+ put back something into place - WOZU?
+
+
+End of help section
+---
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1552"></child>
+        </children>
+    </item>
+    <item nodeId="node-1552">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">The Wide Desert
+ You've reached the Desert of Sitis. It gives you two things: First, an impression of what whole Sitis looks like - sandy, dry, with some deep stone canyons and huge rocks afar. But although this planet does not seem to be a place to life, the Desert also gives you the chance to discern that you are not alone. There IS life! When you look north, directly in front of you is a long corrugated iron bridge, guiding over one of those ravines. You can not access the bridge, it is blocked with a barbed wire fence, but straight ahead, at the end you see a majestic sandstone palace. In the bridge's middel, a wooden ladder leads to an enormous square block in the east. Likewise it is built out of stone and gives a somber impression. If you look east from the point you are standing at right now you realise that the canyon When you look south you recognize a lot of small white houses. It seems like people are living there .
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1553"></child>
+        </children>
+    </item>
+    <item nodeId="node-1553">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You don't want to go there.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1554"></child>
+        </children>
+    </item>
+    <item nodeId="node-1554">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You don't want to go there.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1555"></child>
+        </children>
+    </item>
+    <item nodeId="node-1555">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You don't want to go there.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1556"></child>
+        </children>
+    </item>
+    <item nodeId="node-1556">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You don't want to go there.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1557"></child>
+        </children>
+    </item>
+    <item nodeId="node-1557">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">The Rampart of Sicuum
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1558"></child>
+        </children>
+    </item>
+    <item nodeId="node-1558">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">The Agora of Sicuum
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1559"></child>
+        </children>
+    </item>
+    <item nodeId="node-1559">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Your Shelter
+You can see Anaidis and Carissimi here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1560"></child>
+        </children>
+    </item>
+    <item nodeId="node-1560">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">A secret Passage
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1561"></child>
+        </children>
+    </item>
+    <item nodeId="node-1561">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">The Rock Mine
+You can see Ilithios here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1562"></child>
+        </children>
+    </item>
+    <item nodeId="node-1562">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">There is no way to advance in this direction.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1563"></child>
+        </children>
+    </item>
+    <item nodeId="node-1563">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">There is no way to advance in this direction.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
 </Skein>

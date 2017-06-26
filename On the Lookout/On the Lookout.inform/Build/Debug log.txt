@@ -1,0 +1,102 @@
+Debugging log of Inform 7
+Inform called as: /Applications/Inform.app/Contents/MacOS/ni -internal /Applications/Inform.app/Contents/Resources/Internal -external /Users/kevinkoch/Library/Inform -project /Users/kevinkoch/Documents/Scrum-2017v2/On the Lookout/On the Lookout.inform -format=ulx
+Found language bundle 'English' (built in)
+Found language bundle 'French' (built in)
+Found language bundle 'German' (built in)
+Found language bundle 'Italian' (built in)
+Found language bundle 'Spanish' (built in)
+Found language bundle 'Swedish' (built in)
+Reading language definition from </Applications/Inform.app/Contents/Resources/Internal/Languages/English/Syntax.preform>
+720 declarations read (14183 words)
+
+
+-----------------------------------------------------
+Phase I ... Lexical analysis
+-----------------------------------------------------
+
+I've now read your source text, which is 11148 words long.
+
+
+-----------------------------------------------------
+Phase II ... Semantic analysis Ia
+-----------------------------------------------------
+
+I've also read Standard Rules by Graham Nelson, which is 42655 words long.
+I've also read English Language by Graham Nelson, which is 2297 words long.
+I've also read Basic Screen Effects by Emily Short, which is 2218 words long.
+
+
+-----------------------------------------------------
+Phase III ... Initialise language semantics
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase IV ... Semantic analysis Ib
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase V ... Semantic analysis II
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase VI ... Semantic analysis III
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase VII ... First pass through assertions
+-----------------------------------------------------
+
+    Regional: CONSTANT_VNT'the jungle_gaisetto'-region()(I101'jungle_gaisetto')
+     == region
+    Problem PM_SpatialContradiction issued from inform7/Chapter 34/Spatial Model.w, line 216
+
+    In Chapter 5 - Kaldríss, Section 1 - Crash Site:
+
+
+      >--> You wrote 'The locker is an openable lockable container in the Spaceship
+        Storage_Geysiria' (source text, line 373), but also 'The locker is an
+        openable lockable container in the Spaceship Storage_Kaldríss' (source text, line 848):
+        that seems to be saying that the same object (locker) must be in two
+        different places (Spaceship Storage_Geysiria and Spaceship
+        Storage_Kaldríss). This looks like a contradiction. This sometimes happens
+        as a result of a sentence like 'Every person carries a bag', when Inform
+        doesn't know 'bag' as the name of any kind - so that it makes only a single
+        thing called 'bag', and then the sentence looks as if it says everyone is
+        carrying the same bag.
+
+
+
+-----------------------------------------------------
+Phase VIII ... Compilation now complete
+-----------------------------------------------------
+
+Total of 4 files written as streams.
+CPU time: 54 centiseconds
+
+
+That concludes the debugging log from this run of Inform.
+Its contents were as follows, and can be changed by placing
+text like 'Include property creations in the debugging log.'
+or 'Omit everything from the debugging log.' in the source.
+
+Included:
+  debugging log contents  debugging log inclusions
+Omitted:
+  action creations   action pattern compilation  action pattern parsing  assemblies    assertions    case insensitive filehandling
+  conditions    constructed past participles  constructed plurals   description compilation   excerpt meanings   excerpt parsing 
+  expressions    extensions census   figure creations   grammar    grammar construction   headings  
+  implications    inferences    kind changes   kind checking   kind creations   lexical output 
+  local variables   matching    meaning list allocation  memory allocation   noun resolution   object compilation 
+  object creations   object tree   phrase comparisons   phrase compilation   phrase creations   phrase registration 
+  phrase usage   predicate calculus   predicate calculus workings  pronouns    property creations   property provision 
+  property translations   relation definitions   rule attachments   rulebook compilation   spatial map   spatial map workings
+  specification permissions   specification usage   specificities    table construction   template reading   text substitutions 
+  time periods   variable creations   verifications    vocabulary  
