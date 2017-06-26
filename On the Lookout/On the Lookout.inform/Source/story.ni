@@ -184,11 +184,12 @@ Chapter 2 - Gaisetto
 
 
 
+
 [Dschungel]
 
 Jungle_Gaisetto is region. 
-[
-Landingzone_Gaisetto is a room in the Jungle_Gaisetto. "Hell that was a errible ride. Luckly I landed safly on this planet." The printed name of Landingzone_Gaisetto is "Landingzone".
+
+Landingzone_Gaisetto is a room in the Jungle_Gaisetto. "Hell that was a horrible ride. Luckly I landed safly on this planet." The printed name of Landingzone_Gaisetto is "Landingzone".
 
 Jungle_1 is a room in the Jungle_Gaisetto. The printed name of Jungle_1 is "Jungle".
 Temple_Gaisetto is a room in the Jungle_Gaisetto. The printed name of the Temple_Gaisetto is "Temple".
@@ -214,6 +215,7 @@ Temple_Gaisetto is above floor mosaic.
 Tunnel is east of the Catacombs.
 Jungle_8 is above Tunnel.
 
+
 [Objecte im Dschungel]
 
 The golden Plate is a object.
@@ -236,7 +238,7 @@ The totem is a room in Formizer_Village. The printed name of the totem is "Totem
 
 
 The Villagegate is a door. The Villagegate is north of the Chain_bridge. The Villagegate is open.
-The Village_path is north of the Gate. 
+The Village_path is north of the Villagegate.
 The Village_stable is east of the Village_path.
 The Village_square is north of the Village_path.
 The village_hut1 is west of the Village_path.
@@ -269,7 +271,7 @@ The Inscription on the right Templewall is scenery. The right Templewall is a ob
 
 [Schreine]
 
-The shrine_green is in Jungle_6. The printed name is "Shrine covered in moss. It looks very old and has a mysterious green shine." The shrine_green is a openable container. it is locke"Hallo". The emerald unlocks the shrine_green. In the locker is a green_key.
+The shrine_green is in Jungle_6. The printed name is "Shrine covered in moss. It looks very old and has a mysterious green shine." The shrine_green is a openable container. it is locked. The emerald unlocks the shrine_green. In the locker is a green_key.
 The Shrine_blue is in the Jungle_7. The printed name is "Shrine surrounded my blue grass and shallow water. It looks very old and has a mysterious blue shine." The shrine_blue is a openable container. it is locked. The sapphirine unlocks the shrine_blue. In the locker is a blue_key.
 The Shrine_red is in Jungle_8. The printed name is "Shrine circled by a firewall. It looks very old and hat a mysterious red shine." The shrine_red is a openable container. it is locked. The ruby unlocks the shrine_red. In the locker is a red_key.
 
@@ -281,7 +283,6 @@ Before going to the Jungle_8:
 
 
 
-]
 
 Chapter 3- Geysiria
 
