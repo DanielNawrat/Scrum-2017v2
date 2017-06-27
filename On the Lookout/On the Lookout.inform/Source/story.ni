@@ -184,8 +184,6 @@ Ilithios_Sitis is a person in the Rock Mine_Sitis. The printed name of Ilithios_
 Chapter 2 - Gaisetto
 
 
-
-
 [Dschungel]
 
 Jungle_Gaisetto is region. 
@@ -212,10 +210,18 @@ Jungle_4 is north of the Jungle_2 and west of Jungle_1.
 Jungle_5 is north of the Jungle_3 and east of Jungle_1.
 Jungle_6 is north of the Jungle_4.
 Jungle_7 is north of the Jungle_5.
-Temple_Gaisetto is above floor mosaic.
+Temple_Gaisetto is above Floor mosaic.
 Tunnel is east of the Catacombs.
 Jungle_8 is above Tunnel.
 
+Instead of going nowhere from Landingzone_Gaisetto, say "oh hell there is a cliff right in front of you. You are very lucky, that you landed safly".
+Instead of going nowhere from Jungle_2, say "oh hell there is a cliff right in front of you. You are very lucky, that you landed safly".
+Instead of going nowhere from Jungle_3, say "oh hell there is a cliff right in front of you. You are very lucky, that you landed safly".
+Instead of going nowhere from Jungle_4, say "You shouldn't remove yourself too far from the Spaceship, otherwise you'll get lost in the thicket of the jungle".
+Instead of going nowhere from Jungle_5, say "You shouldn't remove yourself too far from the Spaceship, otherwise you'll get lost in the thicket of the jungle".
+Instead of going nowhere from Jungle_6, say "You shouldn't remove yourself too far from the Spaceship, otherwise you'll get lost in the thicket of the jungle".
+Instead of going nowhere from Jungle_7, say "You shouldn't remove yourself too far from the Spaceship, otherwise you'll get lost in the thicket of the jungle".
+Instead of going nowhere from Jungle_8, say "The Jungle is to dense to move forward".
 
 [Objecte im Dschungel]
 
@@ -264,7 +270,7 @@ the lake is in the Jungle_4. It is scenery. The sapphirine is in the lake is hid
 
  The Plinth is door. The Plinth is north of the Temple_Gaisetto. The Plinth is closed and openable. [The Plinth has matching key the golden plate.]
 
-The floor mosaic is door. floor mosaic is above the Catacombs.
+The Floor mosaic is door. Floor mosaic is above the Catacombs.
 the Statue is in the Temple_Gaisetto. the ruby is in the statue.
 the Inscription on the Plinth is scenery. 
 The Inscription on the left Templewall is scenery. The left Templewall is a object in the Temple_gaisetto. it is scenery.
@@ -281,7 +287,6 @@ Before going to the Jungle_8:
 		move the player to the Tunnel;
 		say "Oh no. It is too hot there. The fire will burn you. You have to find something taht prtect you from the flames";
 		stop the action.
-
 
 
 
