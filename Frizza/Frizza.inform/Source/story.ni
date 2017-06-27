@@ -276,13 +276,16 @@ After taking the gun for the second time, say "Instantly you hear shouts and cal
 The console is unexamined.
 
 Before examining the console for the first time:
-	now the description of the console is "A huge oval table, full of ... nothing, actually. All you see is a reflective surface, into which the operators dunk their hands, emitting small waves. Where they touch the surface, you believe to see tiny, interlinked pulses of blue light, like a neural system, but you can't be sure. [paragraph break]As you study the console, the two operators become aware of you, freezing in their motion and watching you suspiciously."
+	now the description of the console is "A huge oval table, full of ... nothing, actually. All you see is a reflective surface, into which the operators dunk their hands, emitting small waves. Where they touch the surface, you believe to see tiny, interlinked pulses of blue light, like a neural system, but you can't be sure. [paragraph break]As you study the console, the two operators become aware of you, freezing in their motion and watching you suspiciously.[paragraph break]Anyhow, you could [bold type]examine[roman type] the console further."
 
 Before examining the console for the second time:
-	now the description of the console is "After taking a closer look, you make out that the energy of the Operators seems to be induced into the console. You start to see a pattern in the waves and currents of the reflective surface ... it reminds you of the great Flux currents ... [paragraph break]As you continue to glance at the console, one of the operators pulls his hands out of it and stands up from his chair. Obviously you don't make a good impression by standing there, maybe it would be wise to say something or disengage from the console."
+	now the description of the console is "After taking a closer look, you make out that the energy of the Operators seems to be induced into the console. You start to see a pattern in the waves and currents of the reflective surface ... it reminds you of the great Flux currents ... [paragraph break]As you continue to glance at the console, one of the operators pulls his hands out of it and stands up from his chair. Obviously you don't make a good impression by standing there, maybe it would be wise to say something or disengage from the console. Still, you could [bold type]examine[roman type] it further."
 
 Before examining the console for the third time:
-	now the description of the console is "Before you can investigate further, the Operators suddenly burst out, chattering bright metallic sounds all over the hall. Instantly there are guards surrounding you, one of which quickly forces you to your knees and irresistibly renders you immobile with some sort of cuffs. You are carried to one corner of the hall like a very miserable sack of grain. Lying down, relaxing perforce, you await Dunia and Du'un to set you free."
+	if the console is unexamined:
+		now the description of the console is "Before you can investigate further, the Operators suddenly burst out, chattering bright metallic sounds all over the hall. Instantly there are guards surrounding you, one of which quickly forces you to your knees and irresistibly renders you immobile with some sort of cuffs. You are carried to one corner of the hall like a very miserable sack of grain. Lying down, relaxing perforce, you await Dunia and Du'un to set you free.";
+	else:
+		now the description of the console is "You can't make out anything new, the Operators are ridiculously shy."
 	
 After examining the console for the third time:
 	now the console is examined;
@@ -306,7 +309,7 @@ After asking Duju Operator 2 about anything:
 
 
 [Waiting]
-A Flux Extractor is in the Lower Gate_Frizza. The description of the Flux Extractor is "It resembles some sort of high-tech fishing net, there are buttons and cables, you think you know how to operate it ... maybe."
+A Flux Extractor is a container in the Lower Gate_Frizza. The description of the Flux Extractor is "It resembles some sort of high-tech fishing net, there are buttons and cables, you think you know how to operate it ... maybe." The Flux Extractor has a carrying capacity 2.
 
 After waiting in the Upper Gate_Frizza for the first time:
 	if Helplesness is false:
@@ -322,6 +325,7 @@ After waiting in the Upper Gate_Frizza for the third time:
 	if the console is unexamined:
 		now Dunia is in the Upper Gate_Frizza;
 		now Du'un is in the Upper Gate_Frizza;
+		now the console is examined;
 		now Du'un carries the Flux Extractor;
 		say "Finally you see the two Duju returning from the opening. As they approach, the big one actually looks amazed by your decent behaviour.[line break][line break][italic type]- It seems like you did as you were told. Maybe you don't have no ill intent after all. Indeed - that is exactly what we're going to find out, if you're willing. But you see, we don't want to force anything on you, you are free to leave. But if you are interested in helping [italic type]us, we would be glad.[paragraph break]";
 	else:
@@ -359,9 +363,59 @@ After putting on the Sinkan Cloak:
 
 [Surface Flux]
 
-A Flux Current is in the Surface Flux 2_Frizza. The Flux Current is openable. There is a Flux Essence in the Flux Current.
-Understand "extract sample from [something]" as opening. Extracting it from is an action applying to one thing.
+A Flux Current is in the Surface Flux 2_Frizza. There is a Regulated Flux Essence in the Underground Flux_Frizza.
+FluxProximity is a truth state that varies. FluxProximity is false.
+FluxExperience is a truth state that varies. FluxExperience is false.
 
+Before examining the Flux Current:
+	if the player has the Flux Extractor:
+		now the description of the Flux Current is "You see a slim rock pedestal protruding from the shore. You may be able to extract a sample from there. You will be dangerously close to the Flux, though. You could try to [bold type]approach[roman type]."
+
+Approaching is an action applying to one visible thing.
+Understand "approach [something]" as approaching.
+
+Extracting is an action applying to one visible thing.
+Understand "extract sample from [Flux Current]" as extracting. 
+
+After approaching the Flux Current:
+	if the player wears the Sinkan Cloak:
+		if FluxProximity is false:
+			if FluxExperience is false:
+				say "Very cautiously you approach the Flux. While coming nearer, each step feels like pumping pure electrictiy into the ground. Your whole body swings in an unknown rhythm. You are only a few steps away now. The Flux flowing lamishly as ever, blistering, throwing arcs of bluish vapor. You feel your atoms slowly leaving their place, starting to rearrange. You take one step after the other, always expecting that your legs will come apart with the next one. Finally, you reach the pedestal. As you crawl onto it, you feel your mind dissolving, your synapses strewing about. You are becoming the Flux.[paragraph break]";
+				now FluxProximity is true;
+			else:
+				say "You already got what you wanted, no need to take risks.";
+	else:
+		say "[paragraph break]You try to approach the Flux, but after a few steps you feel your mind drifting apart, for a second you believe to see holes in your hands and arms, your vision is blackening, you swoon. [paragraph break]You awake soon after. You shortly check your proportions - everything seems to be still in place. You have learned one lesson though: never approach a Flux with only your bare skin protecting you."
+
+After extracting:
+	if FluxProximity is true:
+		if FluxExperience is false:
+			say "You thrust your arm over the ledge, despairingly clasping the Flux Extractor, not knowing whether your arm will dematerialize in an instant. The Extractor extends automatically and dips its head into the glowing liquid. You think to hear a beeping sound. It blurs, as your mind dives into the Flux, becomes energy. You perceive magnetic fields, penetrated by some foreign control. You feel the stream, the Flux arranging itself, its symbioses with the planet. You feel the life essence of the Duju, feeding from the Flux. And you feel its core, more powerful than any other source you ever knew, burried deep down in the caverns. Still you have a slim link to your body, but it trembles and shakes heavily. Finally, your hear a tedious, enduring beeping sound. The Flux Extractor is finished, it now carries a sample of the Flux. You force yourself to crawl down the pedestal, your hands feeling like they would disintegrate any moment, their contours growing hazy. With each step you take away from the Flux, your mind and body recover their focus. You drag yourself up the shore and up the cliffs, before collapsing on the rocky soil.[paragraph break]You wake up.[paragraph break]You receive a [bold type]Regulated Flux Essence[roman type].";
+			now FluxExperience is true;
+			now FluxProximity is false;
+			now the Regulated Flux Essence is in the Flux Extractor;
+		else:
+			say "You already got the regulated sample, you will need an unregulated one as well.";
+	else:
+		say "You will need to draw closer to extract a sample from the Flux."
+
+			
+Before doing anything other than extracting:
+	if the player is in the Surface Flux 2_Frizza:
+		while FluxProximity is true:
+			say "You try to ... there is no ... possible ... ";
+			stop the action.
+
+[After examining the player:
+	if FluxExperience is true:
+		if the player is in the Surface Flux 2_Frizza:
+			now the description of the player is "Everything seems usual at first. Your mind and body are where you remeber them. You take a long glance at the Flux, casually taking its path. For a second, you are terrified, then you calm yourself and wonder if that all really happened. You look at the Cloak you are wearing - the same old strange leather, you think. But ... some of the edges appear to have changed their course, and the leather itself too seems to be contorted somehow ... you don't want to wonder what would have happened if you didn't have the cloak. You silently send a belssing to Dunia and stand up."
+			
+After going anywhere from the Surface Flux 2_Frizza:
+	if FluxExperience is true:
+		now the description of the player is "As good-looking as ever."]
+	
 
 
 [---]
