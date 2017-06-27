@@ -1,0 +1,55 @@
+! Blurb file created by Inform build 6M62
+
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\unicef\Documents\Studium\SS 16\Medienwissenschaft\Scrum\keeping-up-with-the-apocalypse\Keeping Up With The Apocalypse.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\unicef\Documents\Studium\SS 16\Medienwissenschaft\Scrum\keeping-up-with-the-apocalypse\Keeping Up With The Apocalypse.inform"
+release to "C:\Users\unicef\Documents\Studium\SS 16\Medienwissenschaft\Scrum\keeping-up-with-the-apocalypse\Keeping Up With The Apocalypse.materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "Keeping Up With The Apocalypse.zblorb"
+storyfile "C:\Users\unicef\Documents\Studium\SS 16\Medienwissenschaft\Scrum\keeping-up-with-the-apocalypse\Keeping Up With The Apocalypse.inform\Build\output.z8" include
+ifiction "C:\Users\unicef\Documents\Studium\SS 16\Medienwissenschaft\Scrum\keeping-up-with-the-apocalypse\Keeping Up With The Apocalypse.inform\Metadata.iFiction" include
+cover "C:\Users\unicef\Documents\Studium\SS 16\Medienwissenschaft\Scrum\keeping-up-with-the-apocalypse\Keeping Up With The Apocalypse.materials\Cover.jpg"
+picture 1 "C:\Users\unicef\Documents\Studium\SS 16\Medienwissenschaft\Scrum\keeping-up-with-the-apocalypse\Keeping Up With The Apocalypse.materials\Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "4BB632B6-4E39-484B-AA50-E5262C1F9F5E"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2016"
+placeholder [TITLE] = "Keeping Up With The Apocalypse"
+placeholder [AUTHOR] = "Inés Peyser-Kreis"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "Keeping Up With The Apocalypse.zblorb.js"
+template path "C:\Users\unicef\Documents\Studium\SS 16\Medienwissenschaft\Scrum\keeping-up-with-the-apocalypse\Keeping Up With The Apocalypse.materials\Templates"
+template path "C:\Users\unicef\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Parchment" "z"
+base64 "C:\Users\unicef\Documents\Studium\SS 16\Medienwissenschaft\Scrum\keeping-up-with-the-apocalypse\Keeping Up With The Apocalypse.inform\Build\output.z8" to "C:\Users\unicef\Documents\Studium\SS 16\Medienwissenschaft\Scrum\keeping-up-with-the-apocalypse\Keeping Up With The Apocalypse.materials\Release\interpreter\Keeping Up With The Apocalypse.zblorb.js"
+
+! Website instructions
+
+template path "C:\Users\unicef\Documents\Studium\SS 16\Medienwissenschaft\Scrum\keeping-up-with-the-apocalypse\Keeping Up With The Apocalypse.materials\Templates"
+template path "C:\Users\unicef\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line7"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line8"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||

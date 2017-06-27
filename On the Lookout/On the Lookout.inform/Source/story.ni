@@ -28,8 +28,9 @@ Carry out asking Helper about anything:
 This is the help section, you will get a list of essential commands that you can use in the game.[paragraph break][roman type]
 
 look - shows you the room you are currently in[line break]
-e(x)amine - get information about a thing or a person[line break]
-take - take something[line break]
+e(x)amine (something)- get information about a thing or a person (if no object or person is specified, something will be examined automatically, if it's the only thing in the room[line break]
+take (something) - take and carry something[line break]
+(i)nventory - examine what your are carrying[line break]
 
 (e)ast - go east[line break]
 (w)est - go west[line break]
@@ -37,19 +38,19 @@ take - take something[line break]
 (n)orth - go north[line break]
 
 Frizza[line break]
-ask someone about something - the typical way to begin a dialogue, the topics you can ask about are printed [bold type]bold [roman type]in the text beforehand[line break]
-answer something (to someone) - the typical way to respond to questions, the topics you can answer are printed [bold type]bold [roman type]in the text beforehand[line break]
+ask (someone) about (something) - the typical way to begin a dialogue, the topics you can ask about are printed [bold type]bold [roman type]in the text beforehand[line break]
+answer (something) to (someone) - the typical way to respond to questions, the topics you can answer are printed [bold type]bold [roman type]in the text beforehand[line break]
 wait - wait some time, some situations may require this[line break]
 wear (something) -	put clothing on[line break]
 take off (something )-	take off clothing[line break]
 
 Kaldríss[line break]
-open/close something[line break]
-unlock/lock something[line break]
-insert something into something[line break]
-remove something from something[line break]
-shove something aside - some situations with blocked paths may require this[line break]
-put back something into place - WOZU?[line break][paragraph break]";
+open/close (something)[line break]
+unlock/lock (something)[line break]
+insert (something) into (something)[line break]
+remove (something) from (something)[line break]
+shove (something) aside - some situations with blocked paths may require this[line break]
+put back (something) into place - WOZU?[line break][paragraph break]";
 	remove Helper from play;
 	say "End of help section[line break]---"
 
@@ -309,6 +310,9 @@ Instead of going nowhere from the Cave_Geysiria, say "You're in a cave, go explo
 [When play begins:
 	 say 
 	"Mayday, Mayday - your sight is extremly limited to only a few meters, you have to land the space ship as soon as possible. Loss of signal to your surrounding satellites will mean plane crash. You make your way down through massive ash clouds with flying rocks everywhere. Luckily you are able to land safely on planet Geysiria. A planet where no life exists.  Volcanoes, lava rocks, big waves, geysirs and deserted landcsape is what you find here. In order to leave this planet you need to bring the volcanoes to a standstill or find another way to leave this unpleasant planet. Good luck."]
+
+
+
 
 
 
@@ -686,6 +690,7 @@ After answering Dunia that "Techies" for the first time:
 		say "[italic type]Then begone with you! I don't want anything to do with that!";
 		now BlooSympathy is false.
 	
+
 
 
 

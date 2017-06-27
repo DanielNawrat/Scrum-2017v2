@@ -2,22 +2,28 @@
 <ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
     <story>
         <identification>
-            <ifid>193F603B-08EF-42DF-A96B-2333BAB7C3A6</ifid>
-            <format>glulx</format>
+            <ifid>4BB632B6-4E39-484B-AA50-E5262C1F9F5E</ifid>
+            <format>zcode</format>
         </identification>
         <bibliographic>
-            <title>On the Lookout</title>
-            <author>Franziska, Daniel, Kevin, Tim, Tobias</author>
+            <title>Keeping Up With The Apocalypse</title>
+            <author>Inés Peyser-Kreis</author>
             <headline>An Interactive Fiction</headline>
             <genre>Fiction</genre>
-            <firstpublished>2017</firstpublished>
+            <firstpublished>2016</firstpublished>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
+        <cover>
+            <format>jpg</format>
+            <height>500</height>
+            <width>374</width>
+            <description>The cover art.</description>
+        </cover>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2017-06-27</releasedate>
+                    <releasedate>2016-08-07</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>6M62</compilerversion>
@@ -27,12 +33,13 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>6M62</generatorversion>
-            <originated>2017-06-27</originated>
+            <originated>2016-08-07</originated>
         </colophon>
-        <glulx>
-            <serial>170627</serial>
+        <zcode>
+            <serial>160807</serial>
             <release>1</release>
             <compiler>Inform 7 build 6M62</compiler>
-        </glulx>
+            <coverpicture>1</coverpicture>
+        </zcode>
     </story>
 </ifindex>
