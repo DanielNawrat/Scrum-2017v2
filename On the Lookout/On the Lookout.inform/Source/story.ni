@@ -43,6 +43,8 @@ answer (something) to (someone) - the typical way to respond to questions, the t
 wait - wait some time, some situations may require this[line break]
 wear (something) -	put clothing on[line break]
 take off (something )-	take off clothing[line break]
+approach (something)- 	try to draw closer to an object, some situations may require this[line break]
+extract -	extract a sample from the Flux Current[line break]
 
 Kaldríss[line break]
 open/close (something)[line break]
@@ -362,12 +364,15 @@ Carry out asking Helper about anything:
 (s)outh - 		go south[line break]
 (n)orth - 		go north[line break]
 e(x)amine - 		get information about a thing or a person[line break]
+examine myself -		get information about your status, if there are any[line break]
 take - 		take something[line break]
 ask someone about something - the typical way to begin a dialogue, the topics you can ask about are printed [bold type]bold [roman type]in the text beforehand[line break]
 answer something (to someone) - the typical way to respond to questions, the topics you can answer are printed [bold type]bold [roman type]in the text beforehand[line break]
 wait - 	wait some time, some situations may require this[line break]
 wear (something) -	put clothing on[line break]
-take off (something )-	take off clothing[paragraph break]";
+take off (something )-	take off clothing[line break]
+approach (something)- 	try to draw closer to an object, some situations may require this[line break]
+extract -	extract a sample from the Flux Current";
 	remove Helper from play;
 	say "End of help section[line break]---"
 
@@ -411,13 +416,13 @@ After going from the Landing Zone_Frizza:
 [Flux]
 The Surface Flux_Frizza is a room. The Surface Flux_Frizza is west of the Landing Zone_Frizza. The printed name of the Surface Flux_Frizza is "Flux".  The description of Surface Flux_Frizza is "A viscous current of blue fluid cuts through the plane.  You need to screen your eyes from the radiating light to not become blinded. Even at this distance you feel the Flux' presence in your body, as if your atoms were spinning three times their normal pace. You don't know if it's a good idea to approach it further."
 	After going from the Surface Flux_Frizza:
-		now the description of the Surface Flux_Frizza is "The main Flux current of the region.";
+		now the description of the Surface Flux_Frizza is "The main Flux current of the region. A huge [bold type]rock[roman type] loosely stands at its shores.";
 		produce a room description with going spacing conventions.
 			Instead of going to the Underground Flux_Frizza from the Surface Flux_Frizza, do nothing.
 			
 The Surface Flux 2_Frizza is west of the Verge_Frizza. The printed name of the Surface Flux 2_Frizza is "Flux beyond the Gate".  The description of Surface Flux 2_Frizza is "Another current of the Flux. Even from the distance you feel the pure energy flooding your body. It appears to have a slightly different viscosity than the other Fluxes, maybe it has something to do with the Flux Gate arking above the Flux in the south."
 	After going from the Surface Flux 2_Frizza:
-		now the description of the Surface Flux_Frizza is "A branch of the Flux, it emerges from under the Flux Gate to the south.";
+		now the description of the Surface Flux 2_Frizza is "A branch of the Flux, it emerges from under the Flux Gate to the south.";
 		produce a room description with going spacing conventions.
 
 [Mountain]
@@ -671,6 +676,7 @@ Topic	Response
 "Techies"	"[italic type]- They were settler's, originally. Sadly they chose to defile the Flux with their robots and devices, hence their nickname. We are not at good terms at the moment, our 'Leader' Kollock even is bitterly hostile towards them, as he sees them as heretics.[paragraph break]"
 "Kollock"	"[italic type]- Our spiritual leader. Celebrated as god-king. 'He is master, he is Flux'.[paragraph break][roman type]Her tone seems to you tinged with a trace of sarcasm. She looks around, as if to see if nobody is within earshot.[paragraph break][italic type]- Though some appreciate their freedom more than others."
 "Du'un"	"[italic type]- My father and the Keeper of the Flux, if you didn't notice. He taught me to keep an open mind for things, even if his own mental flexibility starts to crumble at the moment."
+"Duju"	"[italic type]- Our people. We have lived on this surface as long as we remember, and that indeed is a long time. We never were the star-seeking sort, due to our connection to the Fluxes. You may have noticed the bluish glow and the glowing bodyparts, they pretty much tell on that fact."
 
 After asking Dunia about "Flux Extractor":
 	if Dunia has the Sinkan Cloak:
@@ -683,23 +689,39 @@ After asking Dunia about "Flux Extractor":
 After putting on the Sinkan Cloak:
 	now CloakWearing is true.
 	
+A Miserable Lever is in the Underground Flux_Frizza. The description of it is "Really not that glamourous, but it will serve."
+
+After asking Dunia about "Gun":
+	if the Monolithic Rock is examined:
+		say "[italic type]- Ah, I see, you look for a way to get down to the current. Well, the gun is not what will help you, even if I gave it to you, which I won't, you still needed to fire it, which you can't. So erase that thought. However ... what might help you ... wait a moment.[roman type][paragraph break] Dunia turns to the rack, which the gun lies on, and resolutely approaches it. With a few precise movements she breaks loose one of the bars framing the rack, accompanied by a bright clang. Even the guards take a short glance, before respectfully turning to the entrance again. Triumphantly, Dunia returns to you and hands you the bar with a smirk. [paragraph break][italic type]- Congratulations, you are now the owner of a convenient lifting tool.[paragraph break][roman type]You receive a [bold type]Miserable Lever[roman type].";
+		now the player has the Miserable Lever;
+	else:
+		say "[italic type]- A bit of weaponry, typical for our fabrication. It wouldn't be of much use to you, unless you know how to operate a Duju gun. Assuming we would let you take it in the first place."
 [--]
 
-[Surface Flux]
+[Surface Flux 2]
 
-A Flux Current is in the Surface Flux 2_Frizza. There is a Regulated Flux Essence in the Underground Flux_Frizza.
+A Flux Current is in the Surface Flux 2_Frizza. There is a Regulated Flux Essence in the Underground Flux_Frizza. The printed name of the Flux Current is "Regulated Flux Current".
 FluxProximity is a truth state that varies. FluxProximity is false.
 FluxExperience is a truth state that varies. FluxExperience is false.
+Instead of taking the Flux Current:
+	if the player carries the Flux Extractor:
+		say "It would be rather pointless to fill your bag with the Flux. Du'un asked you to [bold type]extract[roman type] a sample.";
+	else:
+		say "The Flux is not exactly what you would want to carry barehanded."
 
 Before examining the Flux Current:
 	if the player has the Flux Extractor:
-		now the description of the Flux Current is "You see a slim rock pedestal protruding from the shore. You may be able to extract a sample from there. You will be dangerously close to the Flux, though. You could try to [bold type]approach[roman type]."
+		now the description of the Flux Current is "You see a slim rock pedestal protruding from the shore. You may be able to extract a sample from there. You will be dangerously close to the Flux, though. You could try to [bold type]approach[roman type] it.";
+	else:
+		now the description of the Flux Current is "A branch of the Flux."
 
 Approaching is an action applying to one visible thing.
 Understand "approach [something]" as approaching.
 
 Extracting is an action applying to one visible thing.
 Understand "extract sample from [Flux Current]" as extracting. 
+Understand "extract sample from [Flux Current 2]" as extracting. 
 
 After approaching the Flux Current:
 	if the player wears the Sinkan Cloak:
@@ -731,17 +753,60 @@ Before doing anything other than extracting:
 			say "You try to ... there is no ... possible ... ";
 			stop the action.
 
-[After examining the player:
+Instead of examining the player:
 	if FluxExperience is true:
 		if the player is in the Surface Flux 2_Frizza:
-			now the description of the player is "Everything seems usual at first. Your mind and body are where you remeber them. You take a long glance at the Flux, casually taking its path. For a second, you are terrified, then you calm yourself and wonder if that all really happened. You look at the Cloak you are wearing - the same old strange leather, you think. But ... some of the edges appear to have changed their course, and the leather itself too seems to be contorted somehow ... you don't want to wonder what would have happened if you didn't have the cloak. You silently send a belssing to Dunia and stand up."
-			
-After going anywhere from the Surface Flux 2_Frizza:
-	if FluxExperience is true:
-		now the description of the player is "As good-looking as ever."]
+			now the description of the player is "[if the player is in the Surface Flux 2_Frizza for the first time]Everything seems usual at first. Your mind and body are where you remeber them. You take a long glance at the Flux, casually taking its path. For a second, you are terrified, then you calm yourself and wonder if that all really happened. You look at the Cloak you are wearing - the same old strange leather, you think. But ... some of the edges appear to have changed their course, and the leather itself too seems to be contorted somehow ... you don't want to wonder what would have happened if you didn't have the cloak. You silently send a belssing to Dunia and stand up.[otherwise if the player is in the Surface Flux 2_Frizza for more than the first time]As good-looking as ever. Only ... you thought you had a spot on that left hand of yours, which is gone now ...";
+			continue the action;
+		else:
+			now the description of the player is "As good-looking as ever. Only ... you thought you had a spot on that left hand of yours, which is gone now ...";
+			continue the action.
+		
+[Surface Flux 2 end]
+
+[Surface Flux]
+
+ToppledRock is a truth state that varies. ToppledRock is false.
+An Unregulated Flux Essence is in the Underground Flux_Frizza.
+UnregulatedEssence is a truth state that varies. UnregulatedEssence is false.
+
+A Flux Current 2 is in the Surface Flux_Frizza. The printed name of the Flux Current 2 is "Unregulated Flux Current".
+Before examining the Flux Current 2:
+	if the player has the Flux Extractor:
+		now the description of the Flux Current 2 is "A blue fluid, running through the craggy landscape. Without a ladder or a descent you won't be able to reach it.";
+	else:
+		now the description of the Flux Current 2 is "A branch of the Flux."
+
+There is a Monolithic Rock in the Surface Flux_Frizza. The description of it is "A huge, slender rock looms at the shore of the Flux. It would make a good land to the Flux. It doesn't seem to stand all too stable, if you could only knock it over with something ..." The Monolithic rock is scenery.
+After examining the Monolithic Rock, now the Monolithic Rock is examined. 
+
+Instead of pushing the Monolithic Rock:
+	if the player has the Miserable Lever:
+		say "You thrust the bar into the soil under the rock and start levering. Even with the amplified force you need your whole body to move the rock. Finally, it staggers, and with a last effort you make it topple over. The rock slowly tilts and then continues, with a mighty rumble, to drop into the flux, sending huge waves to both sides. You now have a descent into the Flux. However, your already miserable Lever now is little more than a bent piece of metal, you leave it on the ground";
+		remove the Miserable Lever from play;
+		now the printed name of the Monolithic Rock is "Toppled Rock";
+		now the description of the Monolithic Rock is "A huge, slender rock. It now serves as a descent into the Flux. You may [bold type]approach[roman type] it now.";
+		now ToppledRock is true;
+		stop the action;
+	else:
+		say "Even if it stands loose, you can't shove it with only your muscles.";
+		stop the action.
+
+After approaching the Flux Current 2:
+	if ToppledRock is true:
+		if UnregulatedEssence is false:
+			if the player wears the Sinkan Cloak:
+				say "With little effort you climb down your newfound ramp. As you come closer to the Flux, you feel your body resonating, feeling as if it would prefer to dissolve. Quickly, you extend the Extractor into the Flux and try to keep your fluttering mind together, while hearing the beeping sound. Shorty, you have visions of a brute Duju, clad in plates of thick metal, thorns protruding from the shoulders. Then a lean figure, wrapped in a long black robe, operating some sort of complex device in front of what seems to you like an altar. A penetrating beeping draws you out of your sight. The Extractor is finished. You scramble up to the shore and quickly bring some distance between you and the Flux, your mind and body slowly regaining their place.[paragraph break]You receive an[bold type] Unregulated Flux Essence[roman type].";
+				now the Unregulated Flux Essence is in the Flux Extractor;
+				now UnregulatedEssence is true;
+			else:
+				say "[paragraph break]As you set foot on the ledge you already feel the Flux dragging your essence out of your body. Your mind starts to scatter uncontrollably. Just before losing control, you fall backwards, onto the hard ground, taking some time to regain corporal and mental integrity.";
+		else:
+			say "You already got what you wanted, no need to take risks.";
+	else:
+		say "There is no way to get down to the Flux. You will need something to descend on."
+		
 	
-
-
 [---]
 [Techie]
 After answering Dunia that "Techies" for the first time:
@@ -749,6 +814,9 @@ After answering Dunia that "Techies" for the first time:
 		say "[italic type]Then begone with you! I don't want anything to do with that!";
 		now BlooSympathy is false.
 	
+
+
+
 
 
 
