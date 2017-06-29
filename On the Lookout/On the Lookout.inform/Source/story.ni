@@ -186,19 +186,20 @@ Ilithios_Sitis is a person in the Rock Mine_Sitis. The printed name of Ilithios_
 Chapter 2 - Gaisetto
 
 
+
 [Dschungel]
 
 Jungle_Gaisetto is region. 
 
-Landingzone_Gaisetto is a room in the Jungle_Gaisetto. "Hell that was a horrible ride. Luckly I landed safly on this planet." The printed name of Landingzone_Gaisetto is "Landingzone".
+Landingzone_Gaisetto is a room in the Jungle_Gaisetto. "Hell that was a harsh landing. Thanks God you landed safely on this clearing right next to the cliff. Only some meters besides and your Spaceship would have been shuttered into a thousand pieces. Hopeful all this effort isn’t for nothing at all and I will find some food here. You look around. Behind you is the spaceship in front of the cliff. All the other directions you see a jungle." The printed name of Landingzone_Gaisetto is "Landingzone".
 
 Jungle_1 is a room in the Jungle_Gaisetto. The printed name of Jungle_1 is "Jungle".
 Temple_Gaisetto is a room in the Jungle_Gaisetto. The printed name of the Temple_Gaisetto is "Temple".
-Jungle_2 is a room in the Jungle_Gaisetto.  The printed name of Jungle_2 is "Jungle".
-Jungle_3 is a room in the Jungle_Gaisetto.  The printed name of Jungle_3 is "Jungle".
-Jungle_4 is a room in the Jungle_Gaisetto.  The printed name of Jungle_4 is "Jungle".
+Jungle_2 is a room in the Jungle_Gaisetto. "You are surrounded by strange plants. Some of them have beautiful colourful blossoms and shine in the sunlight. There are huge trees, so high you can’t the top of the crowns and violet ferns covered in blue sticky fluid. Sadly none of the plant around youbear fruits or nuts, that could be eatable. South of you is the cliff. East of you lies the clearing with your spaceship. North of you is something shining through the trees. Maybe there is something reflecting the sunlight."  The printed name of Jungle_2 is "Jungle".
+Jungle_3 is a room in the Jungle_Gaisetto. "There are many trees around you, but only one very huge and old one. Because of its gigantic crown no sunlight reaches the mossy floor. This gives the place a very mystery and unreal aura. South of you is the cliff. West of you lies the clearing with your spaceship. North of you stretches the vastness of the jungle."  The printed name of Jungle_3 is "Jungle".
+Jungle_4 is a room in the Jungle_Gaisetto. "You found a lake in the middle of the jungle. It’s strange, because you can’t find a spring or a stream. Is it water? It looks like, but where is the water coming from?"  The printed name of Jungle_4 is "Jungle".
 Jungle_5 is a room in the Jungle_Gaisetto.  The printed name of Jungle_5 is "Jungle".
-Jungle_6 is a room in the Jungle_Gaisetto.  The printed name of Jungle_6 is "Jungle".
+Jungle_6 is a room in the Jungle_Gaisetto. "Threw a small hole in the dense jungle you found a little green shrine. Who built that and what is it good for?" The printed name of Jungle_6 is "Jungle".
 Jungle_7 is a room in the Jungle_Gaisetto.  The printed name of Jungle_7 is "Jungle".
 Catacombs is a room in the Jungle_Gaisetto. 
 Tunnel is a room in the Jungle_Gaisetto. 
@@ -265,7 +266,7 @@ Soldier is a person in Village_hut3.
 
 [Personen, Objekte und Container im Dschungel]
 
-The tree is a person in the Jungle_3. The tree carries the emerald.
+The huge very old tree is a person in the Jungle_3. The huge very old tree carries the emerald.
 the lake is in the Jungle_4. It is scenery. The sapphirine is in the lake is hidden.
 
 [Container und Türen im Tempel]
