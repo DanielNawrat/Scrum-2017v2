@@ -57,13 +57,7 @@ put (something) on (e.g. clothing)[line break][paragraph break]";
 	say "End of help section[line break]---"
 
 [Limited Inventory]
-<<<<<<< HEAD
 The carrying capacity of the player is 3. The backpack is the player's holdall. The player is wearing the backpack. The backpack is open and not openable. The carrying capacity of the backpack is 3.
-
-
-=======
-The carrying capacity of the player is 3. The backpack is the player's holdall. The player is wearing the backpack. The backpack is open and not openable. The carrying capacity of the backpack is 3. 
->>>>>>> d03938c7d8924914a10b6aa673dbcdb9b4c78490
 
 
 
