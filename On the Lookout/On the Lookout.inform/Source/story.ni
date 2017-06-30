@@ -2,7 +2,7 @@
 
 [Anchor rooms Testsection]
 
-[The Anchor 1, Anchor 2, Anchor 3 and Anchor 4 are rooms. Anchors is a region. Anchor 1, Anchor 2, Anchor 3 and Anchor 4 are in the Anchors.
+The Anchor 1, Anchor 2, Anchor 3 and Anchor 4 are rooms. Anchors is a region. Anchor 1, Anchor 2, Anchor 3 and Anchor 4 are in the Anchors.
 Anchor 1 is east of Rock Mine_Sitis and west of Jungle_23.
 Anchor 2 is east of Jungle_31 and west of Landing Zone_Geysiria.
 Anchor 3 is east of Cave_Geysiria and west of Surface Flux_Frizza.
@@ -12,7 +12,7 @@ The player is in the Flat Rock_Sitis.
 
 Instead of going to the Anchors, say "There is no way to advance in this direction."
 
-The Landing Zone_Geysiria is west of the Cave_Geysiria. The Village_Geysiria is north of the Landing Zone_Geysiria.]
+The Landing Zone_Geysiria is west of the Cave_Geysiria. The Village_Geysiria is north of the Landing Zone_Geysiria.
 
 [---]
 
@@ -65,7 +65,7 @@ The carrying capacity of the player is 3. The backpack is the player's holdall. 
 
 
 
-[
+
 Chapter 1 - Sitis
 
 [Beginn meiner Mapkonstruktion - Landing Zone, Wüste und Sicuum]
@@ -595,13 +595,13 @@ Chapter 1 - Somewhere on Frizza
 
 [Image Testsection]
 
-Include Simple Graphical Window by Emily Short.
+[Include Simple Graphical Window by Emily Short.
 Include Location Images by Emily Short.
 
 
 	Figure of Frizza is the file "wallhaven-94691.jpg".
 
-	The room-illustration of Landing Zone_Frizza is the Figure of Frizza. 
+	The room-illustration of Landing Zone_Frizza is the Figure of Frizza. ]
 	
 [--]
 
@@ -612,7 +612,7 @@ ConcealedDunia is a truth state that varies. ConcealedDunia is true.
 Helplesness is a truth state that varies. Helplesness is false.
 CloakWearing is a truth state that varies. CloakWearing is false. 
 A thing can be examined or unexamined.
-The carrying capacity of the player is 2.
+[The carrying capacity of the player is 2.]
 
 [---]
 
@@ -882,24 +882,13 @@ After asking Dunia about "Flux Essence":
 		say "You're missing the unregulated one."
 
 
-<<<<<<< HEAD
-]
-=======
-
 [Techie]
+
 After answering Dunia that "Techies" for the first time:
 	if Dunia is in the Ascent_Frizza:
 		say "[italic type]Then begone with you! I don't want anything to do with that!";
 		now BlooSympathy is false.
 	
->>>>>>> 65d2bb0dd855ddad7eca68406a1efbef7bf157cb
-
-
-
-
-
-
-
 
 
 
@@ -1129,7 +1118,7 @@ Every turn:
 	move Artemis tidily to next location;
 	if Artemis is visible, say "Artemis arrives from [the current location]."
 
-
+]
 Yarwol's Cave is a room. "This cave is where Yarwol, the oldest Yetíss, resides."
 
 After going to Yarwol's Cave for the first time:
