@@ -52,12 +52,12 @@ unlock/lock (something)[line break]
 insert (something) into (something)[line break]
 remove (something) from (something)[line break]
 shove (something) aside - some situations with blocked paths may require this[line break]
-put back (something) into place - WOZU?[line break][paragraph break]";
+put (something) on (e.g. clothing)[line break][paragraph break]";
 	remove Helper from play;
 	say "End of help section[line break]---"
 
-[[Limited Inventory]
-The carrying capacity of the player is 3. The backpack is the player's holdall. The player is wearing the backpack. The backpack is open and not openable. The carrying capacity of the backpack is 3. ]
+[Limited Inventory]
+The carrying capacity of the player is 3. The backpack is the player's holdall. The player is wearing the backpack. The backpack is open and not openable. The carrying capacity of the backpack is 3. 
 
 
 
@@ -65,7 +65,7 @@ The carrying capacity of the player is 3. The backpack is the player's holdall. 
 
 
 
-
+[
 Chapter 1 - Sitis
 
 [Beginn meiner Mapkonstruktion - Landing Zone, Wüste und Sicuum]
@@ -882,6 +882,9 @@ After asking Dunia about "Flux Essence":
 		say "You're missing the unregulated one."
 
 
+<<<<<<< HEAD
+]
+=======
 
 [Techie]
 After answering Dunia that "Techies" for the first time:
@@ -889,6 +892,7 @@ After answering Dunia that "Techies" for the first time:
 		say "[italic type]Then begone with you! I don't want anything to do with that!";
 		now BlooSympathy is false.
 	
+>>>>>>> 65d2bb0dd855ddad7eca68406a1efbef7bf157cb
 
 
 
@@ -905,7 +909,7 @@ Section 1 - Crash Site
 
 [Intro]
 
-[Axesto is a person. The Player is Axesto. ]
+Axesto is a person. The Player is Axesto. 
 
 [Weight]
 A weight is a kind of value. 10kg specifies a weight. Everything has a weight. A thing usually has weight 100kg. 
@@ -926,9 +930,9 @@ Before inserting the energy orb into the suit capacitor:
 	say "Do I really wanna do this? Chances of me dying are quite high. On the other hand, I will probably die anyway if I don't try.";
 	continue the action.
 
-[Protector glove to touch energy orb]
+[Protector Glove/Electricity]
 
-A protector glove is a thing  and wearable.
+A protector glove is a thing and wearable. The description of the protector glove is "This protector glove is made out of a special  rubber compound that temporarily absorbs any kind of energy thus protecting its wearer."
 
 A thing can be safe or electrified. A thing is usually safe.
 
@@ -937,6 +941,10 @@ This is the electrocution-wisdom rule:
 	if the action requires a touchable noun and the noun is electrified, say "I really shouldn't be touching [the noun] without something that protects my hands." instead;
 
 The electrocution-wisdom rule is listed before the basic accessibility rule in the action-processing rules.
+
+After taking the energy orb:
+	say "This could really work!";
+	continue the action.
 
 
 [Global Error Message]
@@ -969,13 +977,12 @@ Before taking the smoke nodule:
 	
 [Hidden Items/Riddles]
 [Energy Orb - Energy Orb vorher als Antrieb des Schiffes aber jetzt als Energiequelle zum wärmen]
-In the Spaceship Bridge_Kaldríss is a command panel. It is scenery.  In the command panel is a fried communicator and a secret storage. It is closed and openable. The secret storage is a container. The secret storage is fixed in place. It is closed, locked and openable. The green button unlocks the secret storage. In the secret storage is an energy orb. The energy orb is an electrified thing. The description of energy orb is "If used correctly this energy orb creates a warm energy that withstands even the coldest temperatures. It also emits a specific light that only certain creatures are able to see. You are not one of them.". The energy orb can be taken. 
+In the Spaceship Bridge_Kaldríss is a command panel. It is scenery.  In the command panel is a fried communicator, a protector glove and a secret storage. It is closed and openable. The secret storage is a container. The secret storage is fixed in place. It is closed, locked and openable. The description of the secret storage is "There is a reason this storage compartment is well hidden inside the command panel. Whatever is in there must be of great importance for this spaceship." The green button unlocks the secret storage. In the secret storage is an energy orb. The energy orb is an electrified thing. The description of energy orb is "If used correctly this energy orb creates a warm energy that withstands even the coldest temperatures. It also emits a specific light that only certain creatures are able to see. You are not one of them.". The energy orb can be taken. 
 
 Before taking the energy orb:
 	say "I totally forgot that I've put this here. This orb holds a huge amount of energy which could be used to power all kinds of devices and possibly even weapons."
 	
 The fried communicator is fixed in place.
-
 The encryption key is in the secret storage. The encryption key can be taken.
 
 [Button]
@@ -995,11 +1002,11 @@ After examining fried communicator:
 After examining the command panel:
 	say "I could open this baby up and take a peak inside."
 
-[Emergency Torch/Protector Glove]
+[Emergency Torch]
 In the Spaceship Storage_Kaldríss is a locker. It is scenery. The locker is an openable lockable container in the Spaceship Storage_Kaldríss. It is closed, locked and openable. The encryption key unlocks the locker. The description of the locker is "Now I remember! I used to store things in here that could come in very hand in emergencies! Let's see if I can find something useful in here.".
-In the locker is an emergency torch and a protector glove. The emergency torch can be taken. 
+In the locker is an emergency torch. The emergency torch can be taken. 
 Before taking the emergency torch:
-	say "This will allow me to start a fire no matter how harsh the conditions are since it uses a special fuel for the ignition process."
+	say "This baby will light up no matter how harsh the conditions are since it uses a special fuel for the ignition process."
 
 
 [Rooms]
@@ -1011,11 +1018,15 @@ After going to the Spaceship Bridge_Kaldríss for the first  time:
 The Spaceship Storage_Kaldríss is a room. "Taking a quick look inside the storage room doesn't seem to reveal anything particularly interesting. There are only some random souvenirs from your previous intergalactic travels and your locker which you haven't opened in ages.  It also looks like the airlock in the south doesn't seem to function anymore so perhaps I should go check that out as well?" The printed name of the  Spaceship Storage_Kaldríss is "Spaceship Storage".
 The Spaceship Exit_Kaldríss is a room. "The airlock also seems to be affected by the crash and the temperatures inside the spaceship are nearing dangerous levels. I could leave the spaceship right now by going east but I if I don't have something to protect me from the cold I will probably die." The printed name of the  Spaceship Exit_Kaldríss is "Spaceship Exit".
 The Crash Zone_Kaldríss is a room. "The surface of Kaldríss consists of spiky ice formations as far as the eye can see . No wonder nobody in his right mind would try to land here willingly. There doesn't seem to be anything of interest wherever you look. After taking a closer look you suddenly notice some sort of structure north of your position. If you hurry up you should be able to make it there before you freeze." The printed name of the Crash Zone_Kaldríss is "Crash Zone".
-The Hunting Grounds_Kaldríss is a room. "Turns out this used to be an explorer camp and you instantly feel a little less lonely and also more safe. Seems like a good place to stay for a while and trying not to freeze to death. But where did those explorers go and why did they leave pretty much everything behind? Further investigations of this place also reveal something that looks like a cave entrance underneath that lies underneath the camp." The printed name of the Hunting Grounds_Kaldríss is "Hunting Grounds".
+The Hunting Grounds_Kaldríss is a room. "Turns out this used to be an explorer camp and you instantly feel a little less lonely and also more safe. Seems like a good place to stay for a while and trying not to freeze to death. But where did those explorers go and why did they leave pretty much everything behind? Further investigations of this place also reveal something resembling a cave entrance that lies underneath the camp." The printed name of the Hunting Grounds_Kaldríss is "Hunting Grounds".
 
 [Remove stone plate to enter cave]
 [Beschreibung von Yundar's Cave ohne stone plate!]
-The stone plate is above Yundar's Cave. The stone plate is a door. The stone plate is closed and openable. 
+The stone plate is above Yundar's Cave. The stone plate is a door. The stone plate is closed and openable.  The description of the stone plate is "This stone plate looks really heave but if I manage to shove it aside just a little bit I should be able to get past it."
+
+
+
+
 
 Stoneplateopen is a truth state that varies.  Stoneplateopen is false.
 
@@ -1030,6 +1041,10 @@ Before going to Yundar's Cave from Hunting Grounds_Kaldríss:
 		say "You are finally able to enter the cave but you should still proceed with caution since you never know what's waiting inside.";
 		continue the action.
 
+
+
+
+
 Understand "shove aside [something] " as opening.
 	Understand "put [something] back in place" as closing.
 
@@ -1037,7 +1052,7 @@ After closing stone plate:
 	say "This thing is heavy! I was able to put it back in place though."
 
 Before opening the stone plate:
-	say "You managed to shove the stone plate ot ouf the way and you are able to enter the cave beneath it."
+	say "You managed to shove the stone plate ot ouf the way and you are able to make your way down this really dark and tight cave. Let's just hope nothing bad happens."
 	
 [Directions]
 The Spaceship Storage_Kaldríss is south of Spaceship Bridge_Kaldríss.
@@ -1076,11 +1091,54 @@ Yetíss Caves System is a region.  Main Cave_Kaldríss, Yundar's Cave, Yarwol's 
 Yundar's Cave is a room. "This is one of many caves which the Yetíss have built under the surface of Kaldríss. This one seems to belong to a young female Yetíss called Yundar.  It also connects to another cave if you go further in the east."
 
 After going to Yundar's Cave for the first  time:
-	say "Upon trying to make your way into the small cave entrance you slipped and went all the way down. Apart from a few scratches here and there you seem to be okay even though your head hurts quite a lot. You look around and try to understand where the hell you are when you suddenly see something that resembles a .. bear? It looks more humanoid though .. is it .. is this a .. Yeti?  This can't be!"
+	say "Upon trying to make your way into the small cave entrance you slipped and went all the way down. Apart from a few scratches here and there you seem to be okay even though your head hurts quite a lot. You can barely see from where you landed but you see light a little further ahead and decide to go there. It's getting easier to see with every step you take and suddenly you hear noises. It sounds like someone is .. talking? Yundar? Yarwol? What does that mean? Are those names? Perhaps humans live down here? Maybe it's one of the explorers from the camp above you. This would certainly explain where they went. On the other hand it could also be something entierly else so you should still be really careful when wandering around."
+
+[Follow Yundar]
+
+A person has a room called last location.
+
+Understand "follow [any person]" as following. Understand the commands "chase" and "pursue" as "follow".
+
+Following is an action applying to one visible thing.
+
+Check following:
+	if the noun is the player, say "Wherever you go, there you are." instead;
+	if the noun is visible, say "[The noun] is right here." instead;
+	if the last location of the noun is not the location, say "It's not clear where [the noun] has gone." instead.
+
+Carry out following:
+	let the destination be the location of the noun;
+	if the destination is not a room, say "[The noun] isn't anywhere you can follow." instead;
+	let aim be the best route from the location to the destination;
+	say "(heading [aim])[line break]";
+	try going aim.
+
+
+[Artemis is a woman in Corinth.
+
+[We do also have to make sure that whenever we move a person from room to room, we record where they were moved from; otherwise, our clever restrictions about whom the player can pursue will not work properly.]
+
+To move (pawn - a person) tidily to (target - a room):
+	now the last location of the pawn is the holder of the pawn;
+	move the pawn to the target.
+
+Every turn:
+	let current location be the location of Artemis;
+	let next location be a random room which is adjacent to the current location;
+	if Artemis is visible, say "Artemis heads to [the next location].";
+	move Artemis tidily to next location;
+	if Artemis is visible, say "Artemis arrives from [the current location]."
+
 
 Yarwol's Cave is a room. "This cave is where Yarwol, the oldest Yetíss, resides."
 
-The Main Cave_Kaldríss is a room. "Seems like this is the cave that connects them all. It also seems a lot bigger then the other ones. It also seems like there's a small gap in the wall in the east which is barely visible. This might be some kind of door and also the way out of this cave system. I might want to take a closer look. I just have to be careful so the other Yetíss won't be suspicious." The printed name of the Main Cave_Kaldríss is "Main Cave".
+After going to Yarwol's Cave for the first time:
+	say "Test."
+
+The Main Cave_Kaldríss is a room. "This is like the central cave that also acts as kind of a hub for all the Yetíss that live inside this cave system. Judging from the sheer size of it there must be hundreds of different caves down here." The printed name of the Main Cave_Kaldríss is "Main Cave".
+
+After going to the Main Cave_Kaldríss for the first time:
+	say "Seems like this is the cave that connects them all which also explains why it's that much bigger than the ones before.  It also seems like there's a small gap in the wall in the east which is barely visible. This might be some kind of door and also the way out of this cave system. I might want to take a closer look. I just have to be careful so the other Yetíss won't be suspicious.".
 
 [Hide door to Secret Cave]
 Secret Cave_Kaldríss is a room. "A secret cave that even most of the Yetíss don't know about. Only the ones worthy enough are allowed to enter." The printed name of the Secret Cave_Kaldríss is "Secret Cave". 
@@ -1103,8 +1161,8 @@ Before going to the Secret Cave_Kaldríss:
 		say "This door doesn't seem to lead anywhere";
 		stop the action.
 [NPCs]
-Yundar is a female person in Yundar's Cave. "Young female Yetíss. Looks chummy but at the same time terrifying to some extent."
-Yarwol is a person in Yarwol's Cave.  "The oldest Yetíss in this cave system. Also very wise since he's been living on this planet for over 200 years."
+Yundar is a person in Yundar's Cave. "This specimen seems to be one of the younger Yetíss. Looks chummy but at the same time terrifying to some extent."
+Yarwol is a person in Yarwol's Cave.  "Seems like this is the "
 		
 [Items]
 Yarwol's Keystone is in Yarwol's Cave.
@@ -1112,10 +1170,10 @@ Yundar's Picking Tools is in Yundar's Cave.
 
 
 
-Section 3 - Jötunheimr
+[Section 3 - Jötunheimr
 
 [Region - Jötunheimr]
-[Jötunheimr is a region.  Jötunheimr Main Gate, Hunting Lodge and  Throne Room_Kaldríss is in Jötunheimr.
+Jötunheimr is a region.  Jötunheimr Main Gate, Hunting Lodge and  Throne Room_Kaldríss is in Jötunheimr.
 
 [Rooms]
 Jötunheimr Main Gate is a room. "Insert description here."
@@ -1146,7 +1204,7 @@ After going to Blakkríss Temple Entrance for the first time:
 	say "Everything turned white, you completely lost track of time and suddenly you stand in front of something that looks like a huge temple of some sort. This must be it. This must be the place the Yetíss told you about which might be able to bring you and your spaceship back into the orbit. I should get going before I waste any more precious time! I think I should be good for now if I just keep going west."
 
 The Great Hall_Kaldríss is a room. "This seems to be the focal point of the temple. Even more rune inscriptions on the walls. Well, I should just keep going into the same direction since I can see some weird light that is coming from a little further inside the temple." The printed name of Great Hall_Kaldríss is "Great Hall".
-The Spectral Bridge is a room. "A bridge that seems to purely consist of light that is emitted in all its different spectral colors. How does this make even sense? Only one way to find out. All I can do is keep folling this path since I can't go anywhere else anyway."
+The Spectral Bridge is a room. "A bridge that seems to purely consist of light that is emitted in all its different spectral colors. How does this make even sense? Only one way to find out. All I can do is keep following this path since I can't go anywhere else anyway."
 The Bifröst Portal Chamber is a room. "This must be the portal chamber! Finally! Time to calibrate the portal so I can get into the orbit ASAP."
 
 [Directions]
