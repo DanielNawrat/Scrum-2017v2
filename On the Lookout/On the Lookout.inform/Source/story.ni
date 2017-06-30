@@ -57,7 +57,13 @@ put (something) on (e.g. clothing)[line break][paragraph break]";
 	say "End of help section[line break]---"
 
 [Limited Inventory]
+<<<<<<< HEAD
+The carrying capacity of the player is 3. The backpack is the player's holdall. The player is wearing the backpack. The backpack is open and not openable. The carrying capacity of the backpack is 3.
+
+
+=======
 The carrying capacity of the player is 3. The backpack is the player's holdall. The player is wearing the backpack. The backpack is open and not openable. The carrying capacity of the backpack is 3. 
+>>>>>>> d03938c7d8924914a10b6aa673dbcdb9b4c78490
 
 
 
@@ -127,8 +133,77 @@ The Village Sicuum_Sitis is a region. The printed name of the Village Sicuum_Sit
 The Agora_Sitis, the Domum Praesidium_Sitis, the Shelter_Sitis, the Secret Passage_Sitis and the Rock Mine_Sitis are in the Village Sicuum_Sitis.
 
 [Räume]
-The Agora_Sitis is a room. The printed name of the Agora_Sitis is "The Agora of Sicuum". The Agora_Sitis is south of the wooden gate. The description of the Agora_Sitis is "[italic type]You enter the wooden gate. Finally you do not just expect other people, rather you see them. The Sitisianer, that is how they are called, looks different then you. They are taller, with longer legs and shorter necks. Also they definitely got more hair. But their faces seems to be drawn by life. You really do not know how to connect to these people without scaring them. Otherwise, why should they have opened the gate for you, if you appear dangerous to them? Maybe you go the eastiest way and you speak to the boy whos already staring at you all the time[roman type]."
-Anaidis_Sitis is a person. Anaidis_Sitis is in the Agora_Sitis. The printed name of Anaidis_Sitis is "Anaidis". 
+The Agora_Sitis is a room. The printed name of the Agora_Sitis is "The Agora of Sicuum". The Agora_Sitis is south of the wooden gate. The description of the Agora_Sitis is "[italic type]You enter the wooden gate. Finally, you do not just expect other people, rather you see them. The Sitisianer, that is how they are called, looks different then you. They are taller, with longer legs and shorter necks. Also they definitely got more hair. But their faces seems to be drawn by life. You really do not know how to connect to these people without scaring them. Maybe you should look around for the one who has opened the gate for you[roman type]."
+
+After looking in the Agora_Sitis for the first time:
+	say "[italic type]You realize a boy staring at you. His name must be Anaidis because someone calls him[roman type] 'Anaidis, catching is about running after the other ones, not staring around!' [roman type]What about connecting to him?[roman type]";
+	now Anaidis_Sitis is in the Agora_Sitis;
+	now the description of the Agora_Sitis is "-";
+
+After examining Anaidis_Sitis the first time:
+	say "[italic type]The boy takes a step back. He radiates a mixture of fear and fascination. [roman type]'You have spoken about finding water. You will not be successful here.'"
+
+
+
+[Dialogtabelle]
+
+Table of Anaidis_Sitis Responses
+Topic	Response
+"no water" 	"But why not? You are all living here. A whole village. You would not survive without water. [paragraph break]"	
+
+After asking Anaidis_Sitis about "no water":
+	say "I never said we do not have any water here. Of course we do need water to survive. But we also need to fight for it. That's the reason we're not giving it away easily. Especially not to total strangers. [paragraph break]";
+	say "[italic type] You are not quite sure how to react to Anaidis statement. He seems to see this. So he starts to smile and mentions[roman type] 'Don't worry - it's less about you. It's more about our history. I know someone who could make you understanding these things.' Anaidis walks straight 
+
+
+
+
+[After answering Dunia that "Techies" for the first time:
+	if Dunia is in the Ascent_Frizza:
+		say "[italic type]Then begone with you! I don't want anything to do with that!";
+		now BlooSympathy is false.]
+
+
+
+
+Anaidis_Sitis is a person. Anaidis_Sitis is in the Shelter_Sitis. The printed name of Anaidis_Sitis is "The staring boy". 
+
+[After examining Anaidis_Sitis for the first time:
+	say "[italic type]The boy takes one step back. Critically, he squints his eyes.[roman type] 'I have opened the gate for you. What about being grateful and saying 'thanks'? That's normal in our world.' [italic type]Right now he grins cheeky[roman type]."]
+
+
+
+
+[[Variables]	
+
+BlooSympathy is a truth state that varies. BlooSympathy is true.
+ConcealedDunia is a truth state that varies. ConcealedDunia is true.
+Helplesness is a truth state that varies. Helplesness is false.
+CloakWearing is a truth state that varies. CloakWearing is false. 
+A thing can be examined or unexamined.
+The carrying capacity of the player is 3.
+
+[---]
+
+
+After asking Dunia about anything:
+	if Dunia is in the Ascent_Frizza:
+		say "[if we have not examined Dunia][italic type]- You are painfully near to trespass holy ground, stranger. I would advise against it. Who are you, anyway? You don't look like a Techie. Tell me your [bold type]name[roman type].[otherwise][italic type]- Answer my question first. What is your [bold type]name[roman type]?[end if]";
+		now ConcealedDunia is false;
+	else:
+		continue the action.
+		
+After examining Dunia for the first time:
+	if Dunia is in the Ascent_Frizza:
+		if ConcealedDunia is true:
+			say "[italic type]- You are painfully near to trespass holy ground, stranger. I would advise against it. Who are you, anyway? You don't look like a Techie. Tell me your [bold type]name[roman type].";
+			now ConcealedDunia is false.]
+	
+
+
+
+
+
 
 The Domum Praesidium_Sitis is a room. The printed name of the Domum Praesidium_Sitis is "The Domum Praesidium of Sicuum". The Domum Praesidium_Sitis is west of The Agora_Sitis. 
 
@@ -170,9 +245,6 @@ Ilithios_Sitis is a person in the Rock Mine_Sitis. The printed name of Ilithios_
 
 [instead of going nowhere from xy, say ]
 [Bei Namen Planet weg]
-
-
-
 
 
 
@@ -562,7 +634,7 @@ Above the Flux Core_Frizza is the Underground Flux_Frizza. The printed name of t
 Dunia is a person in the Plateau_Frizza. The printed name of Dunia is "Dunia". The description of Dunia is "A lean but athletic figure, wrapped by several layers of what looks like tough leather. In a small gap of her hood you can see glinting eyes that reveal a sharp mind."
 Dunia wears a Sinkan Cloak. The Sinkan Cloak is wearable.
 
-Nox is a person in the Sanctuary_Frizza. The printed name of Nox_Frizza is "Nox".
+Nox is a person in the Sanctuary_Frizza. The printed name of Nox_Frizza is "NoX".
 
 Kollock is a person in the Citadel_Frizza. The printed name of Kollock_Frizza is "Elder Kollock".
 
