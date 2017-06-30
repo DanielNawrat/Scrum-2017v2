@@ -199,8 +199,8 @@ Jungle_2 is a room in the Jungle_Gaisetto. "You are surrounded by strange plants
 Jungle_3 is a room in the Jungle_Gaisetto. "There are many trees around you, but only one very huge and old one. Because of its gigantic crown no sunlight reaches the mossy floor. This gives the place a very mystery and unreal aura. South of you is the cliff. West of you lies the clearing with your spaceship. North of you stretches the vastness of the jungle."  The printed name of Jungle_3 is "Jungle".
 Jungle_4 is a room in the Jungle_Gaisetto. "You found a lake in the middle of the jungle. It’s strange, because you can’t find a spring or a stream. Is it water? It looks like, but where is the water coming from?"  The printed name of Jungle_4 is "Jungle".
 Jungle_5 is a room in the Jungle_Gaisetto.  The printed name of Jungle_5 is "Jungle".
-Jungle_6 is a room in the Jungle_Gaisetto. "Threw a small hole in the dense jungle you found a little green shrine. Who built that and what is it good for?" The printed name of Jungle_6 is "Jungle".
-Jungle_7 is a room in the Jungle_Gaisetto.  The printed name of Jungle_7 is "Jungle".
+Jungle_6 is a room in the Jungle_Gaisetto. The printed name of Jungle_6 is "Jungle".
+Jungle_7 is a room in the Jungle_Gaisetto. "Threw a small hole in the dense jungle you found a little green shrine. It seems like it is able to unlock and open it, Who built that?"  The printed name of Jungle_7 is "Jungle".
 Catacombs is a room in the Jungle_Gaisetto. 
 Tunnel is a room in the Jungle_Gaisetto. 
 Jungle_8 is a room in Jungle_Gaisetto. The printed name of Jungle_8 is "Jungle".
@@ -216,6 +216,8 @@ Jungle_7 is north of the Jungle_5.
 Temple_Gaisetto is above Floor mosaic.
 Tunnel is east of the Catacombs.
 Jungle_8 is above Tunnel.
+Lager is a room.
+
 
 Instead of going nowhere from Landingzone_Gaisetto, say "oh hell there is a cliff right in front of you. You are very lucky, that you landed safly".
 Instead of going nowhere from Jungle_2, say "oh hell there is a cliff right in front of you. You are very lucky, that you landed safly".
@@ -228,10 +230,11 @@ Instead of going nowhere from Jungle_8, say "The Jungle is to dense to move forw
 
 [Objecte im Dschungel]
 
-The golden Plate is a object.
+The golden plate is a object.
 the emerald is a object.
-the sapphirine is a object.
+the sapphirine is a object in the Lager.
 the ruby is a object.
+flute is a object [in the lager] in the Jungle_1.
 
 [Dorf]
 
@@ -266,32 +269,93 @@ Soldier is a person in Village_hut3.
 
 [Personen, Objekte und Container im Dschungel]
 
-The huge very old tree is a person in the Jungle_3. The huge very old tree carries the emerald.
-the lake is in the Jungle_4. It is scenery. The sapphirine is in the lake is hidden.
+The huge very old tree is a person in the Jungle_3. The huge very old tree carries the ruby.
+the lake is in the Jungle_4. It is scenery. 
 
 [Container und Türen im Tempel]
 
- The Plinth is door. The Plinth is north of the Temple_Gaisetto. The Plinth is closed and openable. [The Plinth has matching key the golden plate.]
+ The Plinth is door. The Plinth is north of the Temple_Gaisetto. The Plinth is closed and openable. The Plinth has matching key the golden plate.
 
-The Floor mosaic is door. Floor mosaic is above the Catacombs.
-the Statue is in the Temple_Gaisetto. the ruby is in the statue.
+[Plinthopen is a truth state that varies. Plinthopen is false.
+
+After opening the Plinth:
+	now Plinthopen is true.
+	
+Before going to Chain_bridge from Temple_Gaisetto:
+	if Plinthopen is false:
+	say "Test.";
+	stop the action;
+	if Plinthopen is true:
+		say "Fail.";
+		continue the action.
+]
+[The stone plate is above Yundar's Cave. The stone plate is a door. The stone plate is closed and openable. 
+
+Stoneplateopen is a truth state that varies.  Stoneplateopen is false.
+
+After opening the stone plate:
+	now Stoneplateopen is true.
+
+Before going to Yundar's Cave from Hunting Grounds_Kaldríss:
+	if Stoneplateopen is false:
+		say "You can't possibly enter whatever it is that lies behind this stone plate before you've [bold type]shoved it aside[roman type]!";
+		stop the action;
+	if Stoneplateopen is true:
+		say "You are finally able to enter the cave but you should still proceed with caution since you never know what's waiting inside.";
+		continue the action.
+]
+
+
+The floor mosaic is door. Floor mosaic is above the Catacombs. The floor mosaic is closed and openable.
+
+the Statue is in the Temple_Gaisetto. it is fixed in place. the emerald is in the statue.
 the Inscription on the Plinth is scenery. 
 The Inscription on the left Templewall is scenery. The left Templewall is a object in the Temple_gaisetto. it is scenery.
 The Inscription on the right Templewall is scenery. The right Templewall is a object in the Temple_gaisetto. it is scenery.
 
 [Schreine]
 
-The shrine_green is in Jungle_6. The printed name is "Shrine covered in moss. It looks very old and has a mysterious green shine." The shrine_green is a openable container. it is locked. The emerald unlocks the shrine_green. In the locker is a green_key.
-The Shrine_blue is in the Jungle_7. The printed name is "Shrine surrounded my blue grass and shallow water. It looks very old and has a mysterious blue shine." The shrine_blue is a openable container. it is locked. The sapphirine unlocks the shrine_blue. In the locker is a blue_key.
-The Shrine_red is in Jungle_8. The printed name is "Shrine circled by a firewall. It looks very old and hat a mysterious red shine." The shrine_red is a openable container. it is locked. The ruby unlocks the shrine_red. In the locker is a red_key.
+The green shrine is in Jungle_7. It is fixed in place. The printed name is "Shrine covered in moss. It looks very old and has a mysterious green shine." The green shrine is a openable container. it is locked. The emerald unlocks the green shrine. 
+The blue shrine is in the Jungle_6. It is fixed in place. The printed name is "Shrine surrounded my blue grass and shallow water. It looks very old and has a mysterious blue shine." The blue shrine is a openable container. it is locked. The sapphirine unlocks the blue shrine. 
+The red shrine is in Jungle_8. It is fixed in place. The printed name is "Shrine circled by a firewall. It looks very old and hat a mysterious red shine." The red shrine is a openable container. it is locked. The ruby unlocks the red shrine. In the locker is a golden plate.
 
 Before going to the Jungle_8:
 	unless player carries ruby:
 		move the player to the Tunnel;
 		say "Oh no. It is too hot there. The fire will burn you. You have to find something taht prtect you from the flames";
-		stop the action.
+		stop the action.		
+
+After opening green shrine:
+	 now the description of Jungle_4 is "The lake dried out";
+	now the description of the Jungle_7 is "nothing here";
+	say "The ground starts tn shake and the green shrine gets swollowed by the earth.";
+	move green shrine to Lager;
+	move sapphirine to Jungle_4;
+	remove emerald from play.
 
 
+After taking sapphirine:
+	say "Boden öffnet sich bla bla ";
+	now floor mosaic is open;
+	now the description of the Temple_gaisetto is "hjgvjwhe".
+
+After opening blue shrine:
+	now the description of the Jungle_6 is "flute here";
+	say "bla bla flöte fällt raus, schrein geht unter";
+	move blue shrine to Lager;
+	remove sapphirine from play;
+	move flute to Jungle_6.
+
+After taking flute:
+	say "baum wecken. irgendwelche zeichen"
+
+PLaying the flute is an action applying to nothing.
+Understand "play the flute" as playing the flute.
+
+The description of the flute is "you should try to play the flute".
+
+After playing the flute:
+	say "test".
 
 Chapter 3- Geysiria
 
