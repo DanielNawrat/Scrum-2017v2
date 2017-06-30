@@ -562,7 +562,7 @@ Above the Flux Core_Frizza is the Underground Flux_Frizza. The printed name of t
 Dunia is a person in the Plateau_Frizza. The printed name of Dunia is "Dunia". The description of Dunia is "A lean but athletic figure, wrapped by several layers of what looks like tough leather. In a small gap of her hood you can see glinting eyes that reveal a sharp mind."
 Dunia wears a Sinkan Cloak. The Sinkan Cloak is wearable.
 
-Nox is a person in the Sanctuary_Frizza. The printed name of Nox_Frizza is "Nox".
+Nox is a person in the Sanctuary_Frizza. The printed name of Nox_Frizza is "NoX".
 
 Kollock is a person in the Citadel_Frizza. The printed name of Kollock_Frizza is "Elder Kollock".
 
