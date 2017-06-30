@@ -2,7 +2,7 @@
 
 [Anchor rooms Testsection]
 
-The Anchor 1, Anchor 2, Anchor 3 and Anchor 4 are rooms. Anchors is a region. Anchor 1, Anchor 2, Anchor 3 and Anchor 4 are in the Anchors.
+[The Anchor 1, Anchor 2, Anchor 3 and Anchor 4 are rooms. Anchors is a region. Anchor 1, Anchor 2, Anchor 3 and Anchor 4 are in the Anchors.
 Anchor 1 is east of Rock Mine_Sitis and west of Jungle_23.
 Anchor 2 is east of Jungle_31 and west of Landing Zone_Geysiria.
 Anchor 3 is east of Cave_Geysiria and west of Surface Flux_Frizza.
@@ -12,7 +12,7 @@ The player is in the Flat Rock_Sitis.
 
 Instead of going to the Anchors, say "There is no way to advance in this direction."
 
-The Landing Zone_Geysiria is west of the Cave_Geysiria. The Village_Geysiria is north of the Landing Zone_Geysiria.
+The Landing Zone_Geysiria is west of the Cave_Geysiria. The Village_Geysiria is north of the Landing Zone_Geysiria.]
 
 [---]
 
@@ -534,17 +534,17 @@ When play begins:
 
 [--]
 
-Chapter 1 - Somewhere on Frizza
+Section 1 - Somewhere on Frizza
 
 [Image Testsection]
 
-Include Simple Graphical Window by Emily Short.
+[Include Simple Graphical Window by Emily Short.
 Include Location Images by Emily Short.
 
 
 	Figure of Frizza is the file "wallhaven-94691.jpg".
 
-	The room-illustration of Landing Zone_Frizza is the Figure of Frizza. 
+	The room-illustration of Landing Zone_Frizza is the Figure of Frizza. ]
 	
 [--]
 
@@ -837,22 +837,40 @@ Section 1 - Crash Site
 
 [Intro]
 
-[Suit Capacitor]
+[Axesto is a person. The Player is Axesto. ]
 
 [Weight]
-[A weight is a kind of value. 1kg specifies a weight. Everything has a weight. [A thing usually weighs 10kg.]
+A weight is a kind of value. 10kg specifies a weight. Everything has a weight. A thing usually has weight 100kg. 
 
-Definition: A thing is light if its weight is 1kg or less. 
-Definition: A thing is heavy if its weight is 10kg or more.
+suit capacitor has a weight called breaking strain. The breaking strain of suit capacitor is usually 50kg. Definition: suit capacitor is bursting if the total weight of things in it is greater than its breaking strain. 
 
-The Energy Orb is light.
+The energy orb has weight 50kg.
 
-Instead of inserting an object into the suit capacitor:
-	unless the thing is light;
-	say "Fuck you";
-	stop the action.]
+[Suit Capacitor]
+Every turn when suit capacitor held by  Axesto is bursting: 
+	say "The [suit capacitor] is only meant to only pure energy and nothing else. Inserting anything else destroys it. You discard its ruined remains, looking miserably down at [the list of things in the suit capacitor] on the floor."; 
+	now all of the things in the suit capacitor are in the location; 
+	now the suit capacitor is nowhere. 
 
-The player wears a suit capacitor. The description of the suit capacitor is "This capacitor only holds certain types of energy sources which usually maintain the suit's functionality such as protecting the wearer from extreme temperatures. Inserting other energy sources might increase those functions even further or result in a horrible death." The suit capacitor is a container. The carrying capacity of the suit capacitor is 1.
+The player wears a suit capacitor. The description of the suit capacitor is "This capacitor only holds certain types of energy sources which usually maintain the suit's functionality such as protecting the wearer from extreme temperatures. Inserting anything other than pure energy e.g. matter of all sorts will most likely destroy the capacitor and might even result in a horrible death.  Caution is advised here!" The suit capacitor is a container. The carrying capacity of the suit capacitor is 1.
+
+Before inserting the energy orb into the suit capacitor:
+	say "Do I really wanna do this? Chances of me dying are quite high. On the other hand, I will probably die anyway if I don't try.";
+	continue the action.
+
+[Protector glove to touch energy orb]
+
+A protector glove is a thing  and wearable.
+
+A thing can be safe or electrified. A thing is usually safe.
+
+This is the electrocution-wisdom rule:
+	if the player wears the protector glove, make no decision;
+	if the action requires a touchable noun and the noun is electrified, say "I really shouldn't be touching [the noun] without something that protects my hands." instead;
+
+The electrocution-wisdom rule is listed before the basic accessibility rule in the action-processing rules.
+
+
 [Global Error Message]
 
 Instead of taking some scenery, say "You don't seem to be strong enough."
@@ -880,15 +898,17 @@ Before taking the Götti:
 [The smoke nodule is in the Spaceship Storage_Kaldríss. The description of the smoke nodule is "You picked one of these up during your escape from Gaisetto. That was one hell of an escape!"
 Before taking the smoke nodule:
 	say "I totally forgot that I took one of these with me during my escape from the Gaisetto jungle."]
-The encryption key is in the secret storage. The encryption key can be taken.
-
+	
 [Hidden Items/Riddles]
 [Energy Orb - Energy Orb vorher als Antrieb des Schiffes aber jetzt als Energiequelle zum wärmen]
-In the Spaceship Bridge_Kaldríss is a command panel. It is scenery.  In the command panel is a fried communicator and a secret storage. It is closed and openable. The secret storage is a container. The secret storage is fixed in place. It is closed, locked and openable. The green button unlocks the secret storage. In the secret storage is an energy orb. The energy orb is a thing. The description of energy orb is "If used correctly this energy orb creates a warm energy that withstands even the coldest temperatures. It also emits a specific light that only certain creatures are able to see. You are not one of them.". The energy orb can be taken. 
+In the Spaceship Bridge_Kaldríss is a command panel. It is scenery.  In the command panel is a fried communicator and a secret storage. It is closed and openable. The secret storage is a container. The secret storage is fixed in place. It is closed, locked and openable. The green button unlocks the secret storage. In the secret storage is an energy orb. The energy orb is an electrified thing. The description of energy orb is "If used correctly this energy orb creates a warm energy that withstands even the coldest temperatures. It also emits a specific light that only certain creatures are able to see. You are not one of them.". The energy orb can be taken. 
+
 Before taking the energy orb:
 	say "I totally forgot that I've put this here. This orb holds a huge amount of energy which could be used to power all kinds of devices and possibly even weapons."
 	
 The fried communicator is fixed in place.
+
+The encryption key is in the secret storage. The encryption key can be taken.
 
 [Button]
 The green button is a device. It is in the command panel. It is switched off. Instead of pushing the green button: if the green button is switched off, try switching on the green button; otherwise try switching off the green button. The green button is fixed in place.
@@ -907,9 +927,9 @@ After examining fried communicator:
 After examining the command panel:
 	say "I could open this baby up and take a peak inside."
 
-[Emergency Torch]
+[Emergency Torch/Protector Glove]
 In the Spaceship Storage_Kaldríss is a locker. It is scenery. The locker is an openable lockable container in the Spaceship Storage_Kaldríss. It is closed, locked and openable. The encryption key unlocks the locker. The description of the locker is "Now I remember! I used to store things in here that could come in very hand in emergencies! Let's see if I can find something useful in here.".
-In the locker is an emergency torch. The emergency torch can be taken. 
+In the locker is an emergency torch and a protector glove. The emergency torch can be taken. 
 Before taking the emergency torch:
 	say "This will allow me to start a fire no matter how harsh the conditions are since it uses a special fuel for the ignition process."
 
