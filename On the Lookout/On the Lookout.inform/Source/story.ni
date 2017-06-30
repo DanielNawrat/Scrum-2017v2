@@ -52,14 +52,18 @@ unlock/lock (something)[line break]
 insert (something) into (something)[line break]
 remove (something) from (something)[line break]
 shove (something) aside - some situations with blocked paths may require this[line break]
-put back (something) into place - WOZU?[line break][paragraph break]";
+put (something) on (e.g. clothing)[line break][paragraph break]";
 	remove Helper from play;
 	say "End of help section[line break]---"
 
 [Limited Inventory]
+<<<<<<< HEAD
 The carrying capacity of the player is 3. The backpack is the player's holdall. The player is wearing the backpack. The backpack is open and not openable. The carrying capacity of the backpack is 3.
 
 
+=======
+The carrying capacity of the player is 3. The backpack is the player's holdall. The player is wearing the backpack. The backpack is open and not openable. The carrying capacity of the backpack is 3. 
+>>>>>>> d03938c7d8924914a10b6aa673dbcdb9b4c78490
 
 
 
@@ -67,6 +71,7 @@ The carrying capacity of the player is 3. The backpack is the player's holdall. 
 
 
 
+[
 Chapter 1 - Sitis
 
 [Beginn meiner Mapkonstruktion - Landing Zone, Wüste und Sicuum]
@@ -266,8 +271,8 @@ Jungle_2 is a room in the Jungle_Gaisetto. "You are surrounded by strange plants
 Jungle_3 is a room in the Jungle_Gaisetto. "There are many trees around you, but only one very huge and old one. Because of its gigantic crown no sunlight reaches the mossy floor. This gives the place a very mystery and unreal aura. South of you is the cliff. West of you lies the clearing with your spaceship. North of you stretches the vastness of the jungle."  The printed name of Jungle_3 is "Jungle".
 Jungle_4 is a room in the Jungle_Gaisetto. "You found a lake in the middle of the jungle. It’s strange, because you can’t find a spring or a stream. Is it water? It looks like, but where is the water coming from?"  The printed name of Jungle_4 is "Jungle".
 Jungle_5 is a room in the Jungle_Gaisetto.  The printed name of Jungle_5 is "Jungle".
-Jungle_6 is a room in the Jungle_Gaisetto. "Threw a small hole in the dense jungle you found a little green shrine. Who built that and what is it good for?" The printed name of Jungle_6 is "Jungle".
-Jungle_7 is a room in the Jungle_Gaisetto.  The printed name of Jungle_7 is "Jungle".
+Jungle_6 is a room in the Jungle_Gaisetto. The printed name of Jungle_6 is "Jungle".
+Jungle_7 is a room in the Jungle_Gaisetto. "Threw a small hole in the dense jungle you found a little green shrine. It seems like it is able to unlock and open it, Who built that?"  The printed name of Jungle_7 is "Jungle".
 Catacombs is a room in the Jungle_Gaisetto. 
 Tunnel is a room in the Jungle_Gaisetto. 
 Jungle_8 is a room in Jungle_Gaisetto. The printed name of Jungle_8 is "Jungle".
@@ -283,6 +288,8 @@ Jungle_7 is north of the Jungle_5.
 Temple_Gaisetto is above Floor mosaic.
 Tunnel is east of the Catacombs.
 Jungle_8 is above Tunnel.
+Lager is a room.
+
 
 Instead of going nowhere from Landingzone_Gaisetto, say "oh hell there is a cliff right in front of you. You are very lucky, that you landed safly".
 Instead of going nowhere from Jungle_2, say "oh hell there is a cliff right in front of you. You are very lucky, that you landed safly".
@@ -295,10 +302,11 @@ Instead of going nowhere from Jungle_8, say "The Jungle is to dense to move forw
 
 [Objecte im Dschungel]
 
-The golden Plate is a object.
+The golden plate is a object.
 the emerald is a object.
-the sapphirine is a object.
+the sapphirine is a object in the Lager.
 the ruby is a object.
+flute is a object [in the lager] in the Jungle_1.
 
 [Dorf]
 
@@ -333,32 +341,93 @@ Soldier is a person in Village_hut3.
 
 [Personen, Objekte und Container im Dschungel]
 
-The huge very old tree is a person in the Jungle_3. The huge very old tree carries the emerald.
-the lake is in the Jungle_4. It is scenery. The sapphirine is in the lake is hidden.
+The huge very old tree is a person in the Jungle_3. The huge very old tree carries the ruby.
+the lake is in the Jungle_4. It is scenery. 
 
 [Container und Türen im Tempel]
 
- The Plinth is door. The Plinth is north of the Temple_Gaisetto. The Plinth is closed and openable. [The Plinth has matching key the golden plate.]
+ The Plinth is door. The Plinth is north of the Temple_Gaisetto. The Plinth is closed and openable. The Plinth has matching key the golden plate.
 
-The Floor mosaic is door. Floor mosaic is above the Catacombs.
-the Statue is in the Temple_Gaisetto. the ruby is in the statue.
+[Plinthopen is a truth state that varies. Plinthopen is false.
+
+After opening the Plinth:
+	now Plinthopen is true.
+	
+Before going to Chain_bridge from Temple_Gaisetto:
+	if Plinthopen is false:
+	say "Test.";
+	stop the action;
+	if Plinthopen is true:
+		say "Fail.";
+		continue the action.
+]
+[The stone plate is above Yundar's Cave. The stone plate is a door. The stone plate is closed and openable. 
+
+Stoneplateopen is a truth state that varies.  Stoneplateopen is false.
+
+After opening the stone plate:
+	now Stoneplateopen is true.
+
+Before going to Yundar's Cave from Hunting Grounds_Kaldríss:
+	if Stoneplateopen is false:
+		say "You can't possibly enter whatever it is that lies behind this stone plate before you've [bold type]shoved it aside[roman type]!";
+		stop the action;
+	if Stoneplateopen is true:
+		say "You are finally able to enter the cave but you should still proceed with caution since you never know what's waiting inside.";
+		continue the action.
+]
+
+
+The floor mosaic is door. Floor mosaic is above the Catacombs. The floor mosaic is closed and openable.
+
+the Statue is in the Temple_Gaisetto. it is fixed in place. the emerald is in the statue.
 the Inscription on the Plinth is scenery. 
 The Inscription on the left Templewall is scenery. The left Templewall is a object in the Temple_gaisetto. it is scenery.
 The Inscription on the right Templewall is scenery. The right Templewall is a object in the Temple_gaisetto. it is scenery.
 
 [Schreine]
 
-The shrine_green is in Jungle_6. The printed name is "Shrine covered in moss. It looks very old and has a mysterious green shine." The shrine_green is a openable container. it is locked. The emerald unlocks the shrine_green. In the locker is a green_key.
-The Shrine_blue is in the Jungle_7. The printed name is "Shrine surrounded my blue grass and shallow water. It looks very old and has a mysterious blue shine." The shrine_blue is a openable container. it is locked. The sapphirine unlocks the shrine_blue. In the locker is a blue_key.
-The Shrine_red is in Jungle_8. The printed name is "Shrine circled by a firewall. It looks very old and hat a mysterious red shine." The shrine_red is a openable container. it is locked. The ruby unlocks the shrine_red. In the locker is a red_key.
+The green shrine is in Jungle_7. It is fixed in place. The printed name is "Shrine covered in moss. It looks very old and has a mysterious green shine." The green shrine is a openable container. it is locked. The emerald unlocks the green shrine. 
+The blue shrine is in the Jungle_6. It is fixed in place. The printed name is "Shrine surrounded my blue grass and shallow water. It looks very old and has a mysterious blue shine." The blue shrine is a openable container. it is locked. The sapphirine unlocks the blue shrine. 
+The red shrine is in Jungle_8. It is fixed in place. The printed name is "Shrine circled by a firewall. It looks very old and hat a mysterious red shine." The red shrine is a openable container. it is locked. The ruby unlocks the red shrine. In the locker is a golden plate.
 
 Before going to the Jungle_8:
 	unless player carries ruby:
 		move the player to the Tunnel;
 		say "Oh no. It is too hot there. The fire will burn you. You have to find something taht prtect you from the flames";
-		stop the action.
+		stop the action.		
+
+After opening green shrine:
+	 now the description of Jungle_4 is "The lake dried out";
+	now the description of the Jungle_7 is "nothing here";
+	say "The ground starts tn shake and the green shrine gets swollowed by the earth.";
+	move green shrine to Lager;
+	move sapphirine to Jungle_4;
+	remove emerald from play.
 
 
+After taking sapphirine:
+	say "Boden öffnet sich bla bla ";
+	now floor mosaic is open;
+	now the description of the Temple_gaisetto is "hjgvjwhe".
+
+After opening blue shrine:
+	now the description of the Jungle_6 is "flute here";
+	say "bla bla flöte fällt raus, schrein geht unter";
+	move blue shrine to Lager;
+	remove sapphirine from play;
+	move flute to Jungle_6.
+
+After taking flute:
+	say "baum wecken. irgendwelche zeichen"
+
+PLaying the flute is an action applying to nothing.
+Understand "play the flute" as playing the flute.
+
+The description of the flute is "you should try to play the flute".
+
+After playing the flute:
+	say "test".
 
 Chapter 3- Geysiria
 
@@ -394,13 +463,6 @@ Instead of going nowhere from the Cave_Geysiria, say "You're in a cave, go explo
 
 
 Chapter 4 - Frizza
-
-[Initialisation]
-Include Basic Screen Effects by Emily Short.
-
-The Start of the Adventure is a scene. 
-
-[End of Initialisation]
 
 [[Anchor rooms Testsection]
 
@@ -572,7 +634,7 @@ Above the Flux Core_Frizza is the Underground Flux_Frizza. The printed name of t
 Dunia is a person in the Plateau_Frizza. The printed name of Dunia is "Dunia". The description of Dunia is "A lean but athletic figure, wrapped by several layers of what looks like tough leather. In a small gap of her hood you can see glinting eyes that reveal a sharp mind."
 Dunia wears a Sinkan Cloak. The Sinkan Cloak is wearable.
 
-Nox is a person in the Sanctuary_Frizza. The printed name of Nox_Frizza is "Nox".
+Nox is a person in the Sanctuary_Frizza. The printed name of Nox_Frizza is "NoX".
 
 Kollock is a person in the Citadel_Frizza. The printed name of Kollock_Frizza is "Elder Kollock".
 
@@ -601,17 +663,17 @@ When play begins:
 
 [--]
 
-Section 1 - Somewhere on Frizza
+Chapter 1 - Somewhere on Frizza
 
 [Image Testsection]
 
-[Include Simple Graphical Window by Emily Short.
+Include Simple Graphical Window by Emily Short.
 Include Location Images by Emily Short.
 
 
 	Figure of Frizza is the file "wallhaven-94691.jpg".
 
-	The room-illustration of Landing Zone_Frizza is the Figure of Frizza. ]
+	The room-illustration of Landing Zone_Frizza is the Figure of Frizza. 
 	
 [--]
 
@@ -876,18 +938,33 @@ After approaching the Flux Current 2:
 		
 	
 [---]
+
+[With both Essences]
+The description of the unregulated Flux Essence is "A small orb of blue fluid, billowing inside the Extractor. It seems like it would want to sputter, but it is tightly held in place by its chamber."
+The description of the regulated Flux Essence is "A small phosphorescent orb, emitting blue light. Its surface is even, there are no whirling drifts, it looks balanced."
+
+
+After asking Dunia about "Flux Essence":
+	if the Regulated Flux Essence is in the Flux Extractor:
+		if the Unregulated Flux Essence is in the Flux Extractor:
+			say "[italic type]- I see you have the two samples. Impressive ... Wait here for a moment.[paragraph break][roman type]She disappears shortly and soon returns the massive Keeper Du'un.[paragraph break][italic type]- Indeed, he returned. What a cheerful message.[paragraph break][roman type]He seems to be smiling, but even this gesture becomes a little intimidating, considering his imposing build.[paragraph break][italic type]- Well then, I think you earned an adequate amount of what you could call trust. Let me show you something.[paragraph break][roman type]He gently but insistingly points you the way - down the stairs which you have so often seen disappear him in. The opening leads into a rather broad tunnel, lined with blue torches on either side.The three of you for a long time descend in silence. At some point, Dunia briefly raises her voice.[paragraph break][italic type]- No other than Duju have seen what you will see for quite some time. I guess one seeks the aspiring relief of someone not involved on either part, after such a long time of disappointment.[paragraph break][roman type]Her voice subsides. You hear a soft rumbling from Du'un.[paragraph break][italic type]- One might.[paragraph break][roman type]The echos of the exchange are the last vocal sounds you hear for quite some time. Some time after - you really couldn't tell how long you walked - the tunnel broadens and finally leads to an opening. The view takes your breath as you step into a vast cavern from inside the tunnel. You barely can recognize its highest point. You are surrounded by a natural basin, filled to a considerable level with bluish liquid. In the middle of the cave you see a physically impossible spectacle: There, in mid air, a large blue orb is flying, constantly producing waves of fluid, which then drop down into the basin, keeping the lake's surface in motion. You realize that the air is shimmering, despite the cold air. You gaze at the grand orb, when your vision suddenly becomes grainy, parts of it are folding, spawning shadows and bright specks where there should be none. You close your eyes and look to the ground as you open them again, your vision returned to normal. ";
+		else:
+			say "You're missing the regulated one.";
+	else:
+		say "You're missing the unregulated one."
+
+
+<<<<<<< HEAD
+]
+=======
+
 [Techie]
 After answering Dunia that "Techies" for the first time:
 	if Dunia is in the Ascent_Frizza:
 		say "[italic type]Then begone with you! I don't want anything to do with that!";
 		now BlooSympathy is false.
 	
-
-
-
-
-
-
+>>>>>>> 65d2bb0dd855ddad7eca68406a1efbef7bf157cb
 
 
 
@@ -904,7 +981,7 @@ Section 1 - Crash Site
 
 [Intro]
 
-[Axesto is a person. The Player is Axesto. ]
+Axesto is a person. The Player is Axesto. 
 
 [Weight]
 A weight is a kind of value. 10kg specifies a weight. Everything has a weight. A thing usually has weight 100kg. 
@@ -925,9 +1002,9 @@ Before inserting the energy orb into the suit capacitor:
 	say "Do I really wanna do this? Chances of me dying are quite high. On the other hand, I will probably die anyway if I don't try.";
 	continue the action.
 
-[Protector glove to touch energy orb]
+[Protector Glove/Electricity]
 
-A protector glove is a thing  and wearable.
+A protector glove is a thing and wearable. The description of the protector glove is "This protector glove is made out of a special  rubber compound that temporarily absorbs any kind of energy thus protecting its wearer."
 
 A thing can be safe or electrified. A thing is usually safe.
 
@@ -936,6 +1013,10 @@ This is the electrocution-wisdom rule:
 	if the action requires a touchable noun and the noun is electrified, say "I really shouldn't be touching [the noun] without something that protects my hands." instead;
 
 The electrocution-wisdom rule is listed before the basic accessibility rule in the action-processing rules.
+
+After taking the energy orb:
+	say "This could really work!";
+	continue the action.
 
 
 [Global Error Message]
@@ -968,13 +1049,12 @@ Before taking the smoke nodule:
 	
 [Hidden Items/Riddles]
 [Energy Orb - Energy Orb vorher als Antrieb des Schiffes aber jetzt als Energiequelle zum wärmen]
-In the Spaceship Bridge_Kaldríss is a command panel. It is scenery.  In the command panel is a fried communicator and a secret storage. It is closed and openable. The secret storage is a container. The secret storage is fixed in place. It is closed, locked and openable. The green button unlocks the secret storage. In the secret storage is an energy orb. The energy orb is an electrified thing. The description of energy orb is "If used correctly this energy orb creates a warm energy that withstands even the coldest temperatures. It also emits a specific light that only certain creatures are able to see. You are not one of them.". The energy orb can be taken. 
+In the Spaceship Bridge_Kaldríss is a command panel. It is scenery.  In the command panel is a fried communicator, a protector glove and a secret storage. It is closed and openable. The secret storage is a container. The secret storage is fixed in place. It is closed, locked and openable. The description of the secret storage is "There is a reason this storage compartment is well hidden inside the command panel. Whatever is in there must be of great importance for this spaceship." The green button unlocks the secret storage. In the secret storage is an energy orb. The energy orb is an electrified thing. The description of energy orb is "If used correctly this energy orb creates a warm energy that withstands even the coldest temperatures. It also emits a specific light that only certain creatures are able to see. You are not one of them.". The energy orb can be taken. 
 
 Before taking the energy orb:
 	say "I totally forgot that I've put this here. This orb holds a huge amount of energy which could be used to power all kinds of devices and possibly even weapons."
 	
 The fried communicator is fixed in place.
-
 The encryption key is in the secret storage. The encryption key can be taken.
 
 [Button]
@@ -994,11 +1074,11 @@ After examining fried communicator:
 After examining the command panel:
 	say "I could open this baby up and take a peak inside."
 
-[Emergency Torch/Protector Glove]
+[Emergency Torch]
 In the Spaceship Storage_Kaldríss is a locker. It is scenery. The locker is an openable lockable container in the Spaceship Storage_Kaldríss. It is closed, locked and openable. The encryption key unlocks the locker. The description of the locker is "Now I remember! I used to store things in here that could come in very hand in emergencies! Let's see if I can find something useful in here.".
-In the locker is an emergency torch and a protector glove. The emergency torch can be taken. 
+In the locker is an emergency torch. The emergency torch can be taken. 
 Before taking the emergency torch:
-	say "This will allow me to start a fire no matter how harsh the conditions are since it uses a special fuel for the ignition process."
+	say "This baby will light up no matter how harsh the conditions are since it uses a special fuel for the ignition process."
 
 
 [Rooms]
@@ -1010,11 +1090,15 @@ After going to the Spaceship Bridge_Kaldríss for the first  time:
 The Spaceship Storage_Kaldríss is a room. "Taking a quick look inside the storage room doesn't seem to reveal anything particularly interesting. There are only some random souvenirs from your previous intergalactic travels and your locker which you haven't opened in ages.  It also looks like the airlock in the south doesn't seem to function anymore so perhaps I should go check that out as well?" The printed name of the  Spaceship Storage_Kaldríss is "Spaceship Storage".
 The Spaceship Exit_Kaldríss is a room. "The airlock also seems to be affected by the crash and the temperatures inside the spaceship are nearing dangerous levels. I could leave the spaceship right now by going east but I if I don't have something to protect me from the cold I will probably die." The printed name of the  Spaceship Exit_Kaldríss is "Spaceship Exit".
 The Crash Zone_Kaldríss is a room. "The surface of Kaldríss consists of spiky ice formations as far as the eye can see . No wonder nobody in his right mind would try to land here willingly. There doesn't seem to be anything of interest wherever you look. After taking a closer look you suddenly notice some sort of structure north of your position. If you hurry up you should be able to make it there before you freeze." The printed name of the Crash Zone_Kaldríss is "Crash Zone".
-The Hunting Grounds_Kaldríss is a room. "Turns out this used to be an explorer camp and you instantly feel a little less lonely and also more safe. Seems like a good place to stay for a while and trying not to freeze to death. But where did those explorers go and why did they leave pretty much everything behind? Further investigations of this place also reveal something that looks like a cave entrance underneath that lies underneath the camp." The printed name of the Hunting Grounds_Kaldríss is "Hunting Grounds".
+The Hunting Grounds_Kaldríss is a room. "Turns out this used to be an explorer camp and you instantly feel a little less lonely and also more safe. Seems like a good place to stay for a while and trying not to freeze to death. But where did those explorers go and why did they leave pretty much everything behind? Further investigations of this place also reveal something resembling a cave entrance that lies underneath the camp." The printed name of the Hunting Grounds_Kaldríss is "Hunting Grounds".
 
 [Remove stone plate to enter cave]
 [Beschreibung von Yundar's Cave ohne stone plate!]
-The stone plate is above Yundar's Cave. The stone plate is a door. The stone plate is closed and openable. 
+The stone plate is above Yundar's Cave. The stone plate is a door. The stone plate is closed and openable.  The description of the stone plate is "This stone plate looks really heave but if I manage to shove it aside just a little bit I should be able to get past it."
+
+
+
+
 
 Stoneplateopen is a truth state that varies.  Stoneplateopen is false.
 
@@ -1029,6 +1113,10 @@ Before going to Yundar's Cave from Hunting Grounds_Kaldríss:
 		say "You are finally able to enter the cave but you should still proceed with caution since you never know what's waiting inside.";
 		continue the action.
 
+
+
+
+
 Understand "shove aside [something] " as opening.
 	Understand "put [something] back in place" as closing.
 
@@ -1036,7 +1124,7 @@ After closing stone plate:
 	say "This thing is heavy! I was able to put it back in place though."
 
 Before opening the stone plate:
-	say "You managed to shove the stone plate ot ouf the way and you are able to enter the cave beneath it."
+	say "You managed to shove the stone plate ot ouf the way and you are able to make your way down this really dark and tight cave. Let's just hope nothing bad happens."
 	
 [Directions]
 The Spaceship Storage_Kaldríss is south of Spaceship Bridge_Kaldríss.
@@ -1075,11 +1163,54 @@ Yetíss Caves System is a region.  Main Cave_Kaldríss, Yundar's Cave, Yarwol's 
 Yundar's Cave is a room. "This is one of many caves which the Yetíss have built under the surface of Kaldríss. This one seems to belong to a young female Yetíss called Yundar.  It also connects to another cave if you go further in the east."
 
 After going to Yundar's Cave for the first  time:
-	say "Upon trying to make your way into the small cave entrance you slipped and went all the way down. Apart from a few scratches here and there you seem to be okay even though your head hurts quite a lot. You look around and try to understand where the hell you are when you suddenly see something that resembles a .. bear? It looks more humanoid though .. is it .. is this a .. Yeti?  This can't be!"
+	say "Upon trying to make your way into the small cave entrance you slipped and went all the way down. Apart from a few scratches here and there you seem to be okay even though your head hurts quite a lot. You can barely see from where you landed but you see light a little further ahead and decide to go there. It's getting easier to see with every step you take and suddenly you hear noises. It sounds like someone is .. talking? Yundar? Yarwol? What does that mean? Are those names? Perhaps humans live down here? Maybe it's one of the explorers from the camp above you. This would certainly explain where they went. On the other hand it could also be something entierly else so you should still be really careful when wandering around."
+
+[Follow Yundar]
+
+A person has a room called last location.
+
+Understand "follow [any person]" as following. Understand the commands "chase" and "pursue" as "follow".
+
+Following is an action applying to one visible thing.
+
+Check following:
+	if the noun is the player, say "Wherever you go, there you are." instead;
+	if the noun is visible, say "[The noun] is right here." instead;
+	if the last location of the noun is not the location, say "It's not clear where [the noun] has gone." instead.
+
+Carry out following:
+	let the destination be the location of the noun;
+	if the destination is not a room, say "[The noun] isn't anywhere you can follow." instead;
+	let aim be the best route from the location to the destination;
+	say "(heading [aim])[line break]";
+	try going aim.
+
+
+[Artemis is a woman in Corinth.
+
+[We do also have to make sure that whenever we move a person from room to room, we record where they were moved from; otherwise, our clever restrictions about whom the player can pursue will not work properly.]
+
+To move (pawn - a person) tidily to (target - a room):
+	now the last location of the pawn is the holder of the pawn;
+	move the pawn to the target.
+
+Every turn:
+	let current location be the location of Artemis;
+	let next location be a random room which is adjacent to the current location;
+	if Artemis is visible, say "Artemis heads to [the next location].";
+	move Artemis tidily to next location;
+	if Artemis is visible, say "Artemis arrives from [the current location]."
+
 
 Yarwol's Cave is a room. "This cave is where Yarwol, the oldest Yetíss, resides."
 
-The Main Cave_Kaldríss is a room. "Seems like this is the cave that connects them all. It also seems a lot bigger then the other ones. It also seems like there's a small gap in the wall in the east which is barely visible. This might be some kind of door and also the way out of this cave system. I might want to take a closer look. I just have to be careful so the other Yetíss won't be suspicious." The printed name of the Main Cave_Kaldríss is "Main Cave".
+After going to Yarwol's Cave for the first time:
+	say "Test."
+
+The Main Cave_Kaldríss is a room. "This is like the central cave that also acts as kind of a hub for all the Yetíss that live inside this cave system. Judging from the sheer size of it there must be hundreds of different caves down here." The printed name of the Main Cave_Kaldríss is "Main Cave".
+
+After going to the Main Cave_Kaldríss for the first time:
+	say "Seems like this is the cave that connects them all which also explains why it's that much bigger than the ones before.  It also seems like there's a small gap in the wall in the east which is barely visible. This might be some kind of door and also the way out of this cave system. I might want to take a closer look. I just have to be careful so the other Yetíss won't be suspicious.".
 
 [Hide door to Secret Cave]
 Secret Cave_Kaldríss is a room. "A secret cave that even most of the Yetíss don't know about. Only the ones worthy enough are allowed to enter." The printed name of the Secret Cave_Kaldríss is "Secret Cave". 
@@ -1102,8 +1233,8 @@ Before going to the Secret Cave_Kaldríss:
 		say "This door doesn't seem to lead anywhere";
 		stop the action.
 [NPCs]
-Yundar is a female person in Yundar's Cave. "Young female Yetíss. Looks chummy but at the same time terrifying to some extent."
-Yarwol is a person in Yarwol's Cave.  "The oldest Yetíss in this cave system. Also very wise since he's been living on this planet for over 200 years."
+Yundar is a person in Yundar's Cave. "This specimen seems to be one of the younger Yetíss. Looks chummy but at the same time terrifying to some extent."
+Yarwol is a person in Yarwol's Cave.  "Seems like this is the "
 		
 [Items]
 Yarwol's Keystone is in Yarwol's Cave.
@@ -1111,10 +1242,10 @@ Yundar's Picking Tools is in Yundar's Cave.
 
 
 
-Section 3 - Jötunheimr
+[Section 3 - Jötunheimr
 
 [Region - Jötunheimr]
-[Jötunheimr is a region.  Jötunheimr Main Gate, Hunting Lodge and  Throne Room_Kaldríss is in Jötunheimr.
+Jötunheimr is a region.  Jötunheimr Main Gate, Hunting Lodge and  Throne Room_Kaldríss is in Jötunheimr.
 
 [Rooms]
 Jötunheimr Main Gate is a room. "Insert description here."
@@ -1145,7 +1276,7 @@ After going to Blakkríss Temple Entrance for the first time:
 	say "Everything turned white, you completely lost track of time and suddenly you stand in front of something that looks like a huge temple of some sort. This must be it. This must be the place the Yetíss told you about which might be able to bring you and your spaceship back into the orbit. I should get going before I waste any more precious time! I think I should be good for now if I just keep going west."
 
 The Great Hall_Kaldríss is a room. "This seems to be the focal point of the temple. Even more rune inscriptions on the walls. Well, I should just keep going into the same direction since I can see some weird light that is coming from a little further inside the temple." The printed name of Great Hall_Kaldríss is "Great Hall".
-The Spectral Bridge is a room. "A bridge that seems to purely consist of light that is emitted in all its different spectral colors. How does this make even sense? Only one way to find out. All I can do is keep folling this path since I can't go anywhere else anyway."
+The Spectral Bridge is a room. "A bridge that seems to purely consist of light that is emitted in all its different spectral colors. How does this make even sense? Only one way to find out. All I can do is keep following this path since I can't go anywhere else anyway."
 The Bifröst Portal Chamber is a room. "This must be the portal chamber! Finally! Time to calibrate the portal so I can get into the orbit ASAP."
 
 [Directions]
