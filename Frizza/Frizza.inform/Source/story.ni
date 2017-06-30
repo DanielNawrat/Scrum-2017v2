@@ -482,6 +482,23 @@ After approaching the Flux Current 2:
 		
 	
 [---]
+
+[With both Essences]
+The description of the unregulated Flux Essence is "A small orb of blue fluid, billowing inside the Extractor. It seems like it would want to sputter, but it is tightly held in place by its chamber."
+The description of the regulated Flux Essence is "A small phosphorescent orb, emitting blue light. Its surface is even, there are no whirling drifts, it looks balanced."
+
+
+After asking Dunia about "Flux Essence":
+	if the Regulated Flux Essence is in the Flux Extractor:
+		if the Unregulated Flux Essence is in the Flux Extractor:
+			say "[italic type]- I see you have the two samples. Impressive ... Wait here for a moment.[paragraph break][roman type]She disappears shortly and soon returns the massive Keeper Du'un.[paragraph break][italic type]- Indeed, he returned. What a cheerful message.[paragraph break][roman type]He seems to be smiling, but even this gesture becomes a little intimidating, considering his imposing build.[paragraph break][italic type]- Well then, I think you earned an adequate amount of what you could call trust. Let me show you something.[paragraph break][roman type]He gently but insistingly points you the way - down the stairs which you have so often seen disappear him in. The opening leads into a rather broad tunnel, lined with blue torches on either side.The three of you for a long time descend in silence. At some point, Dunia briefly raises her voice.[paragraph break][italic type]- No other than Duju have seen what you will see for quite some time. I guess one seeks the aspiring relief of someone not involved on either part, after such a long time of disappointment.[paragraph break][roman type]Her voice subsides. You hear a soft rumbling from Du'un.[paragraph break][italic type]- One might.[paragraph break][roman type]The echos of the exchange are the last vocal sounds you hear for quite some time. Some time after - you really couldn't tell how long you walked - the tunnel broadens and finally leads to an opening. The view takes your breath as you step into a vast cavern from inside the tunnel. You barely can recognize its highest point. You are surrounded by a natural basin, filled to a considerable level with bluish liquid. In the middle of the cave you see a physically impossible spectacle: There, in mid air, a large blue orb is flying, constantly producing waves of fluid, which then drop down into the basin, keeping the lake's surface in motion. You realize that the air is shimmering, despite the cold air. You gaze at the grand orb, when your vision suddenly becomes grainy, parts of it are folding, spawning shadows and bright specks where there should be none. You close your eyes and look to the ground as you open them again, your vision returned to normal. ";
+		else:
+			say "You're missing the regulated one.";
+	else:
+		say "You're missing the unregulated one."
+
+
+
 [Techie]
 After answering Dunia that "Techies" for the first time:
 	if Dunia is in the Ascent_Frizza:
