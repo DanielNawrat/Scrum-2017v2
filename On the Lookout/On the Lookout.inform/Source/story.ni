@@ -65,7 +65,7 @@ The carrying capacity of the player is 3. The backpack is the player's holdall. 
 
 
 
-[
+
 Chapter 1 - Sitis
 
 [Beginn meiner Mapkonstruktion - Landing Zone, Wüste und Sicuum]
@@ -882,17 +882,14 @@ After asking Dunia about "Flux Essence":
 		say "You're missing the unregulated one."
 
 
-<<<<<<< HEAD
-]
-=======
+
 
 [Techie]
 After answering Dunia that "Techies" for the first time:
 	if Dunia is in the Ascent_Frizza:
 		say "[italic type]Then begone with you! I don't want anything to do with that!";
 		now BlooSympathy is false.
-	
->>>>>>> 65d2bb0dd855ddad7eca68406a1efbef7bf157cb
+
 
 
 
