@@ -530,12 +530,12 @@ Topic	Response
 "Cavern"	"[italic type]- It is ancient, and it harbors something even more ancient. You see, if what you see here is the motor, we are merely the droplets, falling of in times of superfluousness.[paragraph break]"
 
 After asking Dunia about "Essence Pool":
-	say "Now that is something quite particular. However, Du'un is far more suited to tell you about it."
+	say "[italic type]- Now that is something quite particular. However, Du'un is far more suited to tell you about it."
 	
 After asking Du'un about "Essence Pool" for the first time:
-	say "You see that Orb there, above? This pool is what it is made of, a special kind of Flux, we call it the Fountain. We will attempt something now. Put both of the Essences in the pool. Start with the Unregulated one." 
+	say "[italic type]- You see that Orb there, above? This pool is what it is made of, a special kind of Flux, we call it the Fountain. We will attempt something now. Put both of the Essences in the pool. Start with the Unregulated one." 
 After asking Du'un about "Essence Pool" for the second time:
-	say "Put both of the Essences in the pool first, then we will see."
+	say "[italic type]- Put both of the Essences in the pool first, then we will see."
 
 Instead of inserting the Sinkan Cloak into the Essence Pool:
 		say "[roman type]Before you can dip it into the pool you hear a rumbling beside you.[paragraph break][italic type]- You shouldn't try that.";
@@ -559,9 +559,19 @@ Instead of inserting the Regulated Flux Essence into the Essence Pool:
 		say "[paragraph break]As soon as Du'un finished, the pool again starts to move, first swirling, then seething heavily. The bubbles coming from it become solid in mid-air and drop down again, ghostly arcs of blue smoke emerge from the pool, deep rifts start to form. Unvoluntarily, you take a step back. Just when it seems that the pool would sputter out of its basin the tensions abate, the rifts close and the convulsive motions subside. On turning, you see Du'un holding his staff fixed towards the pool. The last movement goes through the pool, then it falls silent. Suddenly, a small object comes to the surface - a transparent orb with a balanced source of energy inside it: a Pure Flux Orb. [line break]Du'un points his staff in the direction of the orb and lifts it out of the pool, without touching it, right into a glass container that Dunia stands ready with. As soon as the orb is in the container, Dunia seals it, holding it triumphantly. Du'un turns to you.[paragraph break][italic type]- That, now, is something special.[paragraph break][roman type]You receive a [bold type]Pure Flux Essence.";
 		now the player has the Pure Flux Essence;
 		say "[line break][italic type]- Oh, and we will need that back.[paragraph break][roman type]Dunia takes the Flux Extractor from you, smiling cheekily.";
-		remove Flux Extractor from play.
+		remove Flux Extractor from play;
+		say "[paragraph break]You start the long ascend, Du'un and Dunia following close behind you. Amazed, you hold the Pure Essence in your hands, aware of its worth.[paragraph break]As you finally reach the Flux Gate you see that the operator and staff guards have changed, you must have been down there quite a while. One last time, Du'un adresses you.[paragraph break][italic type]- If you insert that into your ship, you should have enough energy for a few thousand years of space travel. Use it wisely. And farewell.[paragraph break][roman type]And with that he leaves the Gate, this time heading straight to the north, towards the city.[paragraph break][italic type]- I couldn't have said it better. Farewell, and be free to look around, should there be a next time, perhaps I will be there.[paragraph break][roman type]Now Dunia too sets out - her in the direction of the ghastly mountains. You stand there, with more energy in your hands than you could ever fathom. It might be time to leave that place.";
+		now the player is in the Upper Gate_Frizza.
 
+The description of the Pure Flux Essence is "A transparent orb inside a glass container, its core is an even sphere of pure blue energy. It is more than fit to start you ship back up. You should try inserting it."
 
+The Discharged Spaceship is a container in the Landing Zone_Frizza.
+
+After inserting the Pure Flux Essence into the Discharged Spaceship:
+	say "You put the Essence into the generator of the ship and it instantly starts working - the lights go on, you hear the engine starting and the turbines spinning. Time to take off.[paragraph break]You lift your ship, up and up, until you are far above the surface of Frizza. You take a last glance at the blue Fluxes, the city structures and the rocky landscape, before breaching through the clouds and entering the stratosphere. You did it, you survived Frizza.[paragraph break]For a long time you sail through space, passing moons, asteroids, planets ... you think about your past actions, and of what will come. Before you can help it, you fall to sleep of exhaustion.[paragraph break]Chapter 5 - Kaldriss[paragraph break]You are suddenly woke by heavy jolts and a bursting noise. You quickly orient yourself and grasp the situation. You got caught in a meteor shower and while trying your best to manouver your spaceship through it  your engine still took a hit. You then had to crash-land on Kaldríss - one of the most cold planets in this solar system.  Since only a few explorers made their to this planet there's not a whole lot of information available about this icy place. You are pretty much on your own now. The spaceship also won't take off before it hasn't been properly repaired. But first things first. Without any kind of heat you won't survive this bleakness for long. You tame a look at the command panel in hopes of finding something of use but it doesn't look very good. There's only a single green button on the command panel. What could this mean? I might also wanna  take a look at the spaceship exit that lies straight ahead since it seems to be busted, too.";
+	remove Pure Flux Essence from play.
+	[now the player is in the Spaceship Bridge_Kaldríss.]
+	
 [Techie]
 After answering Dunia that "Techies" for the first time:
 	if Dunia is in the Ascent_Frizza:
