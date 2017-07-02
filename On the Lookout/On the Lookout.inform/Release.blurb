@@ -1,20 +1,45 @@
 ! Blurb file created by Inform build 6M62
 
+<<<<<<< HEAD
 status "C:\Users\tgasc_000\Desktop\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\tgasc_000\Documents\GitHub\Scrum-2017v2\On the Lookout\On the Lookout.inform\Build\StatusCblorb.html"
+=======
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "D:\Documents\Scrum-2017v2\On the Lookout\On the Lookout.inform\Build\StatusCblorb.html"
+>>>>>>> 46543d64cda032f4641529d122da7a91f0f16d40
 
 
 ! Identification
 
+<<<<<<< HEAD
 project folder "C:\Users\tgasc_000\Documents\GitHub\Scrum-2017v2\On the Lookout\On the Lookout.inform"
 release to "C:\Users\tgasc_000\Documents\GitHub\Scrum-2017v2\On the Lookout\On the Lookout.materials\Release"
+=======
+project folder "D:\Documents\Scrum-2017v2\On the Lookout\On the Lookout.inform"
+release to "D:\Documents\Scrum-2017v2\On the Lookout\On the Lookout.materials\Release"
+>>>>>>> 46543d64cda032f4641529d122da7a91f0f16d40
 
 ! Blorb instructions
 
 storyfile leafname "On the Lookout.gblorb"
+<<<<<<< HEAD
 storyfile "C:\Users\tgasc_000\Documents\GitHub\Scrum-2017v2\On the Lookout\On the Lookout.inform\Build\output.ulx" include
 ifiction "C:\Users\tgasc_000\Documents\GitHub\Scrum-2017v2\On the Lookout\On the Lookout.inform\Metadata.iFiction" include
 cover "C:\Users\tgasc_000\Desktop\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Users\tgasc_000\Desktop\Inform 7\Internal\Miscellany\Cover.jpg"
+=======
+<<<<<<< HEAD
+storyfile "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Scrum-2017v2\On the Lookout\On the Lookout.inform\Build\output.ulx" include
+ifiction "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Scrum-2017v2\On the Lookout\On the Lookout.inform\Metadata.iFiction" include
+cover "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 1 "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 3 "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Scrum-2017v2\On the Lookout\On the Lookout.materials\Figures\wallhaven-94691.jpg"
+picture 4 "C:\Users\Tim\Documents\Studium\(1) Mewip\SCRUM\Scrum-2017v2\On the Lookout\On the Lookout.materials\Figures\Surface.png"
+=======
+storyfile "D:\Documents\Scrum-2017v2\On the Lookout\On the Lookout.inform\Build\output.ulx" include
+ifiction "D:\Documents\Scrum-2017v2\On the Lookout\On the Lookout.inform\Metadata.iFiction" include
+cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+>>>>>>> 1612a89504fa13964cafdc8836c7ed18982df5f6
+>>>>>>> 46543d64cda032f4641529d122da7a91f0f16d40
 
 ! Placeholder variables
 

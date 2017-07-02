@@ -4,7 +4,7 @@
   <activeNode nodeId="node-1"/>
   <item nodeId="node-1">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">Your ship falls through thick layers of dark clouds. Red flashes illuminate your surroundings. The lights on your console warn you of the dangerously fast approaching energy level zero. As you finally break through the last cloud, you get a glimpse of what awaits you underneath. &#x000A;Black planes and sharp cliffs of a dark red shape the landscape. In the east you perceive a massive rock formation, in the west you see a thick blue stream cutting through the plane , illuminating big portions of it in the process. Somewhere to the south there seem to be some sort of industrial constructions, far in the north you believe to recognize cubic shapes that reveal a city. You don't have time to study the landscape much longer. All you concentration is desperately needed as you find a gap in the ghastly cliffs and bring down your ship. Heavy jolting, followed by a sudden blow signalize your landing. &#x000A;Your ship's on the ground, and you are too, barely. Welcome to Frizza.&#x000A;&#x000A;Frizza&#x000A;An Interactive Fiction by Tim&#x000A;Release 1 / Serial number 170630 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Landing Zone&#x000A;You step out of your ship onto a small square in the middle of nowhere. Your ship's dead and so is the computer. It seems like you ought to explore the environment. You remeber having seen civilization-like shapes to the south-west and to the north. To the east  there is a huge mountain, to the west there seems to be a Flux.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Your ship falls through thick layers of dark clouds. Red flashes illuminate your surroundings. The lights on your console warn you of the dangerously fast approaching energy level zero. As you finally break through the last cloud, you get a glimpse of what awaits you underneath. &#x000A;Black planes and sharp cliffs of a dark red shape the landscape. In the east you perceive a massive rock formation, in the west you see a thick blue stream cutting through the plane , illuminating big portions of it in the process. Somewhere to the south there seem to be some sort of industrial constructions, far in the north you believe to recognize cubic shapes that reveal a city. You don't have time to study the landscape much longer. All you concentration is desperately needed as you find a gap in the ghastly cliffs and bring down your ship. Heavy jolting, followed by a sudden blow signalize your landing. &#x000A;Your ship's on the ground, and you are too, barely. Welcome to Frizza.&#x000A;&#x000A;Frizza&#x000A;An Interactive Fiction by Tim&#x000A;Release 1 / Serial number 170702 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Landing Zone&#x000A;You step out of your ship onto a small square in the middle of nowhere. Your ship's dead and so is the computer. It seems like you ought to explore the environment. You remeber having seen civilization-like shapes to the south-west and to the north. To the east  there is a huge mountain, to the west there seems to be a Flux.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -1040,7 +1040,7 @@
   </item>
   <item nodeId="node-97">
     <command xml:space="preserve">ask Dunia about Flux</command>
-    <result xml:space="preserve">- Yeah, our essence and all that shit. Don't mention it.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">- Yeah, our essence and all that shit. Don't mention it.&#x000A;&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -1051,7 +1051,7 @@
   </item>
   <item nodeId="node-98">
     <command xml:space="preserve">ask Dunia about Kollock</command>
-    <result xml:space="preserve">- Our spiritual leader. Celebrated as god-king. "He is master, he is Flux".&#x000A;&#x000A;Her tone seems to you tinged with a trace of sarcasm. She looks around, as if to see if nobody is within earshot.&#x000A;&#x000A;- Though some appreciate their freedom more than others.&#x000A;&gt;</result>
+    <result xml:space="preserve">- Our spiritual leader. Celebrated as god-king. "He is master, he is Flux".&#x000A;&#x000A;Her tone seems to you tinged with a trace of sarcasm. She looks around, as if to see if nobody is within earshot.&#x000A;&#x000A;- Though some appreciate their freedom more than others.&#x000A;&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -1062,7 +1062,7 @@
   </item>
   <item nodeId="node-99">
     <command xml:space="preserve">ask Dunia about Du'un</command>
-    <result xml:space="preserve">- My father and the Keeper of the Flux, if you didn't notice. He taught me to keep an open mind for things, even if his own mental flexibility starts to crumble at the moment.&#x000A;&gt;</result>
+    <result xml:space="preserve">- My father and the Keeper of the Flux, if you didn't notice. He taught me to keep an open mind for things, even if his own mental flexibility starts to crumble at the moment.&#x000A;&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -1073,7 +1073,7 @@
   </item>
   <item nodeId="node-100">
     <command xml:space="preserve">ask Dunia about Techies</command>
-    <result xml:space="preserve">- They were settler's, originally. Sadly they chose to defile the Flux with their robots and devices, hence their nickname. We are not at good terms at the moment, our "Leader" Kollock even is bitterly hostile towards them, as he sees them as heretics.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">- They were settler's, originally. Sadly they chose to defile the Flux with their robots and devices, hence their nickname. We are not at good terms at the moment, our "Leader" Kollock even is bitterly hostile towards them, as he sees them as heretics.&#x000A;&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
