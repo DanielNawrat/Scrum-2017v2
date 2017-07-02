@@ -1,21 +1,281 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-2"/>
+  <activeNode nodeId="node-26"/>
   <item nodeId="node-1">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">Your ship falls through thick layers of dark clouds. Red flashes illuminate your surroundings. The lights on your console warn you of the dangerously fast approaching energy level zero. As you finally break through the last cloud, you get a glimpse of what awaits you underneath. &#x000A;Black planes and sharp cliffs of a dark red shape the landscape. In the east you perceive a massive rock formation, in the west you see a thick blue stream cutting through the plane , illuminating big portions of it in the process. Somewhere to the south there seem to be some sort of industrial constructions, far in the north you believe to recognize cubic shapes that reveal a city. You don't have time to study the landscape much longer. All you concentration is desperately needed as you find a gap in the ghastly cliffs and bring down your ship. Heavy jolting, followed by a sudden blow signalize your landing. &#x000A;Your ship's on the ground, and you are too, barely. Welcome to Frizza.&#x000A;&#x000A;On the Lookout&#x000A;An Interactive Fiction by Franziska, Daniel, Kevin, Tim, Tobias&#x000A;Release 1 / Serial number 170701 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Your arrival point. The Flat Rock&#x000A;You arrive on a planet called Sitis. You think the landing went great but as you leave your spaceship, you realise that two of your three water container broke down. Without minimum one new watertank you can not continue your journey. Far away in the east you recognise some kind of different rooftops. Maybe someones living there who could help you?&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">On the Lookout&#x000A;An Interactive Fiction by Franziska, Daniel, Kevin, Tim, Tobias&#x000A;Release 1 / Serial number 170702 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Your arrival point. The Flat Rock&#x000A;You arrive on a planet called Sitis. You think the landing went great but as you leave your spaceship, you realise that two of your three water container broke down. Without minimum one new watertank you can not continue your journey. Far away in the east you recognise some kind of different rooftops. Maybe someones living there who could help you?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
       <child nodeId="node-2"/>
+      <child nodeId="node-3"/>
     </children>
   </item>
   <item nodeId="node-2">
     <command xml:space="preserve">helper</command>
     <result xml:space="preserve">---&#x000A; This is the help section, you will get a list of essential commands that you can use in the game.&#x000A;&#x000A;&#x000A;&#x000A;look - shows you the room you are currently in&#x000A; e(x)amine (something)- get information about a thing or a person (if no object or person is specified, something will be examined automatically, if it's the only thing in the room&#x000A; take (something) - take and carry something&#x000A; (i)nventory - examine what your are carrying&#x000A;&#x000A;&#x000A;(e)ast - go east&#x000A; (w)est - go west&#x000A; (s)outh - go south&#x000A; (n)orth - go north&#x000A;&#x000A;&#x000A;Frizza&#x000A; ask (someone) about (something) - the typical way to begin a dialogue, the topics you can ask about are printed bold in the text beforehand&#x000A; answer (something) to (someone) - the typical way to respond to questions, the topics you can answer are printed bold in the text beforehand&#x000A; wait - wait some time, some situations may require this&#x000A; wear (something) - put clothing on&#x000A; take off (something )- take off clothing&#x000A; approach (something)-  try to draw closer to an object, some situations may require this&#x000A; extract - extract a sample from the Flux Current&#x000A;&#x000A;&#x000A;Kaldr&#x00ED;ss&#x000A; open/close (something)&#x000A; unlock/lock (something)&#x000A; insert (something) into (something)&#x000A; remove (something) from (something)&#x000A; shove (something) aside - some situations with blocked paths may require this&#x000A; put (something) on (e.g. clothing)&#x000A; follow (someone) - you are able to follow the movement of another character&#x000A;&#x000A;&#x000A;End of help section&#x000A;---&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The Wide Desert&#x000A;You've reached the Desert of Sitis. It gives you two things: First, an impression of what whole Sitis looks like - sandy, dry, with some deep stone canyons and huge rocks afar. But although this planet does not seem to be a place to life, the Desert also gives you the chance to discern that you are not alone. There IS life! When you look north, directly in front of you is a long corrugated iron bridge, guiding over one of those ravines. You can not access the bridge, it is blocked with a barbed wire fence, but straight ahead, at the end you see a majestic sandstone palace. In the bridge's middel, a wooden ladder leads to an enormous square block in the east. Likewise it is built out of stone and gives a somber impression. If you look east from the point you are standing at right now you see the kind of a rock mine. In the south you recognise a lot of small white houses surrounded by a rampart. It seems like people are living here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">The Rampart around Sicuum&#x000A;You can see a wooden gate here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-5"/>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">x wooden gate</command>
+    <result xml:space="preserve">It seems to be closed. Let's try to open it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">open wooden gate</command>
+    <result xml:space="preserve">Someone is yelling at you. "Who are you? And what do you want?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">answer axesto</command>
+    <result xml:space="preserve">(to the the faceless guardian)&#x000A;I am Axesto, an alien of the planet Fidatis. I landed here because I am travelling through the whole galaxy to discover the life on other plantes. During the landing here, two of my water containers broke down. That's why I need you to ask for water. Can you give me a bit, please? &#x000A;&#x000A;First there's silence. Then the gate squeaks. It opens slowly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">The Agora of Sicuum&#x000A;You enter the wooden gate. Finally, you do not just expect other people, rather you see them. The Sitisianer, that is how they are called, looks different then you. They are taller, with longer legs and shorter necks. Also they definitely got more hair. But their faces seems to be drawn by life. You really do not know how to connect to these people without scaring them. Maybe you should look around for the one who has opened the gate for you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">The Agora of Sicuum&#x000A;You enter the wooden gate. Finally, you do not just expect other people, rather you see them. The Sitisianer, that is how they are called, looks different then you. They are taller, with longer legs and shorter necks. Also they definitely got more hair. But their faces seems to be drawn by life. You really do not know how to connect to these people without scaring them. Maybe you should look around for the one who has opened the gate for you.&#x000A;&#x000A;You realize a boy staring at you. His name must be Anaidis because someone calls him "Anaidis, catching is about running after the other ones, not staring around!" What about connecting to him?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">x anaidis_sitis</command>
+    <result xml:space="preserve">You see nothing special about The staring boy.&#x000A;&#x000A;The boy takes a step back. He radiates a mixture of fear and fascination. "You have spoken about finding water. You will not be successful here."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">ask anaidis_sitis about no water</command>
+    <result xml:space="preserve">I never said we do not have any water here. Of course we do need water to survive. But we also need to fight for it. That's the reason we're not giving it away easily. Especially not to total strangers. &#x000A;&#x000A; You are not quite sure how to react to Anaidis statement. He seems to see this. So he starts to smile and mentions "Don't worry - it's less about you. It's more about our history. I know someone who could make you understanding these things. Come with me!"  Anaidis walks west to a huge hut. Follow him!&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">The Domum Praesidium of Sicuum&#x000A;When you enter, you see a long table standing in the middle of a spacious room, with a lot of chairs around and kind of executive chair at the tabel's end. So, this huge sandy hut seems to have an official function. During you are still thinking about to whom you are going to speak right now, Anaidis already walks straight ahead into a smaller room. Hurry up! Otherwise you maybe going to lose him.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mit&#x00E9;ra's Room&#x000A;You can see Mit&#x00E9;ra here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">x wooden gade</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine the wooden gate.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">x wooden gate</command>
+    <result xml:space="preserve">It seems to be closed. Let's try to open it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">open wooden gate</command>
+    <result xml:space="preserve">Someone is yelling at you. "Who are you? And what do you want?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">answer axesto</command>
+    <result xml:space="preserve">(to the the faceless guardian)&#x000A;I am Axesto, an alien of the planet Fidatis. I landed here because I am travelling through the whole galaxy to discover the life on other plantes. During the landing here, two of my water containers broke down. That's why I need you to ask for water. Can you give me a bit, please? &#x000A;&#x000A;First there's silence. Then the gate squeaks. It opens slowly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">The Agora of Sicuum&#x000A;You enter the wooden gate. Finally, you do not just expect other people, rather you see them. The Sitisianer, that is how they are called, looks different then you. They are taller, with longer legs and shorter necks. Also they definitely got more hair. But their faces seems to be drawn by life. You really do not know how to connect to these people without scaring them. Maybe you should look around for the one who has opened the gate for you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">The Agora of Sicuum&#x000A;You enter the wooden gate. Finally, you do not just expect other people, rather you see them. The Sitisianer, that is how they are called, looks different then you. They are taller, with longer legs and shorter necks. Also they definitely got more hair. But their faces seems to be drawn by life. You really do not know how to connect to these people without scaring them. Maybe you should look around for the one who has opened the gate for you.&#x000A;&#x000A;You realize a boy staring at you. His name must be Anaidis because someone calls him "Anaidis, catching is about running after the other ones, not staring around!" What about connecting to him?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">x anaidis_sitis</command>
+    <result xml:space="preserve">You see nothing special about The staring boy.&#x000A;&#x000A;The boy takes a step back. He radiates a mixture of fear and fascination. "You have spoken about finding water. You will not be successful here."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">ask anaidis_sitis about no water</command>
+    <result xml:space="preserve">I have never said we do not have any water here. Of course we do need water to survive. But we also need to fight for it. That's the reason we're not giving it away easily. Especially not to total strangers. &#x000A;&#x000A; You are not quite sure how to react to Anaidis statement. He seems to see this. So he starts to smile and mentions "Don't worry - it's less about you. It's more about our history. I know someone who could make you understanding these things. Come with me!"  Anaidis walks west to a huge hut. Follow him!&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The Domum Praesidium of Sicuum&#x000A;As you enter, you see a long table standing in the middle of a spacious room, with a lot of chairs around and kind of executive chair at the tabel's end. So, this huge sandy hut seems to have an official function. During you are still thinking about to whom you are going to speak right now, Anaidis already walks straight ahead into a smaller room. Hurry up! Otherwise you maybe going to lose him.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mit&#x00E9;ra's Room&#x000A;You can see Mit&#x00E9;ra here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">x mit&#x00E9;ra_sitis</command>
+    <result xml:space="preserve">A small and wrinkled woman lies on a narrow enhancement out of stone. It seems to be her bed. Anaidis kneels on the ground next to her whispering something incomprehensible. Suddenly, she gets up, actuates you and then her eyes lighten up. "Hello stranger! My name is Mit&#x00E9;ra, I am the protectress of my loved ones here in Sicuum. Anaidis mentioned you are searching for water. Is he right?"&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>

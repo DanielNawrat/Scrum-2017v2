@@ -3,8 +3,8 @@
 [Anchor rooms Testsection]
 
 The Anchor 1, Anchor 2, Anchor 3 and Anchor 4 are rooms. Anchors is a region. Anchor 1, Anchor 2, Anchor 3 and Anchor 4 are in the Anchors.
-Anchor 1 is east of Rock Mine_Sitis and west of Jungle_23.
-Anchor 2 is east of Jungle_31 and west of Landing Zone_Geysiria.
+Anchor 1 is east of Rock Mine_Sitis and west of Jungle_6.
+Anchor 2 is east of Jungle_8 and west of Landing Zone_Geysiria.
 Anchor 3 is east of Cave_Geysiria and west of Surface Flux_Frizza.
 Anchor 4 is east of the Ascent_Frizza and west of the Spaceship Exit_Kaldríss.
 
@@ -59,6 +59,7 @@ follow (someone) - you are able to follow the movement of another character[line
 
 [Limited Inventory]
 The carrying capacity of the player is 3. The backpack is the player's holdall. The player is wearing the backpack. The backpack is open and not openable. The carrying capacity of the backpack is 3.
+
 
 
 
@@ -125,13 +126,13 @@ The Protection Bridge_Sitis is north of the Wide Desert of Sitis_Sitis. [Beschre
 
 [Region 3 - The Village Sicuum]
 The Village Sicuum_Sitis is a region. The printed name of the Village Sicuum_Sitis is "The Village Sicuum". 
-The Agora_Sitis, the Domum Praesidium_Sitis, the Shelter_Sitis, the Secret Passage_Sitis and the Rock Mine_Sitis are in the Village Sicuum_Sitis.
+The Agora_Sitis, the Domum Praesidium_Sitis, the Shelter_Sitis, the Secret Passage_Sitis, the Rock Mine_Sitis and Mitéra's Room_Sitis are in the Village Sicuum_Sitis. 
 
 [Räume]
 The Agora_Sitis is a room. The printed name of the Agora_Sitis is "The Agora of Sicuum". The Agora_Sitis is south of the wooden gate. The description of the Agora_Sitis is "[italic type]You enter the wooden gate. Finally, you do not just expect other people, rather you see them. The Sitisianer, that is how they are called, looks different then you. They are taller, with longer legs and shorter necks. Also they definitely got more hair. But their faces seems to be drawn by life. You really do not know how to connect to these people without scaring them. Maybe you should look around for the one who has opened the gate for you[roman type]."
 
 After looking in the Agora_Sitis for the first time:
-	say "[italic type]You realize a boy staring at you. His name must be Anaidis because someone calls him[roman type] 'Anaidis, catching is about running after the other ones, not staring around!' [roman type]What about connecting to him?[roman type]";
+	say "[italic type]You realize a boy staring at you. His name must be Anaidis because someone calls him[roman type] 'Anaidis, catching is about running after the other ones, not staring around!' [italic type]What about connecting to him?[roman type]";
 	now Anaidis_Sitis is in the Agora_Sitis;
 	now the description of the Agora_Sitis is "-";
 
@@ -146,27 +147,70 @@ Table of Anaidis_Sitis Responses
 Topic	Response
 "no water" 	"But why not? You are all living here. A whole village. You would not survive without water. [paragraph break]"	
 
-[Hier scheint noch ein Fehler zu sein]
-[After asking Anaidis_Sitis about "no water":
-	say "I never said we do not have any water here. Of course we do need water to survive. But we also need to fight for it. That's the reason we're not giving it away easily. Especially not to total strangers. [paragraph break]";
-	say "[italic type] You are not quite sure how to react to Anaidis statement. He seems to see this. So he starts to smile and mentions[roman type] 'Don't worry - it's less about you. It's more about our history. I know someone who could make you understanding these things.' Anaidis walks straight ]
 
-
-
-
-[After answering Dunia that "Techies" for the first time:
-	if Dunia is in the Ascent_Frizza:
-		say "[italic type]Then begone with you! I don't want anything to do with that!";
-		now BlooSympathy is false.]
-
-
-
+After asking Anaidis_Sitis about "no water":
+	say "I have never said we do not have any water here. Of course we do need water to survive. But we also need to fight for it. That's the reason we're not giving it away easily. Especially not to total strangers. [paragraph break]";
+	say "[italic type] You are not quite sure how to react to Anaidis statement. He seems to see this. So he starts to smile and mentions[roman type] 'Don't worry - it's less about you. It's more about our history. I know someone who could make you understanding these things. Come with me!' [italic type] Anaidis walks west to a huge hut. Follow him![roman type]";
+	now the printed name of Anaidis_Sitis is "Anaidis";
+	
 
 Anaidis_Sitis is a person. Anaidis_Sitis is in the Shelter_Sitis. The printed name of Anaidis_Sitis is "The staring boy". 
 
-[After examining Anaidis_Sitis for the first time:
-	say "[italic type]The boy takes one step back. Critically, he squints his eyes.[roman type] 'I have opened the gate for you. What about being grateful and saying 'thanks'? That's normal in our world.' [italic type]Right now he grins cheeky[roman type]."]
 
+The Domum Praesidium_Sitis is a room. The printed name of the Domum Praesidium_Sitis is "The Domum Praesidium of Sicuum". The Domum Praesidium_Sitis is west of The Agora_Sitis. 
+The description of the Domum Praesidium_Sitis is "[italic type]As you enter, you see a long table standing in the middle of a spacious room, with a lot of chairs around and kind of executive chair at the tabel's end. So, this huge sandy hut seems to have an official function. During you are still thinking about to whom you are going to speak right now, Anaidis already walks straight ahead into a smaller room. Hurry up! Otherwise you maybe going to lose him[roman type]."
+
+Mitéra's Room_Sitis is a room. The printed name of Mitéra's Room_Sitis is "Mitéra's Room". Mitéra's Room_Sitis is north of the Domum Praesidium_Sitis.
+
+Mitéra_Sitis is a person in Mitéra's Room_Sitis. The printed name of Mitéra_Sitis is "Mitéra". The description of Mitéra_Sitis is "[italic type]Mitéra is a small and wrinkled woman. At the moment she lies on a narrow enhancement out of stone. It seems to be her bed. Anaidis kneels on the ground next to her whispering something incomprehensible. Suddenly, she gets up, actuates you and then her eyes lighten up[roman type]. 'Hello stranger! My name is Mitéra, I am the protectress of my loved ones here in Sicuum. Anaidis mentioned you are searching for water. Is that right?'"
+
+After examining Mitéra_Sitis for the first time:
+	say "[italic type]You nod.[roman type] 'I would appreciate it, if you could help me out. But Anaidis said I need to fight for it?"
+
+
+[[Dialogtabelle]
+
+Table of  Responses
+Topic	Response
+"no water" 	"But why not? You are all living here. A whole village. You would not survive without water. [paragraph break]"]
+
+
+
+The Shelter_Sitis is a room. The printed name of the Shelter_Sitis is "Your Shelter". The Shelter_Sitis is east of the Agora_Sitis.
+
+
+The Secret Passage_Sitis is a room. The printed name of the Secret Passage_Sitis is "A secret Passage". 
+The Secret Passage_Sitis is north of the Shelter_Sitis.
+
+The Rock Mine_Sitis is a room. The printed name of the Rock Mine_Sitis is "The Rock Mine". The Rock Mine_Sitis is north of the Secret Passage_Sitis. 
+
+
+[Region 4 - The Jail]
+The Jail_Sitis is a region. The Jail Basement_Sitis is in the Jail_Sitis.
+
+[Räume]
+The Jail Basement_Sitis is a room. The printed name of the Jail Basement_Sitis is "The Jail". 
+The Jail Basement_Sitis is east of the Protection Bridge_Sitis.
+
+
+
+[Region 5 - The Holy Area]
+The Holy Area_Sitis is a region. The Holy Palace_Sitis is in the Holy Area_Sitis.
+
+[Räume]
+The Holy Palace_Sitis is a room. The printed name of Holy Palace_Sitis is "The Holy Palace". 
+The Holy Palace_Sitis is north of the Protection Bridge_Sitis.
+
+
+[Charaktere]
+Carissimi_Sitis is a person in the Shelter_Sitis.The printed name of Carissimi_Sitis is "Carissimi".
+Scorpius_Sitis is a person in the Holy Palace_Sitis. The printed name of Scorpius_Sitis is "The Great Scorpius". 
+Machitikos_Sitis is a person in the Holy Palace_Sitis. The printed name of Machitikos_Sitis is "Machitikos". 
+Ilithios_Sitis is a person in the Rock Mine_Sitis. The printed name of Ilithios_Sitis is "Ilithios". 
+
+
+[instead of going nowhere from xy, say ]
+[Bei Namen Planet weg]
 
 
 
@@ -195,55 +239,6 @@ After examining Dunia for the first time:
 			say "[italic type]- You are painfully near to trespass holy ground, stranger. I would advise against it. Who are you, anyway? You don't look like a Techie. Tell me your [bold type]name[roman type].";
 			now ConcealedDunia is false.]
 	
-
-
-
-
-
-
-The Domum Praesidium_Sitis is a room. The printed name of the Domum Praesidium_Sitis is "The Domum Praesidium of Sicuum". The Domum Praesidium_Sitis is west of The Agora_Sitis. 
-
-The Shelter_Sitis is a room. The printed name of the Shelter_Sitis is "Your Shelter". The Shelter_Sitis is east of the Agora_Sitis.
-
-The Secret Passage_Sitis is a room. The printed name of the Secret Passage_Sitis is "A secret Passage". 
-The Secret Passage_Sitis is north of the Shelter_Sitis.
-
-The Rock Mine_Sitis is a room. The printed name of the Rock Mine_Sitis is "The Rock Mine". The Rock Mine_Sitis is north of the Secret Passage_Sitis. 
-
-
-[Region 4 - The Jail]
-The Jail_Sitis is a region. The Jail Basement_Sitis is in the Jail_Sitis.
-
-[Räume]
-The Jail Basement_Sitis is a room. The printed name of the Jail Basement_Sitis is "The Jail". 
-The Jail Basement_Sitis is east of the Protection Bridge_Sitis.
-
-
-
-[Region 5 - The Holy Area]
-The Holy Area_Sitis is a region. The Holy Palace_Sitis is in the Holy Area_Sitis.
-
-[Räume]
-The Holy Palace_Sitis is a room. The printed name of Holy Palace_Sitis is "The Holy Palace". 
-The Holy Palace_Sitis is north of the Protection Bridge_Sitis.
-
-
-[Charaktere]
-Mitéra_Sitis is a person in the Domum Praesidium_Sitis. The printed name of Mitéra_Sitis is "Mitéra". 
-Carissimi_Sitis is a person in the Shelter_Sitis.The printed name of Carissimi_Sitis is "Carissimi".
-Scorpius_Sitis is a person in the Holy Palace_Sitis. The printed name of Scorpius_Sitis is "The Great Scorpius". 
-Machitikos_Sitis is a person in the Holy Palace_Sitis. The printed name of Machitikos_Sitis is "Machitikos". 
-Ilithios_Sitis is a person in the Rock Mine_Sitis. The printed name of Ilithios_Sitis is "Ilithios". 
-
-[Personen bewegen]
-
-
-
-[instead of going nowhere from xy, say ]
-[Bei Namen Planet weg]
-
-
-
 
 
 
@@ -956,7 +951,7 @@ After answering Dunia that "Techies" for the first time:
 	if Dunia is in the Ascent_Frizza:
 		say "[italic type]Then begone with you! I don't want anything to do with that!";
 		now BlooSympathy is false.
-	
+
 
 
 Chapter 5 - Kaldríss

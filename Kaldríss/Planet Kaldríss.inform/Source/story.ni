@@ -20,7 +20,11 @@ suit capacitor has a weight called breaking strain. The breaking strain of suit 
 The energy orb has weight 50kg.
 
 [Suit Capacitor]
+<<<<<<< HEAD
 Every turn when suit capacitor held by player is bursting: 
+=======
+Every turn when suit capacitor held by  the player is bursting: 
+>>>>>>> 37ed809a095ecf58496140a35186a589082dfc7a
 	say "The [suit capacitor] is only meant to only pure energy and nothing else. Inserting anything else destroys it. You discard its ruined remains, looking miserably down at [the list of things in the suit capacitor] on the floor."; 
 	now all of the things in the suit capacitor are in the location; 
 	now the suit capacitor is nowhere. 
@@ -297,7 +301,13 @@ Carry out following:
 	say "(heading [aim])[line break]";
 	try going aim.
 
+<<<<<<< HEAD
 
+=======
+[NPCs]
+Yundar is a woman in Yundar's Cave. "This specimen seems to be one of the younger Yetíss.  Looks chummy but at the same time terrifying to some extent."
+Yarwol is a man in Yarwol's Cave.  The description of Yarwol is "Seems like this is the oldest one of them all. This creature looks like it has seen better days since it seems to be very old. It's even possible it has been here for the past century if not longer."
+>>>>>>> 37ed809a095ecf58496140a35186a589082dfc7a
 
 To move (pawn - a person) tidily to (target - a room):
 	now the last location of the pawn is the holder of the pawn;
