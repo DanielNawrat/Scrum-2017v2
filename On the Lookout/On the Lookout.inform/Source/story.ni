@@ -250,6 +250,10 @@ Chapter 2 - Gaisetto
 
 
 
+[neue befehle dick
+name vom skorpion]
+
+
 [Dschungel]
 
 Jungle_Gaisetto is region. 
@@ -296,7 +300,7 @@ Instead of going nowhere from Jungle_8, say "The Jungle is to dense to move forw
 The golden plate is a object.
 the emerald is a object.
 the sapphirine is a object in the Lager.
-the ruby is a object.
+the ruby is a object in the lager.
 flute is a object [in the lager] in the Jungle_1.
 
 [Dorf]
@@ -305,7 +309,7 @@ The Formizer_Village is a region.
 The Chain_bridge is a room in the Formizer_Village. the printed name of Chain_bridge is "Chain Bridge".
 The Village_Square is a room in Formizer_Village. The printed name of Village_Square is "Square".
 Village_hut1 is a room in Formizer_Village. The printed name of Village_hut1 is "Hut".
-Village_hut2 is a room in Formizer_Village. The printed name of Village_hut2 is "Hut".
+Village_hut2 is a room in Formizer_Village. The printed name of Village_hut2 is "Shaman's Hut".
 
 Village_hut3 is a room in Formizer_Village. The printed name of the Village_hut3 is "Hut".
 Village_Path is a room in Formizer_Village. The printed name of the Village_path is "Path".
@@ -323,16 +327,41 @@ The Village_hut3 is east of the Village_square.
 The totem is north of the Village_square.
 The Chain_bridge is north of the Plinth. 
 
+	
+[Objekte im Dorf]
+
+Shaman's götti is a object in the lager.
+spear is a object in the lager.
+chest is a container in the Village_hut2. it is fixed in place. the printed name is "lol". The chest is a closed openable container. the carving is in the chest.
+saddle is a object in the lager.
 [Personen im Dorf]
 
-Chaman is a person in totem.
+Shaman is a person in totem.
 Collector is a person in Village_hut1.
-Weaver is a person in Village_hut2.
-Soldier is a person in Village_hut3.
+child is a person in Village_hut1.
+old man is a person in Village_hut3.
 
+Before going to the Village_hut2:
+	unless player carries spear:
+		move the player to the village_square;
+		say "verbarikadiert";
+		stop the action.
+
+Before going to the Village_stable:
+	unless player carries saddle:
+		move the player to the village_path;
+		say "verbarikadiert";
+		stop the action.	
+		
+Before going to the Village_hut3:
+	unless player carries carving:
+		move the player to the village_square;
+		say "verbarikadiert";
+		stop the action.
+		
 [Personen, Objekte und Container im Dschungel]
 
-The huge very old tree is a person in the Jungle_3. The huge very old tree carries the ruby.
+The huge very old tree is a person in the Jungle_3. 
 the lake is in the Jungle_4. It is scenery. 
 
 [Container und Türen im Tempel]
@@ -418,7 +447,52 @@ Understand "play the flute" as playing the flute.
 The description of the flute is "you should try to play the flute".
 
 After playing the flute:
-	say "test".
+	if the player has the flute:
+		if the player is in the jungle_3:
+			say "test";
+		else:
+			say "no";
+	else:
+		say "there is no flute".
+		
+After asking huge very old tree about "ruby":
+	say "say";
+	move ruby to Jungle_3.
+	
+
+After going to totem for the first time:
+	say "What have you done?"
+
+After asking shaman about a topic listed in the Table of shaman Responses:
+			say "[response entry]";
+			move spear to totem.
+			
+		
+Table of shaman Responses
+Topic	Response
+"Götti" 	"[italic type]- Yeah, our essence and all that shit. Don't mention it.[paragraph break]"	
+"weapon"	"[italic type]- We should arm ourselfe..."
+	
+After taking spear:
+	say "yeah".
+
+After taking saddle:
+	say "cool".
+
+
+saddle the götti is an action applying to nothing.
+Understand "saddle the götti" as saddle the götti.
+After saddle the götti:
+	if the player has the saddle:
+		say "it is saddled";
+		remove saddle from play;
+	else:
+		say "you need a saddle first of all".
+		
+After going to Village_hut3:
+	say "bla bla oh du sollst mir das geben";
+	remove carving from play.
+
 
 Chapter 3- Geysiria
 
