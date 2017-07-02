@@ -11,28 +11,28 @@
     </dict>
     <key>1</key><dict>
         <key>Filename</key><string>D:\Documents\Scrum-2017v2\Kaldríss\Planet Kaldríss.inform\Source\story.ni</string>
-        <key>Line</key><integer>15</integer>
+        <key>Line</key><integer>8</integer>
         <key>Title</key><string>Chapter 5 - Kaldríss</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>2</key><dict>
         <key>Filename</key><string>D:\Documents\Scrum-2017v2\Kaldríss\Planet Kaldríss.inform\Source\story.ni</string>
-        <key>Line</key><integer>17</integer>
+        <key>Line</key><integer>10</integer>
         <key>Title</key><string>Section 1 - Crash Site</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>3</key><dict>
         <key>Filename</key><string>D:\Documents\Scrum-2017v2\Kaldríss\Planet Kaldríss.inform\Source\story.ni</string>
-        <key>Line</key><integer>192</integer>
+        <key>Line</key><integer>196</integer>
         <key>Title</key><string>Section 2 - Yetíss Cave System</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>4</key><dict>
         <key>Filename</key><string>D:\Documents\Scrum-2017v2\Kaldríss\Planet Kaldríss.inform\Source\story.ni</string>
-        <key>Line</key><integer>323</integer>
+        <key>Line</key><integer>388</integer>
         <key>Title</key><string>Section 4 - Blakkríss Temple</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
