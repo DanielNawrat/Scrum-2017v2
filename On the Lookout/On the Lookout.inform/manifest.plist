@@ -4,6 +4,10 @@
     <dict>
         <key>Graphics</key>
         <dict>
+            <key>3</key>
+            <string>Figures\wallhaven-94691.jpg</string>
+            <key>4</key>
+            <string>Figures\Surface.png</string>
         </dict>
     </dict>
 </plist>

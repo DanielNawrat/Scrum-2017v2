@@ -461,49 +461,8 @@ Instead of going nowhere from the Cave_Geysiria, say "You're in a cave, go explo
 
 Chapter 4 - Frizza
 
-[[Anchor rooms Testsection]
-
-The Anchor 1, Anchor 2, Anchor 3 and Anchor 4 are rooms. Anchors is a region. Anchor 1, Anchor 2, Anchor 3 and Anchor 4 are in the Anchors.
-Anchor 1 is east of Rock Mine_Sitis and west of Jungle_23.
-Anchor 2 is east of Jungle_31 and west of Landing Zone_Geysiria.
-Anchor 3 is east of Cave_Geysiria and west of Surface Flux_Frizza.
-Anchor 4 is east of the Ascent_Frizza and west of the Spaceship Exit_Kaldríss.
-
-The player is in the Flat Rock_Sitis.
-
-Instead of going to the Anchors, say "There is no way to advance in this direction."
-
-The Landing Zone_Geysiria is west of the Cave_Geysiria. The Village_Geysiria is north of the Landing Zone_Geysiria.
 
 [---]
-
-[Helper Testsection]
-
-Helper is nowhere. Helper is scenery.
-
-Understand "Helper" as asking Helper about anything.
-Asking Helper about anything is an action applying to nothing. 
-Carry out asking Helper about anything:
-	now Helper is in the location of the player;
-	say "---[line break][bold type]This is the help section, you will get a list of essential commands that you can use in the game.[paragraph break][roman type]
-(e)ast - 		go east[line break]
-(w)est - 		go west[line break]
-(s)outh - 		go south[line break]
-(n)orth - 		go north[line break]
-e(x)amine - 		get information about a thing or a person[line break]
-examine myself -		get information about your status, if there are any[line break]
-take - 		take something[line break]
-ask someone about something - the typical way to begin a dialogue, the topics you can ask about are printed [bold type]bold [roman type]in the text beforehand[line break]
-answer something (to someone) - the typical way to respond to questions, the topics you can answer are printed [bold type]bold [roman type]in the text beforehand[line break]
-wait - 	wait some time, some situations may require this[line break]
-wear (something) -	put clothing on[line break]
-take off (something )-	take off clothing[line break]
-approach (something)- 	try to draw closer to an object, some situations may require this[line break]
-extract -	extract a sample from the Flux Current";
-	remove Helper from play;
-	say "End of help section[line break]---"
-
-[---]]
 
 [Regions and Rooms]
 [Surface Regions]
@@ -631,7 +590,7 @@ Above the Flux Core_Frizza is the Underground Flux_Frizza. The printed name of t
 Dunia is a person in the Plateau_Frizza. The printed name of Dunia is "Dunia". The description of Dunia is "A lean but athletic figure, wrapped by several layers of what looks like tough leather. In a small gap of her hood you can see glinting eyes that reveal a sharp mind."
 Dunia wears a Sinkan Cloak. The Sinkan Cloak is wearable.
 
-Nox is a person in the Sanctuary_Frizza. The printed name of Nox_Frizza is "NoX".
+Nox is a person in the Sanctuary_Frizza. The printed name of Nox_Frizza is "Nox".
 
 Kollock is a person in the Citadel_Frizza. The printed name of Kollock_Frizza is "Elder Kollock".
 
@@ -647,7 +606,7 @@ Hisbald is a person in the Tunnels_Frizza. The printed name of Hisbald_Frizza is
 
 [Items]
 
-Energy Orb_Frizza is an object in the Flux Core_Frizza.
+
 
 [---]
 
@@ -664,13 +623,15 @@ Chapter 1 - Somewhere on Frizza
 
 [Image Testsection]
 
-[Include Simple Graphical Window by Emily Short.
+Include Simple Graphical Window by Emily Short.
 Include Location Images by Emily Short.
 
 
-	Figure of Frizza is the file "wallhaven-94691.jpg".
-
-	The room-illustration of Landing Zone_Frizza is the Figure of Frizza. ]
+	Figure of Landing Zone_Frizza is the file "wallhaven-94691.jpg".
+	Figure of Upper Desert_Frizza is the file "Surface.png".
+	
+	The room-illustration of Upper Desert_Frizza is the Figure of Upper Desert_Frizza.
+	The room-illustration of Landing Zone_Frizza is the Figure of Landing Zone_Frizza.
 	
 [--]
 
@@ -681,7 +642,7 @@ ConcealedDunia is a truth state that varies. ConcealedDunia is true.
 Helplesness is a truth state that varies. Helplesness is false.
 CloakWearing is a truth state that varies. CloakWearing is false. 
 A thing can be examined or unexamined.
-[The carrying capacity of the player is 2.]
+The carrying capacity of the player is 3.
 
 [---]
 
@@ -793,17 +754,19 @@ After waiting in the Upper Gate_Frizza for the third time:
 	now the player carries the Flux Extractor;
 	now Du'un is in the Lower Gate_Frizza.
 
-After asking Dunia about a topic listed in the Table of Dunia Responses:
-	if Dunia is in the Upper Gate_Frizza:
+After asking Dunia about a topic listed in the Table of Dunia Responses 1:
 		say "[response entry]".
 		
-Table of Dunia Responses
+Table of Dunia Responses 1
 Topic	Response
-"Flux" 	"[italic type]- Yeah, our essence and all that shit. Don't mention it.[paragraph break]"	
-"Techies"	"[italic type]- They were settler's, originally. Sadly they chose to defile the Flux with their robots and devices, hence their nickname. We are not at good terms at the moment, our 'Leader' Kollock even is bitterly hostile towards them, as he sees them as heretics.[paragraph break]"
-"Kollock"	"[italic type]- Our spiritual leader. Celebrated as god-king. 'He is master, he is Flux'.[paragraph break][roman type]Her tone seems to you tinged with a trace of sarcasm. She looks around, as if to see if nobody is within earshot.[paragraph break][italic type]- Though some appreciate their freedom more than others."
-"Du'un"	"[italic type]- My father and the Keeper of the Flux, if you didn't notice. He taught me to keep an open mind for things, even if his own mental flexibility starts to crumble at the moment."
-"Duju"	"[italic type]- Our people. We have lived on this surface as long as we remember, and that indeed is a long time. We never were the star-seeking sort, due to our connection to the Fluxes. You may have noticed the bluish glow and the glowing bodyparts, they pretty much tell on that fact."
+"Flux" 	"[if Dunia is in the Upper Gate_Frizza][italic type]- Yeah, our essence and all that shit. Don't mention it.[paragraph break][otherwise if Dunia is in the Flux Core_frizza][italic type]- Yes, I might have been a bit negative. It is quite something, huh? At least it makes for a show.[paragraph break]"	
+"Techies"	"[if Dunia is in the Upper Gate_Frizza][italic type]- They were settler's, originally. Sadly they chose to defile the Flux with their robots and devices, hence their nickname. We are not at good terms at the moment, our 'Leader' Kollock even is bitterly hostile towards them, as he sees them as heretics.[paragraph break][otherwise if Dunia is in the Flux Core_Frizza][italic type]- They were settler's, originally. Sadly they chose to defile the Flux with their robots and devices, hence their nickname. It has been a long time since any of them saw what is going on below the surface - we won't let them, anymore, and the Flux won't either.[paragraph break]"
+"Kollock"	"[if Dunia is in the Upper Gate_Frizza][italic type]- Our spiritual leader. Celebrated as god-king. 'He is master, he is Flux'.[paragraph break][roman type]Her tone seems to you tinged with a trace of sarcasm. She looks around, as if to see if nobody is within earshot.[paragraph break][italic type]- Though some appreciate their freedom more than others.[paragraph break][otherwise if Dunia is in the Flux Core_Frizza][italic type]- Our spiritual leader. Celebrated as god-king. 'He is master, he is Flux'. He is a bollocks if you ask me. Look around you. Nobody has the power to control the force of nature.[paragraph break]"
+"Du'un"	"[if Dunia is in the Upper Gate_Frizza][italic type]- My father and the Keeper of the Flux, if you didn't notice. He taught me to keep an open mind for things, even if his own mental flexibility starts to crumble at the moment.[paragraph break][otherwise if Dunia is in the Flux Core_Frizza][italic type]- My father and the Keeper of the Flux, if you didn't notice. He is responisble for all this down here. If someone has some sort of handle over this, it is him.[paragraph break]"
+"Duju"	"[if Dunia is in the Upper Gate_Frizza][italic type]- Our people. We have lived on this surface as long as we remember, and that indeed is a long time. We never were the star-seeking sort, due to our connection to the Fluxes. You may have noticed the bluish glow and the glowing bodyparts, they pretty much tell on that fact.[paragraph break][otherwise if Dunia is in the Flux Core_Frizza][italic type]- Our people. We have lived on this surface as long as we remember, and that indeed is a long time. The Flux fuels us, it is part of us. Thus you are practically standing next to our aorta, you might not have known that.[paragraph break]"
+"Orb"	"[if Dunia is in the Flux Core_Frizza][italic type]- Pulsing, pumping, central in a sheltered place - does that remind you of something? Yes, it is exactly that.[paragraph break]"
+"Cavern"	"[if Dunia is in the Flux Core_Frizza][italic type]- Honestly, I don't know where it came from or who built it. Our belief says we originated in this lake down there, could be absurd enough to be true, if you ask me.  All that I really know is to not let someone down here we don't trust ... or can't control.[paragraph break]"
+
 
 After asking Dunia about "Flux Extractor":
 	if Dunia has the Sinkan Cloak:
@@ -944,19 +907,79 @@ The description of the regulated Flux Essence is "A small phosphorescent orb, em
 After asking Dunia about "Flux Essence":
 	if the Regulated Flux Essence is in the Flux Extractor:
 		if the Unregulated Flux Essence is in the Flux Extractor:
-			say "[italic type]- I see you have the two samples. Impressive ... Wait here for a moment.[paragraph break][roman type]She disappears shortly and soon returns the massive Keeper Du'un.[paragraph break][italic type]- Indeed, he returned. What a cheerful message.[paragraph break][roman type]He seems to be smiling, but even this gesture becomes a little intimidating, considering his imposing build.[paragraph break][italic type]- Well then, I think you earned an adequate amount of what you could call trust. Let me show you something.[paragraph break][roman type]He gently but insistingly points you the way - down the stairs which you have so often seen disappear him in. The opening leads into a rather broad tunnel, lined with blue torches on either side.The three of you for a long time descend in silence. At some point, Dunia briefly raises her voice.[paragraph break][italic type]- No other than Duju have seen what you will see for quite some time. I guess one seeks the aspiring relief of someone not involved on either part, after such a long time of disappointment.[paragraph break][roman type]Her voice subsides. You hear a soft rumbling from Du'un.[paragraph break][italic type]- One might.[paragraph break][roman type]The echos of the exchange are the last vocal sounds you hear for quite some time. Some time after - you really couldn't tell how long you walked - the tunnel broadens and finally leads to an opening. The view takes your breath as you step into a vast cavern from inside the tunnel. You barely can recognize its highest point. You are surrounded by a natural basin, filled to a considerable level with bluish liquid. In the middle of the cave you see a physically impossible spectacle: There, in mid air, a large blue orb is flying, constantly producing waves of fluid, which then drop down into the basin, keeping the lake's surface in motion. You realize that the air is shimmering, despite the cold air. You gaze at the grand orb, when your vision suddenly becomes grainy, parts of it are folding, spawning shadows and bright specks where there should be none. You close your eyes and look to the ground as you open them again, your vision returned to normal. ";
+			say "[italic type]- I see you have the two samples. Impressive ... Wait here for a moment.[paragraph break][roman type]She disappears and soon returns with the massive Keeper Du'un. Again you hear the booming of his voice.[paragraph break][italic type]- Indeed, he returned. What a cheerful message.[paragraph break][roman type]He seems to be smiling, but even this gesture becomes a little intimidating, considering his imposing build.[paragraph break][italic type]- Well then, I think you earned an adequate amount of what you could call trust. Let me show you something.[paragraph break][roman type]He gently but insistingly points you the way - down the stairs which you have so often seen disappear him in. The opening leads to a rather broad tunnel, lined with blue torches on either side. Curiously but not quite voluntarily you enter the tunnel and proceed to step down the stairs into the darkness, the two Duju right behin you. You descend in silence for a long time . At some point, Dunia briefly raises her voice.[paragraph break][italic type]- No one other than our people have seen what you will see. I guess one seeks the aspiring relief of someone not involved on either part after such a long time of disappointment.[paragraph break][roman type]Her voice subsides. You hear a soft rumbling from Du'un.[paragraph break][italic type]- One might.[paragraph break][roman type]The echos of the exchange are the last vocal sounds you hear for quite some time. You continue to pass fairly large holes in the tunnel, revealing peeks into great caves, deep ravines and cascades of Flux. Later - you really couldn't tell how long you walked - the tunnel broadens and finally leads to an opening. The view takes your breath as you step into a vast cavern. You are surrounded by a natural basin, filled to a considerable level with bluish liquid. In the middle of the cave you see a physically impossible spectacle: There, in mid air, a large blue orb is flying, constantly producing waves of fluid, which then drop down into the basin, keeping the lake's surface in motion. You realize that the air is shimmering, despite the cold atmosphere. You gaze at the grand orb, when your vision suddenly becomes grainy and parts of it fold, spawning shadows and bright specks where there should be none. You close your eyes and look to the ground, as you open them again your vision returned to normal. The Keeper raises his voice. [paragraph break][italic type]- Don't let your gaze be caught, or the Flux will consume it. But don't worry, that would have taken a bit longer.[paragraph break][roman type]That warning could have come earlier.[paragraph break]You further decend, approaching the big blue lake, when you become aware of a small stone plateau with the stairwell winding around it. Carefully you follow the two Duju down the last steps to the plateau, in the middle of which a small pond of Flux has gathered. Welcome to the core.";
+			say "Du'un comments your arrival.[paragraph break][italic type]- That is the core of our Flux. It is the quintessence. Our very being.";
+			move the player to Flux Core_Frizza;
+			now Dunia is in the Flux Core_Frizza;
+			now Du'un is in the Flux Core_Frizza;
 		else:
 			say "You're missing the regulated one.";
 	else:
 		say "You're missing the unregulated one."
 
+Instead of going up from the Flux Core_Frizza:
+	say "You wouldn't want to go up without the Duju, who knows what awaits you."
+	
+The description of the Flux Core_Frizza is "A huge cavern with a Flux lake at its bottom and a spectacular orb flowing midair, emitting Flux waves. You can't see the tunnel from which you came from. In the middle of the plateau is a small lake, sparkling with a pure sheen. " 
+
+[Energy Orb is an object in the Flux Core_Frizza.]
+The Essence Pool is a container in the Flux Core_Frizza. The Essence Pool is scenery. The description of it is "A small bluish lake, its surface entirely still, sparkling with a pure sheen."
+
+The Pure Flux Essence is in the Sanctuary_Frizza.
+
+After asking Du'un about a topic listed in the Table of Du'un responses:
+	if Du'un is in the Flux Core_Frizza:
+		say "[response entry]".
+		
+Table of Du'un Responses 
+Topic	Response
+"Flux" 	"[italic type]- The mighty soul of this planet. Unfortunately, not everybode recognizes its holy nature.[paragraph break]"	
+"Techies"	"[italic type]- Formerly they were interested people, open to our culture and mind. That changed when the corporations came, and with them the money. They don't look left or right now, which makes them ignorant to the Flux, and dangerous for us. You might understand our prepossession towards them.[paragraph break]"
+"Kollock"	"[italic type]- Let him be blessed. Father of Duju. Father of Flux.[paragraph break][roman type]You hear nothing of serious approval in his voice, it sounds mechanical. His eyes are ice cold while saying the words.[paragraph break]"
+"Dunia"	"[italic type]- An ambitious child of a disrupted time. I would not call that bad, though. The most powerful beings emerge in times of conflict.[paragraph break]"
+"Duju"	"[italic type]- My people, and the most important thing on this planet - speaking as the Keeper. The Flux is us, you know that, thus I guard the Flux like I guard my very own flesh and blood.[paragraph break]"
+"Orb"	"[italic type]- Can you imagine the power of a sun? It is fathomless, it is the purest energy. This Orb above - it is like that. And like every sun enlivens the planets around it, so does the Orb on a smaller scale. Frizza - as it is commonly called - is an organism, and the Orbs are its hearts.[paragraph break]"
+"Cavern"	"[italic type]- It is ancient, and it harbors something even more ancient. You see, if what you see here is the motor, we are merely the droplets, falling of in times of superfluousness.[paragraph break]"
+
+After asking Dunia about "Essence Pool":
+	say "Now that is something quite particular. However, Du'un is far more suited to tell you about it."
+	
+After asking Du'un about "Essence Pool" for the first time:
+	say "You see that Orb there, above? This pool is what it is made of, a special kind of Flux, we call it the Fountain. We will attempt something now. Put both of the Essences in the pool. Start with the Unregulated one." 
+After asking Du'un about "Essence Pool" for the second time:
+	say "Put both of the Essences in the pool first, then we will see."
+
+Instead of inserting the Sinkan Cloak into the Essence Pool:
+		say "[roman type]Before you can dip it into the pool you hear a rumbling beside you.[paragraph break][italic type]- You shouldn't try that.";
+		stop the action.
+
+Instead of inserting the Flux Extractor into the Essence Pool:
+		say "[roman type]Before you can dip it into the pool you hear a rumbling beside you.[paragraph break][italic type]- You shouldn't try that.";
+		stop the action.
+		
+After inserting the Unregulated Flux Essence into the Essence Pool:
+		say "You carefully extend the Extractor to drop the sample that you've got from the Flux before the gate into the pool. You hear a muffled[italic type]splash[roman type]. Afterwards, the pool starts swirling, forming thick threads of seemingly solid mass. It encloses the sample in its center and continues to arrange itself in patterns. Finally, with a last compression, it looses the tension and returns to a still state, leaving no sign of the Unregulated Essence. Dunia briefly gives off a comment.[paragraph break][italic type]- Now, that was spectacular.";
+		remove Unregulated Flux Essence from play.
+		
+Instead of inserting the Regulated Flux Essence into the Essence Pool:
+	if the Unregulated Flux Essence is in the Flux Extractor:
+		say "Start with the Unregulated Essence.";
+		stop the action;
+	else:
+		say "As you drop the Regulated Flux Essence from beyond the gate into the Pool, you hear an impressive silence - the sample actually makes no sound at all as it meets the surface. Excited, you stare at the pool. It shows a rash shiver, a quick swirld, before regaining its calm state. Du'un turns to you, his eyes smiling.[paragraph break][italic type]- You might want to know - that is a quite good outcome.";
+		remove Regulated Flux Essence from play;
+		say "[paragraph break]As soon as Du'un finished, the pool again starts to move, first swirling, then seething heavily. The bubbles coming from it become solid in mid-air and drop down again, ghostly arcs of blue smoke emerge from the pool, deep rifts start to form. Unvoluntarily, you take a step back. Just when it seems that the pool would sputter out of its basin the tensions abate, the rifts close and the convulsive motions subside. On turning, you see Du'un holding his staff fixed towards the pool. The last movement goes through the pool, then it falls silent. Suddenly, a small object comes to the surface - a transparent orb with a balanced source of energy inside it: a Pure Flux Orb. [line break]Du'un points his staff in the direction of the orb and lifts it out of the pool, without touching it, right into a glass container that Dunia stands ready with. As soon as the orb is in the container, Dunia seals it, holding it triumphantly. Du'un turns to you.[paragraph break][italic type]- That, now, is something special.[paragraph break][roman type]You receive a [bold type]Pure Flux Essence.";
+		now the player has the Pure Flux Essence;
+		say "[line break][italic type]- Oh, and we will need that back.[paragraph break][roman type]Dunia takes the Flux Extractor from you, smiling cheekily.";
+		remove Flux Extractor from play.
+
 
 [Techie]
-
 After answering Dunia that "Techies" for the first time:
 	if Dunia is in the Ascent_Frizza:
 		say "[italic type]Then begone with you! I don't want anything to do with that!";
 		now BlooSympathy is false.
+	
 
 
 
