@@ -57,7 +57,7 @@
   </item>
   <item nodeId="node-6">
     <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Spaceship Storage&#x000A;Taking a quick look inside the storage room doesn't seem to reveal anything particularly interesting. There are only some random souvenirs from your previous intergalactic travels and your locker which you haven't opened in ages.&#x000A;&#x000A;You can see a plasma cannon, a food ration, a G&#x00F6;tti and a smoke nodule here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Spaceship Storage&#x000A;Taking a quick look inside the storage room doesn't seem to reveal anything particularly interesting. There are only some random souvenirs from your previous intergalactic travels and your locker which you haven't opened in ages.  It also looks like the airlock in the south doesn't seem to function anymore so perhaps I should go check that out as well?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
