@@ -1,0 +1,2051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x02FAEEE8" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x02FAEEE8"/>
+  <item nodeId="node-0x02FAEEE8">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">You wake up. It's not comfortable. Oh wow, what a night! Did you drink too much again? Oh no, right. You're in your smoothie healthy lifestyle phase right now. But you do remember last night being rough. You do remember your step sister Kylie acting weird. You remember the sky turning dark and a storm destroying your house and masses of strangers with torn clothes chasing your entire family. Or maybe it was all just a nightmare? I bet it was. You'll have to tell Kanye and Kendall and Khlo&#x00E9; and everyone about this dream. And the entire snapchat community. But where's your husband and your kids? And more importantly, where's your phone?&#x000A;&#x000A;Keeping Up With The Apocalypse&#x000A;An Interactive Fiction by In&#x00E9;s Peyser-Kreis&#x000A;Release 1 / Serial number 160730 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Stairs&#x000A;You are on the stairs in front of a formerly fancy house, looking rather destroyed. Your house? You don't know at the moment. You seem to have hit your head and don't remember everything. There are two impressive, but graffiti sprayed columns next to you. In the wall is an electrical outlet with a charging cable attached to it.&#x000A;&#x000A;To the west is a little corner around the wall. To the north is the mansion. To the south is a big courtyard.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Chapter 1: Zombie Apocalypse&#x000A;Keeping Up With The Apocalypse&#x000A;An Interactive Fiction by In&#x00E9;s Peyser-Kreis&#x000A;Release 1 / Serial number 160517 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Stairs&#x000A;You wake up. It's not comfortable. You look around and realize that you're lying on the stairs in front of a big house, looking rather destroyed, north of you. Your house? You don't know at the moment.&#x000A;&#x000A;To the south is a big courtyard. There are two impressive, but graffiti sprayed columns next to you and what used to be flowers.&#x000A;&#x000A;You can see a giant door, columns, flowers, a Silver Key and a chunk of wood here.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02FAEF58"/>
+      <child nodeId="node-0x02F536F8"/>
+      <child nodeId="node-0x02F63BB0"/>
+      <child nodeId="node-0x02F64240"/>
+      <child nodeId="node-0x02F68EB8"/>
+      <child nodeId="node-0x02F693F8"/>
+      <child nodeId="node-0x02F750D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FAEF58">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Courtyard&#x000A;The courtyard is seamed with withered bushes. You see a fountain. Looking southeast, you can leave your property. Looking north are the stairs that lead you to your mansion.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F536F8">
+    <command xml:space="preserve">x columns</command>
+    <result xml:space="preserve">Someone sprayed graffiti over your beautiful baroque columns: "Everybody knows I'm a motherfucking monster." Oh no, is Kanye having one of these days again?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F5A6B0"/>
+      <child nodeId="node-0x02F63528"/>
+      <child nodeId="node-0x02F63B40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F5A6B0">
+    <command xml:space="preserve">x bushes</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F5A720"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F5A720">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Courtyard&#x000A;The courtyard is seamed with withered bushes. You see a fountain. Looking southeast, you can leave your property. Looking north are the stairs that lead you to your mansion.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F98430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F98430">
+    <command xml:space="preserve">x fountain</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F985D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F985D8">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Driveway&#x000A;You are in your driveway. To the sides of the driveway are bushes.  Looking northwest is the courtyard.&#x000A;&#x000A;You can see Bushes here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F98648"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F98648">
+    <command xml:space="preserve">x bushes</command>
+    <result xml:space="preserve">These are xy kind of bushes. You touch them and realize that there, in the north is a car parked right behind them.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F624B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F624B8">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Car&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F62660"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F62660">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Driveway&#x000A;You are in your driveway. To the sides of the driveway are bushes.  Looking northwest is the courtyard.&#x000A;&#x000A;You can see Bushes here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F62860"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F62860">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Courtyard&#x000A;The courtyard is seamed with withered bushes. You see a fountain. Looking southeast, you can leave your property. Looking north are the stairs that lead you to your mansion.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F628D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F628D0">
+    <command xml:space="preserve">x bushes</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F63330"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F63330">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Stairs In Front Of The Mansion&#x000A;You wake up. It's not comfortable. You look around and realize that you're lying on the stairs in front of a big house, looking rather destroyed, north of you. Your house? You don't know at the moment.&#x000A;&#x000A;To the south is a big courtyard. There are two impressive, but graffiti sprayed columns next to you and what used to be bushes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F63528">
+    <command xml:space="preserve">x flowers</command>
+    <result xml:space="preserve">Maybe one day these were beautiful blooming flowers, but now these's not much left of them. You see something shimmering between the flowers. A key?&#x000A;&#x000A;In flowers is a Silver Key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F63670"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F63670">
+    <command xml:space="preserve">x key</command>
+    <result xml:space="preserve">A medium sized silver key with a big ugly engraving of a dollar sign. Seriously?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F636E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F636E0">
+    <command xml:space="preserve">take silver key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F63750"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F63750">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  The Silver Key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F637C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F637C0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(The Silver Key)&#x000A;You see nothing special about The Silver Key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F63830"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F63830">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Stairs&#x000A;You wake up. It's not comfortable. You look around and realize that you're lying on the stairs in front of a big house, looking rather destroyed, north of you. Your house? You don't know at the moment.&#x000A;&#x000A;To the south is a big courtyard. There are two impressive, but graffiti sprayed columns next to you and what used to be flowers.&#x000A;&#x000A;You can see Columns and Flowers here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F638A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F638A0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Courtyard&#x000A;The courtyard is seamed with withered bushes. You see a fountain. Looking southeast, you can leave your property. Looking north are the stairs that lead you to your mansion.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F63910"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F63910">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Driveway&#x000A;You are in your driveway. To the sides of the driveway are bushes.  Looking northwest is the courtyard.&#x000A;&#x000A;You can see a Car Door and Bushes here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F63980"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F63980">
+    <command xml:space="preserve">x bushes</command>
+    <result xml:space="preserve">These are xy kind of bushes. You touch them and realize that there, in the north is a car parked right behind them.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F639F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F639F0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the Car Door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F63A60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F63A60">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with The Silver Key)&#x000A;You unlock the Car Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F63AD0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F63AD0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the Car Door)&#x000A;&#x000A;Car&#x000A;You can see a Car Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F63B40">
+    <command xml:space="preserve">x column</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F63BB0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the giant door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F63C20"/>
+      <child nodeId="node-0x02F64080"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F63C20">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Courtyard&#x000A;The courtyard is seamed with cherry trees. You see a fountain. Looking southeast, you can leave your property. Looking north are the stairs that lead you to your mansion.&#x000A;&#x000A;You can see Zombie Kylie Jenner here.&#x000A;&#x000A;Though Kylie isn't moving very fast, she definitely is moving towards you. Do you want to end up as a braineater, too?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F63C90"/>
+      <child nodeId="node-0x02F63EC0"/>
+      <child nodeId="node-0x02F64010"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F63C90">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Driveway&#x000A;You are in your driveway. To the sides of the driveway are bushes.  Looking northwest is the courtyard.&#x000A;&#x000A;You can see a Car Door and Bushes here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F63D00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F63D00">
+    <command xml:space="preserve">x bushes</command>
+    <result xml:space="preserve">These are xy kind of bushes. You touch them and realize that there, in the north is a car parked right behind them.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F63D70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F63D70">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the Car Door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F63DE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F63DE0">
+    <command xml:space="preserve">unlock car door</command>
+    <result xml:space="preserve">What do you want to unlock the Car Door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F63E50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F63E50">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F63EC0">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F63F30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F63F30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Stairs&#x000A;You look around and realize that you're lying on the stairs in front of a big fancy house, looking rather destroyed, north of you. Your house? You don't know at the moment. You seem to have hit your head and don't remember everything.&#x000A;&#x000A;To the south is a big courtyard. There are two impressive, but graffiti sprayed columns next to you and what used to be flowers.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F63FA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F63FA0">
+    <command xml:space="preserve">x columns</command>
+    <result xml:space="preserve">Someone sprayed graffiti over your beautiful baroque columns: "Everybody knows I'm a motherfucking monster." Oh no, is Kanye having one of these days again?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F64010">
+    <command xml:space="preserve">x Kylie</command>
+    <result xml:space="preserve">Your once beautiful step sister Kylie, one of those basic bitches who use snapchat way too much - oops - and drink one extra ice cold ice tea macha latte with double whipped cream and a shot of hazelnut aroma per hour has turned into a monster. She seems to be wearing a pink key around her neck.&#x000A;&#x000A;Kylie is not the sister she used to be. You probably can't trust her. You'll want to get out of here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F64080">
+    <command xml:space="preserve">x chunk of wood</command>
+    <result xml:space="preserve">A big chunk of wood is blocking the door into the house. God damnit!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F640F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F640F0">
+    <command xml:space="preserve">take chunk of wood</command>
+    <result xml:space="preserve">It's not that it looks too heavy for you to pick it up, but it has blood splashed all over it. Do you really want to get your hands dirty?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F64160"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F64160">
+    <command xml:space="preserve">x flowers</command>
+    <result xml:space="preserve">Maybe one day these were beautiful blooming flowers, but now these's not much left of them. You see something shimmering between the flowers. A key?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F641D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F641D0">
+    <command xml:space="preserve">x key</command>
+    <result xml:space="preserve">You see nothing special about the Silver Key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F64240">
+    <command xml:space="preserve">x flowers</command>
+    <result xml:space="preserve">Maybe one day these were beautiful blooming flowers, but now these's not much left of them. You see something shimmering between the flowers. A key?&#x000A;&#x000A;In flowers is a Silver Key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F642B0"/>
+      <child nodeId="node-0x02F68BA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F642B0">
+    <command xml:space="preserve">x key</command>
+    <result xml:space="preserve">A medium sized silver key with a big ugly engraving of a dollar sign. Seriously?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F64320"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F64320">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F64390"/>
+      <child nodeId="node-0x02F68748"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F64390">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Courtyard&#x000A;The courtyard is seamed with cherry trees. You see a fountain. Looking southeast, you can leave your property. Looking north are the stairs that lead you to your mansion.&#x000A;&#x000A;You can see cherry trees and a fountain here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F64400"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F64400">
+    <command xml:space="preserve">x cherry trees</command>
+    <result xml:space="preserve">These cherry trees used to bloom. Now one of them is chopped down, another one if covered in something that looks like... brains? You better look away if you wanna keep your breakfast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F64470"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F64470">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Driveway&#x000A;You are in your driveway. To the sides of the driveway are bushes.  Looking northwest is the courtyard.&#x000A;&#x000A;You can see a Car Door and Bushes here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F644E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F644E0">
+    <command xml:space="preserve">x bushes</command>
+    <result xml:space="preserve">These are withered rhododendrons. You touch them and realize that there, in the north is a car parked right behind them. It's a big black jeep that frequently parks in your family driveway. Who does it belong to again?.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F64550"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F64550">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the Car Door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F645C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F645C0">
+    <command xml:space="preserve">unlock car</command>
+    <result xml:space="preserve">(with the Silver Key)&#x000A;You unlock the Car Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F685F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F685F8">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the Car Door)&#x000A;&#x000A;Car&#x000A;You get in the black jeep, sitting in the passenger seat. This car has definitely seen better times. There's a big sheet of paper spread over the dashboard. You look to your right and see a bulky thing covered in cloth and blood on the driver seat. You spot a gold chain... a pair of black sneakers... pretentious tattoos... Oh no, this is Tyga! Your sister Kylie's "rapper" boyfriend. He doesn't seem to be very alive anymore. Good bye rapping career.&#x000A;&#x000A;You can see a Car Door, a Dead Tyga and a Paper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F68668"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F68668">
+    <command xml:space="preserve">x tyga</command>
+    <result xml:space="preserve">Tyga's brain is splattered all over his former shiny black sneakers. What a shame! For the sneakers, I mean. Tyga himself was always pretty annoying, thinking he could compete with Kanye. Ridiculous! Well, whatevs. He's gone now. What might he have been doing here? Now I remember, this is his car. Was he about to drive somewhere before some zombie ate his brains?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F686D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F686D8">
+    <command xml:space="preserve">x paper</command>
+    <result xml:space="preserve">The large sheet of paper is a map of the United States Of America! There are some lines drawn in. They lead from here, Beverly Hills, to... the middle of nowhere in North Dakota. There's a big circle around the all capital letters "THE GREEN PLACE". Is this supposed to be some kind of joke?&#x000A;&#x000A;Your smartphone beeps.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F68748">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the giant door)&#x000A;The giant door leading in the mansion is blocked by a big chunk of wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F687B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F687B8">
+    <command xml:space="preserve">x wood</command>
+    <result xml:space="preserve">A big chunk of wood is blocking the door into the house. God damnit!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F68828"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F68828">
+    <command xml:space="preserve">take wood</command>
+    <result xml:space="preserve">It's not that it looks too heavy for you to pick it up, but it has blood splashed all over it. Do you really want to get your hands dirty?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F68898"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F68898">
+    <command xml:space="preserve">take chunk</command>
+    <result xml:space="preserve">It's not that it looks too heavy for you to pick it up, but it has blood splashed all over it. Do you really want to get your hands dirty?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F68908"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F68908">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Courtyard&#x000A;The courtyard is seamed with cherry trees. You see a fountain. Looking southeast, you can leave your property. Looking north are the stairs that lead you to your mansion.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F68978"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F68978">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">Driveway&#x000A;You are in your driveway. To the sides of the driveway are bushes.  Looking northwest is the courtyard.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F689E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F689E8">
+    <command xml:space="preserve">x bushes</command>
+    <result xml:space="preserve">These are withered rhododendrons. You touch them and realize that there, in the north is a car parked right behind them. It's a big black jeep that frequently parks in your family driveway. Who does it belong to again?.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F68A58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F68A58">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the Car Door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F68AC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F68AC8">
+    <command xml:space="preserve">unlock car door with silver key</command>
+    <result xml:space="preserve">You unlock the Car Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F68B38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F68B38">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the Car Door)&#x000A;&#x000A;Car&#x000A;You get in the black jeep, sitting in the passenger seat. This car has definitely seen better times. There's a big sheet of paper spread over the dashboard. You look to your right and see a bulky thing covered in cloth and blood on the driver seat. You spot a gold chain... a pair of black sneakers... pretentious tattoos... Oh no, this is Tyga! Your sister Kylie's "rapper" boyfriend. He doesn't seem to be very alive anymore. Good bye rapping career.&#x000A;&#x000A;You can see a dashboard (on which is a Map) and Driver Seat (on which is Dead Tyga) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F68BA8">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F68C18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F68C18">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Courtyard&#x000A;The courtyard is seamed with cherry trees. You see a fountain. Looking southeast, you can leave your property. Looking north are the stairs that lead you to your mansion.&#x000A;&#x000A;You can see cherry trees and a fountain here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F68C88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F68C88">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Driveway&#x000A;You are in your driveway. To the sides of the driveway are bushes.  Looking northwest is the courtyard.&#x000A;&#x000A;You can see a Car Door and Bushes here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F68CF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F68CF8">
+    <command xml:space="preserve">unlock car</command>
+    <result xml:space="preserve">(with the Silver Key)&#x000A;You unlock the Car Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F68D68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F68D68">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the Car Door)&#x000A;&#x000A;Car&#x000A;You get in the black jeep, sitting in the passenger seat. This car has definitely seen better times. There's a big sheet of paper spread over the dashboard. You look to your right and see a bulky thing covered in cloth and blood on the driver seat. You spot a gold chain... a pair of black sneakers... pretentious tattoos... Oh no, this is Tyga! Your sister Kylie's "rapper" boyfriend. He doesn't seem to be very alive anymore. Good bye rapping career.&#x000A;&#x000A;You can see a Car Door, a Dead Tyga and a Paper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F68DD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F68DD8">
+    <command xml:space="preserve">x tyga</command>
+    <result xml:space="preserve">Tyga's brain is splattered all over his former shiny black sneakers. What a shame! For the sneakers, I mean. Tyga himself was always pretty annoying, thinking he could compete with Kanye. Ridiculous! Well, whatevs. He's gone now. What might he have been doing here? Now I remember, this is his car. Was he about to drive somewhere before some zombie ate his brains?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F68E48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F68E48">
+    <command xml:space="preserve">x paper</command>
+    <result xml:space="preserve">The large sheet of paper is a map of the United States Of America! There are some lines drawn in. They lead from here, Beverly Hills, to... the middle of nowhere in North Dakota. There's a big circle around the all capital letters "THE GREEN PLACE". Is this supposed to be some kind of joke?&#x000A;&#x000A;Your smartphone beeps.&#x000A;&#x000A;It's a messafe from Tyga. Say what? I reads:&#x000A;&#x000A;"Yo Kim, you fine ass looking girl! I just wanted to tell you that I've always been madly in love with you. Yo" ass is just so much more damn fine than Kylie's. But oh well, if you're reading this, it's too late. I programmed my phone to send you this message in case I don't use it for 2 hours, which would mean I'm dead.&#x000A;&#x000A;I already realized a few weeks ago that weird things happen to Kylie when she uses the zombie filter on snapchat. She would start to move all weird and start biting my head and moaning "Braaaains". I already figured she would turn into a zombie, which would then lead to the Zombie Apocalypse, which we are in right now. The zombies eat social-media-infected brains. Which means: They won't go where people live who don't use social media. I found a place on the earth where this is true: North Dakota. The internet reception is just too weak. That's why the zombies will never go there. The GREEN PLACE. It's the only chance left!&#x000A;&#x000A;I was going to flee there with you, my girl. But oh well, now it's too late for me. But you still have a chance. Get your family together and drive to the Green Place. Have a nice life there. Bitch.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F68EB8">
+    <command xml:space="preserve">look at graffiti</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F68F28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F68F28">
+    <command xml:space="preserve">look at flowers</command>
+    <result xml:space="preserve">Maybe one day these were beautiful blooming flowers, but now these's not much left of them. You see something shimmering between the flowers. A key?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F68F98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F68F98">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F69008"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F69008">
+    <command xml:space="preserve">look at key</command>
+    <result xml:space="preserve">A medium sized silver key with a big ugly engraving of a dollar sign. Seriously?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F69078"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F69078">
+    <command xml:space="preserve">look at columns</command>
+    <result xml:space="preserve">Someone sprayed graffiti over your beautiful baroque columns: "Everybody knows I'm a motherfucking monster." Oh no, is Kanye having one of these days again?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F690E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F690E8">
+    <command xml:space="preserve">who is kanye</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F69158"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F69158">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Courtyard&#x000A;The courtyard is seamed with cherry trees. You see a fountain. Looking southeast, you can leave your property. Looking north are the stairs that lead you to your mansion.&#x000A;&#x000A;You can see cherry trees and a fountain here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F69238"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F69238">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">cherry trees: Taken.&#x000A;fountain: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F692A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F692A8">
+    <command xml:space="preserve">chop tree</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F69318"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F69318">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Stairs&#x000A;You wake up. It's not comfortable. You look around and realize that you're lying on the stairs in front of a big house, looking rather destroyed, north of you. Your house? You don't know at the moment.&#x000A;&#x000A;To the south is a big courtyard. There are two impressive, but graffiti sprayed columns next to you and what used to be flowers.&#x000A;&#x000A;You can see a giant door, columns, flowers and a chunk of wood here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F69388"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F69388">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F693F8">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F69468"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F69468">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Courtyard&#x000A;The courtyard is seamed with cherry trees. You see a fountain.&#x000A;Going southeast, you can leave your property. To the north are the stairs that lead you to your mansion.&#x000A;&#x000A;You can see Zombie Kylie Jenner here.&#x000A;&#x000A;Kylie is not the sister she used to be. You probably can't trust her. You'll want to get out of here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F694D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F694D8">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">Driveway&#x000A;You are in your driveway. To the sides of the driveway are bushes.  Looking northwest is the courtyard.&#x000A;&#x000A;There are so many beautiful or gross things around you. All worth capturing. Your snapchat followers miss you already. And who knows, connecting might help you out of this mess as well...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F69548"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F69548">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Bushes)&#x000A;&#x000A;Backyard&#x000A;This is your backyard.&#x000A;To the south through the bushes you get back to the driveway.&#x000A;&#x000A;You can see the car (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6EAD0"/>
+      <child nodeId="node-0x02F74A40"/>
+      <child nodeId="node-0x02F74FF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6EAD0">
+    <command xml:space="preserve">open car door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6EB40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6EB40">
+    <command xml:space="preserve">unlock car door</command>
+    <result xml:space="preserve">(with the Silver Key)&#x000A;You unlock the Car Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6EBB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6EBB0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the Car Door)&#x000A;&#x000A;Car&#x000A;You get in the black jeep, sitting in the passenger seat. This car has definitely seen better times. There's a big sheet of paper spread over the dashboard. You look to your right and see a bulky thing covered in cloth and blood on the driver seat. You spot a gold chain... a pair of black sneakers... pretentious tattoos... Oh no, this is Tyga! Your sister Kylie's "rapper" boyfriend. He doesn't seem to be very alive anymore. Good bye rapping career.&#x000A;&#x000A;You can see a Car Door, a Dead Tyga and a Paper here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6EC20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6EC20">
+    <command xml:space="preserve">x paper</command>
+    <result xml:space="preserve">The large sheet of paper is a map of the United States Of America! There are some lines drawn in. They lead from here, Beverly Hills, to... the middle of nowhere in North Dakota. There's a big circle around the all capital letters "THE GREEN PLACE". Is this supposed to be some kind of joke?&#x000A;&#x000A;Your smartphone beeps.&#x000A;&#x000A;It's a message from Tyga. Say what? I reads:&#x000A;&#x000A;"Yo Kim, you fine ass looking girl! I just wanted to tell you that I've always been madly in love with you. Yo ass is just so much more damn fine than Kylie's. But oh well, if you're reading this, it's too late. I programmed my phone to send you this message in case I don't use it for 2 hours, which would mean I'm dead.&#x000A;&#x000A;I already realized a few weeks ago that weird things happen to Kylie when she uses the zombie filter on snapchat. She would start to move all weird and start biting my head and moaning "Braaaains". I already figured she would turn into a zombie, which would then lead to the Zombie Apocalypse, which we are in right now. The zombies eat social-media-infected brains. Which means: They won't go where people live who don't use social media. I found a place on the earth where this is true: North Dakota. The internet reception is just too weak. That's why the zombies will never go there. The GREEN PLACE. It's the only chance left!&#x000A;&#x000A;I was going to flee there with you, my girl. But oh well, now it's too late for me. But you still have a chance. Get your family together and drive to the Green Place. Have a nice life there. Bitch."&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6EC90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6EC90">
+    <command xml:space="preserve">h</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6ED00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6ED00">
+    <command xml:space="preserve">a</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6ED70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6ED70">
+    <command xml:space="preserve">a</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6EDE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6EDE0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(the Silver Key)&#x000A;A medium sized silver key with a big ugly engraving of a dollar sign. Seriously?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6EE50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6EE50">
+    <command xml:space="preserve">c</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6EEC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6EEC0">
+    <command xml:space="preserve">v</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6EF30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6EF30">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6EFA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6EFA0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F010"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F010">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F080"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F080">
+    <command xml:space="preserve">f</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F0F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F0F0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F160"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F160">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F1D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F1D0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F240"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F240">
+    <command xml:space="preserve">ef</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F2B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F2B0">
+    <command xml:space="preserve">ef</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F320"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F320">
+    <command xml:space="preserve">fe</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F390"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F390">
+    <command xml:space="preserve">wfweffefefefefe</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F400"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F400">
+    <command xml:space="preserve">fe</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F470"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F470">
+    <command xml:space="preserve">f</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F4E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F4E0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F550"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F550">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F5C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F5C0">
+    <command xml:space="preserve">f</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F630"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F630">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F6A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F6A0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F710"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F710">
+    <command xml:space="preserve">f</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F780"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F780">
+    <command xml:space="preserve">f</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F7F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F7F0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F860"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F860">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F8D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F8D0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F940"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F940">
+    <command xml:space="preserve">f</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6F9B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6F9B0">
+    <command xml:space="preserve">f</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F6FA20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F6FA20">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71600">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71670"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71670">
+    <command xml:space="preserve">ff</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F716E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F716E0">
+    <command xml:space="preserve">f</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71750"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71750">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F717C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F717C0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71830"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71830">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F718A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F718A0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71910"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71910">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71980"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71980">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Driveway&#x000A;You are in your driveway. To the sides of the driveway are bushes.  Looking northwest is the courtyard.&#x000A;&#x000A;You can see a Car Door and Bushes here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F719F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F719F0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71A60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71A60">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71AD0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71AD0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71B40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71B40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71BB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71BB0">
+    <command xml:space="preserve">a</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71C20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71C20">
+    <command xml:space="preserve">a</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71C90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71C90">
+    <command xml:space="preserve">a</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71D00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71D00">
+    <command xml:space="preserve">a</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71D70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71D70">
+    <command xml:space="preserve">aqww</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71DE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71DE0">
+    <command xml:space="preserve">wer</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71E50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71E50">
+    <command xml:space="preserve">r</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71EC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71EC0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71F30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71F30">
+    <command xml:space="preserve">dd</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F71FA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F71FA0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F72010"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72010">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F72080"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72080">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F720F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F720F0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F72160"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72160">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F721D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F721D0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F72240"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72240">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F722B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F722B0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F72320"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72320">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F72390"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72390">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F72400"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72400">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F72470"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72470">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F724E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F724E0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F72550"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F72550">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F747A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F747A0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F74810"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F74810">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F74880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F74880">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F748F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F748F0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F74960"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F74960">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F749D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F749D0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F74A40">
+    <command xml:space="preserve">unlock car door with silver key</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F74AB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F74AB0">
+    <command xml:space="preserve">unlock cardoor with silver key</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F74B20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F74B20">
+    <command xml:space="preserve">unlock car with silver key</command>
+    <result xml:space="preserve">You unlock the car.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F74B90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F74B90">
+    <command xml:space="preserve">go in car</command>
+    <result xml:space="preserve">You can't get into the closed car.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F74C00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F74C00">
+    <command xml:space="preserve">open car door</command>
+    <result xml:space="preserve">I only understood you as far as wanting to open the car.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F74C70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F74C70">
+    <command xml:space="preserve">open car</command>
+    <result xml:space="preserve">You open the car, revealing nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F74CE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F74CE0">
+    <command xml:space="preserve">go in car</command>
+    <result xml:space="preserve">You get in the black jeep, sitting in the passenger seat. This car has definitely seen better times. There's a big sheet of paper spread over the dashboard. You look to your right and see a bulky thing covered in cloth and blood on the driver seat. You spot a gold chain... a pair of black sneakers... pretentious tattoos... Oh no, this is Tyga! Your sister Kylie's "rapper" boyfriend. He doesn't seem to be very alive anymore. Good bye rapping career.&#x000A;&#x000A;To the south, behind some bushes, is the driveway.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F74D50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F74D50">
+    <command xml:space="preserve">x tyga</command>
+    <result xml:space="preserve">Tyga's brain is splattered all over his former shiny black sneakers. What a shame! For the sneakers, I mean. Tyga himself was always pretty annoying, thinking he could compete with Kanye. Ridiculous! Well, whatevs. He's gone now. What might he have been doing here? Now you remember, this is his car. Was he about to drive somewhere before some zombie ate his brains?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F74DC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F74DC0">
+    <command xml:space="preserve">x gold chain</command>
+    <result xml:space="preserve">You see nothing special about the gold chain.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F74E30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F74E30">
+    <command xml:space="preserve">x shiny black sneakers</command>
+    <result xml:space="preserve">You see nothing special about shiny black sneakers.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F74EA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F74EA0">
+    <command xml:space="preserve">take sneakers</command>
+    <result xml:space="preserve">That seems to belong to dead Tyga.&#x000A;&#x000A;There are so many beautiful or gross things around you. All worth capturing. Your snapchat followers miss you already. And who knows, connecting might help you out of this mess as well...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F74F10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F74F10">
+    <command xml:space="preserve">talk to tyga</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F74F80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F74F80">
+    <command xml:space="preserve">talk to tyga about apocalypse</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F74FF0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Driveway&#x000A;You are in your driveway. To the sides of the driveway are bushes.  Looking northwest is the courtyard.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02F75060"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F75060">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Backyard&#x000A;You can see the car (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02F750D0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a smartphone&#x000A;  D&amp;G Stilettos (being worn)&#x000A;  a blouse (being worn)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F75140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F75140">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Corner&#x000A;You stand at a corner next to the stairs in front of your mansion. In front of you are flowers that have withered. &#x000A;To the east, you get to the stairs.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F751B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F751B0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F75220"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F75220">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a silver key&#x000A;  a smartphone&#x000A;  D&amp;G Stilettos (being worn)&#x000A;  a blouse (being worn)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F75290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F75290">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Stairs&#x000A;You are on the stairs in front of a formerly fancy house, looking rather destroyed. Your house? You don't know at the moment. You seem to have hit your head and don't remember everything. There are two impressive, but graffiti sprayed columns next to you. In the wall is an electrical outlet with a charging cable attached to it.&#x000A;&#x000A;To the west is a little corner around the wall. To the north is the mansion. To the south is a big courtyard.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F75300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F75300">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Courtyard&#x000A;Going southeast, you can leave your property. To the north are the stairs that lead you to your mansion.&#x000A;The courtyard is seamed with cherry trees. You see a fountain.&#x000A;&#x000A;You can see Zombie Kylie Jenner here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F75370"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F75370">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">Driveway&#x000A;You are in your driveway. To the sides of the driveway are bushes.  Looking northwest is the courtyard.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F753E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F753E0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Bushes)&#x000A;&#x000A;Backyard&#x000A;This is your backyard.&#x000A;To the south through the bushes you get back to the driveway.&#x000A;&#x000A;You can see the car (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F75450"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F75450">
+    <command xml:space="preserve">unlock car with silver ke</command>
+    <result xml:space="preserve">I only understood you as far as wanting to unlock the car with the silver key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F754C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F754C0">
+    <command xml:space="preserve">unlock car with silver key</command>
+    <result xml:space="preserve">You unlock and open the car.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02F75530"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02F75530">
+    <command xml:space="preserve">go in</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+  </item>
+</Skein>

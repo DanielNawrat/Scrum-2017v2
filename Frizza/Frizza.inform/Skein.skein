@@ -4,15 +4,13 @@
   <activeNode nodeId="node-1"/>
   <item nodeId="node-1">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">Your ship falls through thick layers of dark clouds. Red flashes illuminate your surroundings. The lights on your console warn you of the dangerously fast approaching energy level zero. As you finally break through the last cloud, you get a glimpse of what awaits you underneath. &#x000A;Black planes and sharp cliffs of a dark red shape the landscape. In the east you perceive a massive rock formation, in the west you see a thick blue stream cutting through the plane , illuminating big portions of it in the process. Somewhere to the south there seem to be some sort of industrial constructions, far in the north you believe to recognize cubic shapes that reveal a city. You don't have time to study the landscape much longer. All you concentration is desperately needed as you find a gap in the ghastly cliffs and bring down your ship. Heavy jolting, followed by a sudden blow signalize your landing. &#x000A;Your ship's on the ground, and you are too, barely. Welcome to Frizza.&#x000A;&#x000A;Frizza&#x000A;An Interactive Fiction by Tim&#x000A;Release 1 / Serial number 170618 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Landing Zone&#x000A;You step out of your ship onto a small square in the middle of nowhere. Your ship's dead and with it the computer. It seems like you ought to explore the environment. You remeber having seen civilization-like shapes to the south and to the north.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Your ship falls through thick layers of dark clouds. Red flashes illuminate your surroundings. The lights on your console warn you of the dangerously fast approaching energy level zero. As you finally break through the last cloud, you get a glimpse of what awaits you underneath. &#x000A;Black planes and sharp cliffs of a dark red shape the landscape. In the east you perceive a massive rock formation, in the west you see a thick blue stream cutting through the plane , illuminating big portions of it in the process. Somewhere to the south there seem to be some sort of industrial constructions, far in the north you believe to recognize cubic shapes that reveal a city. You don't have time to study the landscape much longer. All you concentration is desperately needed as you find a gap in the ghastly cliffs and bring down your ship. Heavy jolting, followed by a sudden blow signalize your landing. &#x000A;Your ship's on the ground, and you are too, barely. Welcome to Frizza.&#x000A;&#x000A;Frizza&#x000A;An Interactive Fiction by Tim&#x000A;Release 1 / Serial number 170702 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Landing Zone&#x000A;You step out of your ship onto a small square in the middle of nowhere. Your ship's dead and so is the computer. It seems like you ought to explore the environment. You remeber having seen civilization-like shapes to the south-west and to the north. To the east  there is a huge mountain, to the west there seems to be a Flux.&#x000A;&#x000A;You can see a Discharged Spaceship (empty) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
       <child nodeId="node-2"/>
-      <child nodeId="node-65"/>
-      <child nodeId="node-78"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -24,6 +22,7 @@
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-3"/>
+      <child nodeId="node-83"/>
     </children>
   </item>
   <item nodeId="node-3">
@@ -39,13 +38,14 @@
   </item>
   <item nodeId="node-4">
     <command xml:space="preserve">x</command>
-    <result xml:space="preserve">(Someone)&#x000A;A lean but athletic figure, wrapped by several layers of what looks like tough leather. In a small gap of her hood you can see glinting eyes that reveal a sharp mind.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">(Dunia)&#x000A;A lean but athletic figure, wrapped by several layers of what looks like tough leather. In a small gap of her hood you can see glinting eyes that reveal a sharp mind.&#x000A;&#x000A;- You are painfully near to trespass holy ground, stranger. I would advise against it. Who are you, anyway? You don't look like a Techie. Tell me your name.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-5"/>
+      <child nodeId="node-65"/>
     </children>
   </item>
   <item nodeId="node-5">
@@ -690,8 +690,8 @@
     <temporary score="0">YES</temporary>
   </item>
   <item nodeId="node-65">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Wasteland&#x000A;A pitiful piece of land. Black sand, red rocks and some sickish looking plants. If you are not looking for something particular there is no need to linger.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">answer Axesto</command>
+    <result xml:space="preserve">(to Dunia)&#x000A;What a strange name. It doesn't matter anyway - there's only one thing I need to know: are you on the side of the Techies or of the Duju?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -701,8 +701,8 @@
     </children>
   </item>
   <item nodeId="node-66">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Wasteland&#x000A;A pitiful piece of land. Black sand, red rocks and some sickish looking plants. If you are not looking for something particular there is no need to linger.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">answer Duju</command>
+    <result xml:space="preserve">(to Dunia)&#x000A;- Well then, that's not a bad way to start. Thinking about it - an outsider might be what we need. I'll introduce you to someone, and that is not an invitation.&#x000A;&#x000A; With seemingly little effort she climbs down the cliffs to your level, before insistently inviting you to come with her.&#x000A; Both of you walk through the scraggy landscape, her leading the way with distinct commands. Slowly you approach an archlike structure, close to one branch of the Flux. As you get nearer you perceive a couple of bulky shapes, guarding the entrance to the structure. Some hundred metes in front of the entrance your companion turns to you. &#x000A;&#x000A;- Try not to look too provoking.&#x000A;&#x000A;You know why while passing the guards: each and every one of them gazes at you. In consideration of the thick armour plates, the rather oversized guns and their radiating blue glow you refrain from making any quick motions.&#x000A;&#x000A;Flux Gate&#x000A;You can see a console, a weapon's rack (on which is a gun), Duju Operator 1 and Duju Operator 2 here.&#x000A;&#x000A;Inside you find yourself in the midst of a small-sized hall, that doesn't appear to justify any of the expenditure you just encountered. In the back you spot an opening and a staircase, leading downwards. To the left there is a full board of controls and two figures unhastily operating them. You can't look around any more, as you are approached quickly by an impressive sized person, already bellowing a few direct words with a booming voice.&#x000A;&#x000A; - Dunia! Who is this? Explain yourself!&#x000A;&#x000A;- A guest of sorts. He stumbled about the Ascent when I found him. I don't think he's a Techie, at least he has a slightly better manners and he keeps his voice down to a sensible level when talking. Besides, I thought about his use in regard to certain issues, due to his undujulike appearance.&#x000A;&#x000A;Both eyeball you thoroughly for what seems to you like hours. Eventually, the massive Duju makes a quick motion towards Dunia, indicating her to follow him. He shoots a last glance at you.&#x000A;&#x000A;- Don't let yourself be found sniffing around somewhere, it would not contribute to your wellbeing.&#x000A;&#x000A; They march off, disappearing into the opening at the end of the hall. You are not guarded, it seems like you could look around. Of course you could also do as you were told and wait.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -712,8 +712,8 @@
     </children>
   </item>
   <item nodeId="node-67">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Landing Zone&#x000A;Your crash site.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">You stand still where you were left. Time passes. However, that seems to be the only thing to change.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -723,8 +723,8 @@
     </children>
   </item>
   <item nodeId="node-68">
-    <command xml:space="preserve">ask Helper</command>
-    <result xml:space="preserve">(for Helper)&#x000A;(Helper first taking Helper)&#x000A;Helper has better things to do.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">You pass the time looking closer at your surroundings, but you can't interpret all too much from the metallic alien structures. The architecture somewhat reminds you of the spiritual buildings on your home planet, as for the arching walls and the high ceiling. The only thing you hear is the distant, lamish flow of the Flux and the dull sounds of the two operators at the console.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -734,8 +734,8 @@
     </children>
   </item>
   <item nodeId="node-69">
-    <command xml:space="preserve">ask Helper about information</command>
-    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask Dunia about Cloak</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -745,8 +745,8 @@
     </children>
   </item>
   <item nodeId="node-70">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Wasteland&#x000A;One of the dreary planes in the region.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Finally you see the two Duju returning from the opening. As they approach, the big one actually looks amazed by your decent behaviour.&#x000A;&#x000A;- It seems like you did as you were told. Maybe you don't have no ill intent after all. Indeed - that is exactly what we're going to find out, if you're willing. But you see, we don't want to force anything on you, you are free to leave. But if you are interested in helping us, we would be glad.&#x000A;&#x000A;He hands you something that distantly reminds you of a fishing net, only is this one almost ridiculously overengineered. You must have a rather puzzled look to your face, as Du'un starts to explain soon after. &#x000A;&#x000A;- That is a Flux Extractor, the Techies call them "Scoops". It is used to extract small portions of the Flux and isolate it for examination. If you want to help us out, showing us that you have no evil intent in the process, go and extract two samples of the Flux, one from the current before it passes through this gate, and one after it has done so. I am sure you will find the proper locations for this purpose yourself. When you are done or have any questions, return here, Dunia will be to your assistance.&#x000A;&#x000A;You receive a Flux Extractor.&#x000A;&#x000A;With that, Du'un goes off, quickly descending the stairs at the back of the hall. You are left with a vague task and Dunia, who doesn't look very pleased.&#x000A;&#x000A;- To your assitance, eh? Well, better than climbing that awful piece of a mountain, I suppose.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -756,8 +756,8 @@
     </children>
   </item>
   <item nodeId="node-71">
-    <command xml:space="preserve">ask Helper</command>
-    <result xml:space="preserve">(for Helper)&#x000A;(Helper first taking Helper)&#x000A;Helper has better things to do.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x console</command>
+    <result xml:space="preserve">A huge oval table, full of ... nothing, actually. All you see is a reflective surface, into which the operators dunk their hands, emitting small waves. Where they touch the surface, you believe to see tiny, interlinked pulses of blue light, like a neural system, but you can't be sure. &#x000A;&#x000A;As you study the console, the two operators become aware of you, freezing in their motion and watching you suspiciously.&#x000A;&#x000A;Anyhow, you could examine the console further.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -767,8 +767,8 @@
     </children>
   </item>
   <item nodeId="node-72">
-    <command xml:space="preserve">ask Helper about help</command>
-    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x console</command>
+    <result xml:space="preserve">After taking a closer look, you make out that the energy of the Operators seems to be induced into the console. You start to see a pattern in the waves and currents of the reflective surface ... it reminds you of the great Flux currents ... &#x000A;&#x000A;As you continue to glance at the console, one of the operators pulls his hands out of it and stands up from his chair. Obviously you don't make a good impression by standing there, maybe it would be wise to say something or disengage from the console. Still, you could examine it further.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -778,30 +778,30 @@
     </children>
   </item>
   <item nodeId="node-73">
-    <command xml:space="preserve">Helper</command>
-    <result xml:space="preserve">---&#x000A;This is the help section, you will get a list of essential commands that you can use in the game.&#x000A;&#x000A; (e)ast -   go east&#x000A; (w)est -   go west&#x000A; (s)outh -   go south&#x000A; (n)orth -   go north&#x000A; e(x)amine -   get information about a thing or a person&#x000A; take -   take something&#x000A; ask someone about something - the typical way to continue a dialogue, the topics you can ask about are printed bold in the text beforehand&#x000A; wait -    wait some time, some situations may require this&#x000A;&#x000A;End of help section&#x000A;---&#x000A;&gt;</result>
+    <command xml:space="preserve">x console</command>
+    <result xml:space="preserve">You can't make out anything new, the Operators are ridiculously shy.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-74"/>
     </children>
   </item>
   <item nodeId="node-74">
-    <command xml:space="preserve">Helper</command>
-    <result xml:space="preserve">---&#x000A;This is the help section, you will get a list of essential commands that you can use in the game.&#x000A;&#x000A; (e)ast -   go east&#x000A; (w)est -   go west&#x000A; (s)outh -   go south&#x000A; (n)orth -   go north&#x000A; e(x)amine -   get information about a thing or a person&#x000A; take -   take something&#x000A; ask someone about something - the typical way to continue a dialogue, the topics you can ask about are printed bold in the text beforehand&#x000A; wait -    wait some time, some situations may require this&#x000A;&#x000A;End of help section&#x000A;---&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Wasteland&#x000A;A pitiful piece of land. Black sand, red rocks and some sickish looking plants. If you are not looking for something particular there is no need to linger.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-75"/>
     </children>
   </item>
   <item nodeId="node-75">
-    <command xml:space="preserve">Ask Helper about anything</command>
-    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Verge of the Bloo City&#x000A;An averagely sized city extends in front of you. Its cityscape is dominated by an enormous building in the rear part, not resembling any architecture that you have ever seen. Halfway to it there seems to be some sort of city center. The city is surrounded by a foreign sort of fencing, with a gate not far form you.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -811,8 +811,8 @@
     </children>
   </item>
   <item nodeId="node-76">
-    <command xml:space="preserve">Ask Helper about help</command>
-    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Flux beyond the Gate&#x000A;Another current of the Flux. Even from the distance you feel the pure energy flooding your body. It appears to have a slightly different viscosity than the other Fluxes, maybe it has something to do with the Flux Gate arking above the Flux in the south.&#x000A;&#x000A;You can see a Flux Current here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -822,16 +822,19 @@
     </children>
   </item>
   <item nodeId="node-77">
-    <command xml:space="preserve">Helper</command>
-    <result xml:space="preserve">---&#x000A;This is the help section, you will get a list of essential commands that you can use in the game.&#x000A;&#x000A; (e)ast -   go east&#x000A; (w)est -   go west&#x000A; (s)outh -   go south&#x000A; (n)orth -   go north&#x000A; e(x)amine -   get information about a thing or a person&#x000A; take -   take something&#x000A; ask someone about something - the typical way to continue a dialogue, the topics you can ask about are printed bold in the text beforehand&#x000A; wait -    wait some time, some situations may require this&#x000A;&#x000A;End of help section&#x000A;---&#x000A;&gt;</result>
+    <command xml:space="preserve">open </command>
+    <result xml:space="preserve">(the Flux Extractor)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
   </item>
   <item nodeId="node-78">
-    <command xml:space="preserve">Helper</command>
-    <result xml:space="preserve">---&#x000A;This is the help section, you will get a list of essential commands that you can use in the game.&#x000A;&#x000A; (e)ast -   go east&#x000A; (w)est -   go west&#x000A; (s)outh -   go south&#x000A; (n)orth -   go north&#x000A; e(x)amine -   get information about a thing or a person&#x000A; take -   take something&#x000A; ask someone about something - the typical way to continue a dialogue, the topics you can ask about are printed bold in the text beforehand&#x000A; wait -    wait some time, some situations may require this&#x000A;&#x000A;End of help section&#x000A;---&#x000A;&gt;</result>
+    <command xml:space="preserve">open Flux</command>
+    <result xml:space="preserve">(the Flux Extractor)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -841,8 +844,8 @@
     </children>
   </item>
   <item nodeId="node-79">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Wasteland&#x000A;A pitiful piece of land. Black sand, red rocks and some sickish looking plants. If you are not looking for something particular there is no need to linger.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open Flux Current</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -852,8 +855,8 @@
     </children>
   </item>
   <item nodeId="node-80">
-    <command xml:space="preserve">Helper</command>
-    <result xml:space="preserve">---&#x000A;This is the help section, you will get a list of essential commands that you can use in the game.&#x000A;&#x000A; (e)ast -   go east&#x000A; (w)est -   go west&#x000A; (s)outh -   go south&#x000A; (n)orth -   go north&#x000A; e(x)amine -   get information about a thing or a person&#x000A; take -   take something&#x000A; ask someone about something - the typical way to continue a dialogue, the topics you can ask about are printed bold in the text beforehand&#x000A; wait -    wait some time, some situations may require this&#x000A;&#x000A;End of help section&#x000A;---&#x000A;&gt;</result>
+    <command xml:space="preserve">take essence</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -863,30 +866,27 @@
     </children>
   </item>
   <item nodeId="node-81">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">Endless flats of black sand and sharp crags extend in front of you. You wouldn't want to go there.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">extract</command>
+    <result xml:space="preserve">(sample from the Flux Current)&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-82"/>
     </children>
   </item>
   <item nodeId="node-82">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">Endless flats of black sand and sharp crags extend in front of you. You wouldn't want to go there.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">extract sample from Flux Current</command>
+    <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-83"/>
-    </children>
   </item>
   <item nodeId="node-83">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Landing Zone&#x000A;Your crash site.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -896,8 +896,8 @@
     </children>
   </item>
   <item nodeId="node-84">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">Ascent&#x000A;The mountains are composed of stone in various shades of red and reach far to the sky. In between the cliffs and sheers you see a narrow path winding up. There is no clue on where it might lead, but you could find out.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -907,8 +907,8 @@
     </children>
   </item>
   <item nodeId="node-85">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">You have the feeling of being watched. You wouldn't want to climb the cliffs if someone is around.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -918,8 +918,8 @@
     </children>
   </item>
   <item nodeId="node-86">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">(Helper)&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -929,8 +929,8 @@
     </children>
   </item>
   <item nodeId="node-87">
-    <command xml:space="preserve">examine Helper</command>
-    <result xml:space="preserve">&gt;</result>
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You have the feeling of being watched. You wouldn't want to climb the cliffs if someone is around.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -940,8 +940,8 @@
     </children>
   </item>
   <item nodeId="node-88">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">Someone's here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(Dunia)&#x000A;A lean but athletic figure, wrapped by several layers of what looks like tough leather. In a small gap of her hood you can see glinting eyes that reveal a sharp mind.&#x000A;&#x000A;- You are painfully near to trespass holy ground, stranger. I would advise against it. Who are you, anyway? You don't look like a Techie. Tell me your name.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -952,7 +952,7 @@
   </item>
   <item nodeId="node-89">
     <command xml:space="preserve">x</command>
-    <result xml:space="preserve">(Helper)&#x000A;&gt;</result>
+    <result xml:space="preserve">(Dunia)&#x000A;A lean but athletic figure, wrapped by several layers of what looks like tough leather. In a small gap of her hood you can see glinting eyes that reveal a sharp mind.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -962,8 +962,8 @@
     </children>
   </item>
   <item nodeId="node-90">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You see no way to climb the steep cliffs in this direction.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">Axesto</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -973,8 +973,8 @@
     </children>
   </item>
   <item nodeId="node-91">
-    <command xml:space="preserve">talk</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">answer Axesto</command>
+    <result xml:space="preserve">(to Dunia)&#x000A;What a strange name. It doesn't matter anyway - there's only one thing I need to know: are you on the side of the Techies or of the Duju?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -984,8 +984,8 @@
     </children>
   </item>
   <item nodeId="node-92">
-    <command xml:space="preserve">ask someone</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">answer Duju</command>
+    <result xml:space="preserve">(to Dunia)&#x000A;- Well then, that's not a bad way to start. Thinking about it - an outsider might be what we need. I'll introduce you to someone, and that is not an invitation.&#x000A;&#x000A; With seemingly little effort she climbs down the cliffs to your level, before insistently inviting you to come with her.&#x000A; Both of you walk through the scraggy landscape, her leading the way with distinct commands. Slowly you approach an archlike structure, close to one branch of the Flux. As you get nearer you perceive a couple of bulky shapes, guarding the entrance to the structure. Some hundred metes in front of the entrance your companion turns to you. &#x000A;&#x000A;- Try not to look too provoking.&#x000A;&#x000A;You know why while passing the guards: each and every one of them gazes at you. In consideration of the thick armour plates, the rather oversized guns and their radiating blue glow you refrain from making any quick motions.&#x000A;&#x000A;Flux Gate&#x000A;You can see a console, a weapon's rack (on which is a gun), Duju Operator 1 and Duju Operator 2 here.&#x000A;&#x000A;Inside you find yourself in the midst of a small-sized hall, that doesn't appear to justify any of the expenditure you just encountered. In the back you spot an opening and a staircase, leading downwards. To the left there is a full board of controls and two figures unhastily operating them. You can't look around any more, as you are approached quickly by an impressive sized person, already bellowing a few direct words with a booming voice.&#x000A;&#x000A; - Dunia! Who is this? Explain yourself!&#x000A;&#x000A;- A guest of sorts. He stumbled about the Ascent when I found him. I don't think he's a Techie, at least he has a slightly better manners and he keeps his voice down to a sensible level when talking. Besides, I thought about his use in regard to certain issues, due to his undujulike appearance.&#x000A;&#x000A;Both eyeball you thoroughly for what seems to you like hours. Eventually, the massive Duju makes a quick motion towards Dunia, indicating her to follow him. He shoots a last glance at you.&#x000A;&#x000A;- Don't let yourself be found sniffing around somewhere, it would not contribute to your wellbeing.&#x000A;&#x000A; They march off, disappearing into the opening at the end of the hall. You are not guarded, it seems like you could look around. Of course you could also do as you were told and wait.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -995,8 +995,8 @@
     </children>
   </item>
   <item nodeId="node-93">
-    <command xml:space="preserve">ask Someone about information</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">You stand still where you were left. Time passes. However, that seems to be the only thing to change.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -1006,8 +1006,8 @@
     </children>
   </item>
   <item nodeId="node-94">
-    <command xml:space="preserve">ask Dunia</command>
-    <result xml:space="preserve">(for Helper)&#x000A;(Someone first taking Helper)&#x000A;Someone has better things to do.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x console</command>
+    <result xml:space="preserve">A huge oval table, full of ... nothing, actually. All you see is a reflective surface, into which the operators dunk their hands, emitting small waves. Where they touch the surface, you believe to see tiny, interlinked pulses of blue light, like a neural system, but you can't be sure. &#x000A;&#x000A;As you study the console, the two operators become aware of you, freezing in their motion and watching you suspiciously.&#x000A;&#x000A;Anyhow, you could examine the console further.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -1017,8 +1017,8 @@
     </children>
   </item>
   <item nodeId="node-95">
-    <command xml:space="preserve">ask Duni about information</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">You pass the time looking closer at your surroundings, but you can't interpret all too much from the metallic alien structures. The architecture somewhat reminds you of the spiritual buildings on your home planet, as for the arching walls and the high ceiling. The only thing you hear is the distant, lamish flow of the Flux and the dull sounds of the two operators at the console.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -1028,8 +1028,8 @@
     </children>
   </item>
   <item nodeId="node-96">
-    <command xml:space="preserve">ask Dunia about information</command>
-    <result xml:space="preserve">You are painfully near to trespass holy ground, stranger. I would advise against it. Who are you, anyway? You don't look like a Techie.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Finally you see the two Duju returning from the opening. As they approach, the big one actually looks amazed by your decent behaviour.&#x000A;&#x000A;- It seems like you did as you were told. Maybe you don't have no ill intent after all. Indeed - that is exactly what we're going to find out, if you're willing. But you see, we don't want to force anything on you, you are free to leave. But if you are interested in helping us, we would be glad.&#x000A;&#x000A;He hands you something that distantly reminds you of a fishing net, only is this one almost ridiculously overengineered. You must have a rather puzzled look to your face, as Du'un starts to explain soon after. &#x000A;&#x000A;- That is a Flux Extractor, the Techies call them "Scoops". It is used to extract small portions of the Flux and isolate it for examination. If you want to help us out, showing us that you have no evil intent in the process, go and extract two samples of the Flux, one from the current before it passes through this gate, and one after it has done so. I am sure you will find the proper locations for this purpose yourself. When you are done or have any questions, return here, Dunia will be to your assistance.&#x000A;&#x000A;You receive a Flux Extractor.&#x000A;&#x000A;With that, Du'un goes off, quickly descending the stairs at the back of the hall. You are left with a vague task and Dunia, who doesn't look very pleased.&#x000A;&#x000A;- To your assitance, eh? Well, better than climbing that awful piece of a mountain, I suppose.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -1039,8 +1039,8 @@
     </children>
   </item>
   <item nodeId="node-97">
-    <command xml:space="preserve">Axesto</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask Dunia about Flux</command>
+    <result xml:space="preserve">- Yeah, our essence and all that shit. Don't mention it.&#x000A;&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -1050,8 +1050,8 @@
     </children>
   </item>
   <item nodeId="node-98">
-    <command xml:space="preserve">answer Axesto</command>
-    <result xml:space="preserve">(to Helper)&#x000A;There is no reply.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask Dunia about Kollock</command>
+    <result xml:space="preserve">- Our spiritual leader. Celebrated as god-king. "He is master, he is Flux".&#x000A;&#x000A;Her tone seems to you tinged with a trace of sarcasm. She looks around, as if to see if nobody is within earshot.&#x000A;&#x000A;- Though some appreciate their freedom more than others.&#x000A;&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -1061,8 +1061,8 @@
     </children>
   </item>
   <item nodeId="node-99">
-    <command xml:space="preserve">Answer Axesto to Dunia</command>
-    <result xml:space="preserve">What a strange name. It doesn't matter anyway - there's only one thing I need to know: are you on the side of the Techies or of the Duju?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask Dunia about Du'un</command>
+    <result xml:space="preserve">- My father and the Keeper of the Flux, if you didn't notice. He taught me to keep an open mind for things, even if his own mental flexibility starts to crumble at the moment.&#x000A;&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -1072,8 +1072,8 @@
     </children>
   </item>
   <item nodeId="node-100">
-    <command xml:space="preserve">answer Duju to Dunia</command>
-    <result xml:space="preserve">- Well then, that's not a bad way to start. Thinking about it - an outsider might be what we need. I'll introduce you to someone, and that is not an invitation.&#x000A;&#x000A; With seemingly little effort she climbs down the cliffs to your level, before insistently inviting you to come with her.&#x000A; Both of you walk through the scraggy landscape, her leading the way with distinct commands. Slowly you approach an archlike structure, close to one branch of the Flux. As you get nearer you perceive a couple of bulky shapes, guarding the entrance to the structure. Some hundred metes in front of the entrance your companion turns to you. &#x000A;&#x000A;- Try not to look too provoking.&#x000A;&#x000A;You know why while passing the guards: each and every one of them gazes at you. In consideration of the thick armour plates, the rather oversized guns and their radiating blue glow you refrain from making any quick motions.&#x000A;&#x000A;Flux Gate&#x000A;You can see a console, a weapon's rack (on which is a gun), Duju Operator 1 and Duju Operator 2 here.&#x000A;&#x000A;Inside you find yourself in the midst of a small-sized hall, that doesn't appear to justify any of the expenditure you just encountered. In the back you spot an opening and a staircase, leading downwards. To the left there is a full board of controls and two figures unhastily operating them. You can't look around any more, as you are approached quickly by an impressive sized person, already bellowing a few direct words with a booming voice.&#x000A;&#x000A; - Dunia! Who is this? Explain yourself!&#x000A;&#x000A;- A guest of sorts. He stumbled about the Ascent when I found him. I don't think he's a Techie, at least he has a slightly better manners and he keeps his voice down to a sensible level when talking. Besides, I thought about his use in regard to certain issues, due to his undujulike appearance.&#x000A;&#x000A;Both eyeball you thoroughly for what seems to you like hours. Eventually, the massive Duju makes a quick motion towards Dunia, indicating her to follow him. He shoots a last glance at you.&#x000A;&#x000A;- Don't let yourself be found sniffing around somewhere, it would not contribute to your wellbeing.&#x000A;&#x000A; They march off, disappearing into the opening at the end of the hall. You are not guarded, it seems like you could look around. Of course you could also do as you were told and wait.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask Dunia about Techies</command>
+    <result xml:space="preserve">- They were settler's, originally. Sadly they chose to defile the Flux with their robots and devices, hence their nickname. We are not at good terms at the moment, our "Leader" Kollock even is bitterly hostile towards them, as he sees them as heretics.&#x000A;&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -1083,8 +1083,8 @@
     </children>
   </item>
   <item nodeId="node-101">
-    <command xml:space="preserve">Helper</command>
-    <result xml:space="preserve">---&#x000A;This is the help section, you will get a list of essential commands that you can use in the game.&#x000A;&#x000A; (e)ast -   go east&#x000A; (w)est -   go west&#x000A; (s)outh -   go south&#x000A; (n)orth -   go north&#x000A; e(x)amine -   get information about a thing or a person&#x000A; take -   take something&#x000A; ask someone about something - the typical way to continue a dialogue, the topics you can ask about are printed bold in the text beforehand&#x000A; wait -    wait some time, some situations may require this&#x000A;&#x000A;End of help section&#x000A;---&#x000A;&gt;</result>
+    <command xml:space="preserve">Ask Dunia about Flux Extractor</command>
+    <result xml:space="preserve">She giggles a bit.&#x000A;&#x000A;- It is simple, you will see when you get to the Flux. Just dip it in.&#x000A;&#x000A;She shows a devilish grin. Oh, but there's something I can help you with.&#x000A;&#x000A;Suddenly Dunia grasps a corner of her leathery clothing and, with one swoosh, unwraps it from her body. Underneath, a sinewy, bluish body comes to appearance.&#x000A;&#x000A;- Here, take this, it will prevent the Flux from disintegrating you all too fast.&#x000A;&#x000A;The devilish grin emerges again.&#x000A;&#x000A;- And stop staring.&#x000A;&#x000A;You receive a Sinkan Cloak.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
