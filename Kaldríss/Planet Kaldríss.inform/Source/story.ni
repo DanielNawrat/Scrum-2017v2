@@ -2,7 +2,10 @@
 
 [BUGFIXING]
 [
-- suit capacitor näher im text beschreiben 
+- Suit Capacitor per Beschreibung näher erklären
+- End of Game Text verfassen
+- Heimdallr NPC Dialog erweitern (Open Sesame ersetzen)
+- ggf. Response Table einbauen
 ]
 Chapter 5 - Kaldríss
 
@@ -196,7 +199,6 @@ Section 2 - Yetíss Cave System
 
 [Region - Yetíss]
 
-[Regional Travel?]
 Yetíss Caves System is a region.  Main Cave_Kaldríss, Yundar's Cave, Yarwol's Cave and Secret Cave_Kaldríss is in Yetíss Caves System.
 
 [Rooms]
@@ -273,10 +275,9 @@ Instead of Yarwol trying going to Secret Cave_Kaldríss:
 if Yarwol is visible, say "Arggghhhhrrhrrhrhrhrrh"
 
 [Movement Restrictions]
-
 Instead of going to the Hunting Grounds_Kaldríss from Yundar's Cave:
 		move the player to Yundar's Cave, without printing a room description;
-		say "Test.";
+		say "There's no way you can make it out of the cave this way. You will have to find another way.";
 		stop the action.
 		
 [A person has a room called last location.

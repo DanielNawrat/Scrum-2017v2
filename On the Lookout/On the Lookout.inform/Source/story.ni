@@ -1119,16 +1119,22 @@ After answering Dunia that "Techies" for the first time:
 
 
 
+
 Chapter 5 - Kaldríss
 
-[BUGFIXING]
+[BUGFIXING/TO DO]
 [
-- suit capacitor näher im text beschreiben 
+- Suit Capacitor per Beschreibung näher erklären
+- End of Game Text verfassen
+- Heimdallr NPC Dialog erweitern (Open Sesame ersetzen)
+- ggf. Response Table einbauen
 ]
 
 Section 1 - Crash Site
 
 [Finding a way off the space ship]
+
+Axesto is a person. The Player is Axesto.
 
 [Weight]
 A weight is a kind of value. 10kg specifies a weight. Everything has a weight. A thing usually has weight 100kg. 
@@ -1235,8 +1241,8 @@ Before taking the emergency torch:
 [Rooms]
 The Spaceship Bridge_Kaldríss is a room.  "The place where all the magic happens. Well, it used to be at least - during the impact most of the important equpiment including the communication systems must have been fried and doesn't seem to work anymore.  There's only a single flickering light inside the command panel. What could this mean? I should probably open the command panel and take a look. I could also go south and check the storage of the spaceship first." The printed name of the Spaceship Bridge_Kaldríss is "Spaceship Bridge".
 
-[After going to the Spaceship Bridge_Kaldríss for the first  time:
-	say "You got caught in a meteor shower and while trying your best to manouver your spaceship through it  your engine still took a hit. You then had to crash-land on Kaldríss - one of the most cold planets in this solar system.  Since only a few explorers made their to this planet there's not a whole lot of information available about this icy place. You are pretty much on your own now. The spaceship also won't take off before it hasn't been properly repaired. But first things first. Without any kind of heat you won't survive this bleakness for long. You tame a look at the command panel in hopes of finding something of use but it doesn't look very good. There's only a single green button on the command panel. What could this mean? I might also wanna  take a look at the spaceship exit that lies straight ahead since it seems to be busted, too."]
+After going to the Spaceship Bridge_Kaldríss for the first  time:
+	say "You got caught in a meteor shower and while trying your best to manouver your spaceship through it  your engine still took a hit. You then had to crash-land on Kaldríss - one of the most cold planets in this solar system.  Since only a few explorers made their to this planet there's not a whole lot of information available about this icy place. You are pretty much on your own now. The spaceship also won't take off before it hasn't been properly repaired. But first things first. Without any kind of heat you won't survive this bleakness for long. You tame a look at the command panel in hopes of finding something of use but it doesn't look very good. There's only a single green button on the command panel. What could this mean? I might also wanna  take a look at the spaceship exit that lies straight ahead since it seems to be busted, too."
 	
 The Spaceship Storage_Kaldríss is a room. "Taking a quick look inside the storage room doesn't seem to reveal anything particularly interesting. There are only some random souvenirs from your previous intergalactic travels and your locker which you haven't opened in ages.  It also looks like the airlock in the south doesn't seem to function anymore so perhaps I should go check that out as well?" The printed name of the  Spaceship Storage_Kaldríss is "Spaceship Storage".
 The Spaceship Exit_Kaldríss is a room. "The airlock also seems to be affected by the crash and the temperatures inside the spaceship are nearing dangerous levels. I could leave the spaceship right now by going east but I if I don't have something to protect me from the cold I will probably die." The printed name of the  Spaceship Exit_Kaldríss is "Spaceship Exit".
@@ -1314,7 +1320,6 @@ Section 2 - Yetíss Cave System
 
 [Region - Yetíss]
 
-[Regional Travel?]
 Yetíss Caves System is a region.  Main Cave_Kaldríss, Yundar's Cave, Yarwol's Cave and Secret Cave_Kaldríss is in Yetíss Caves System.
 
 [Rooms]
@@ -1391,10 +1396,9 @@ Instead of Yarwol trying going to Secret Cave_Kaldríss:
 if Yarwol is visible, say "Arggghhhhrrhrrhrhrhrrh"
 
 [Movement Restrictions]
-
 Instead of going to the Hunting Grounds_Kaldríss from Yundar's Cave:
 		move the player to Yundar's Cave, without printing a room description;
-		say "Test.";
+		say "There's no way you can make it out of the cave this way. You will have to find another way.";
 		stop the action.
 		
 [A person has a room called last location.
@@ -1547,3 +1551,4 @@ After asking heimdallr about "open sesame":
 After entering the Bifröst Portal Chamber :
 	end the story;
 	say "You did it!"
+
