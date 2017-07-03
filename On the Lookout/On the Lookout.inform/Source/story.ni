@@ -57,6 +57,61 @@ follow (someone) - you are able to follow the movement of another character[line
 	remove Helper from play;
 	say "End of help section[line break]---"
 
+[End of Helper Section]
+
+[Teleport Stones Testsection]
+
+Teleportation Stone - Sitis, Teleportation Stone - Gaisetto, Teleportation Stone - Geysiria, Teleportation Stone - Frizza and Teleportation Stone - Kaldríss are in the Flat Rock_Sitis.
+
+After taking Teleportation Stone - Sitis:
+	now the player is in The Flat Rock_Sitis;
+	move the Teleportation Stone - Sitis to the location of the player;
+	move the Teleportation Stone - Gaisetto to the location of the player;
+	move the Teleportation Stone - Geysiria to the location of the player;
+	move the Teleportation Stone - Frizza to the location of the player;
+	move the Teleportation Stone - Kaldríss to the location of the player.
+
+After taking Teleportation Stone - Gaisetto:
+	now the player is in the Landingzone_Gaisetto;
+	move the Teleportation Stone - Sitis to the location of the player;
+	move the Teleportation Stone - Gaisetto to the location of the player;
+	move the Teleportation Stone - Geysiria to the location of the player;
+	move the Teleportation Stone - Frizza to the location of the player;
+	move the Teleportation Stone - Kaldríss to the location of the player.
+	
+After taking Teleportation Stone - Geysiria:
+	now the player is in the Landing Zone_Geysiria;
+	move the Teleportation Stone - Sitis to the location of the player;
+	move the Teleportation Stone - Gaisetto to the location of the player;
+	move the Teleportation Stone - Geysiria to the location of the player;
+	move the Teleportation Stone - Frizza to the location of the player;
+	move the Teleportation Stone - Kaldríss to the location of the player.
+	
+After taking Teleportation Stone - Frizza:
+	now the player is in the Landing Zone_Frizza;
+	move the Teleportation Stone - Sitis to the location of the player;
+	move the Teleportation Stone - Gaisetto to the location of the player;
+	move the Teleportation Stone - Geysiria to the location of the player;
+	move the Teleportation Stone - Frizza to the location of the player;
+	move the Teleportation Stone - Kaldríss to the location of the player.
+	
+After taking Teleportation Stone - Kaldríss:
+	now the player is in the Spaceship Bridge_Kaldríss;
+	move the Teleportation Stone - Sitis to the location of the player;
+	move the Teleportation Stone - Gaisetto to the location of the player;
+	move the Teleportation Stone - Geysiria to the location of the player;
+	move the Teleportation Stone - Frizza to the location of the player;
+	move the Teleportation Stone - Kaldríss to the location of the player.
+	
+After going from the Spaceship Bridge_Kaldríss for the first time:
+	move the Teleportation Stone - Sitis to the the Spaceship Bridge_Kaldríss ;
+	move the Teleportation Stone - Gaisetto to the Spaceship Bridge_Kaldríss;
+	move the Teleportation Stone - Geysiria to the Spaceship Bridge_Kaldríss;
+	move the Teleportation Stone - Frizza to the Spaceship Bridge_Kaldríss;
+	move the Teleportation Stone - Kaldríss to the Spaceship Bridge_Kaldríss.
+	
+[End of Teleport Stone Section ]
+
 [Limited Inventory]
 The carrying capacity of the player is 3. The backpack is the player's holdall. The player is wearing the backpack. The backpack is open and not openable. The carrying capacity of the backpack is 3.
 
